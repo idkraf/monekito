@@ -1,0 +1,746 @@
+{
+  "UI-ACTIONS": {
+    "cancel": "Batal",
+    "confirm": "Konfirmasi",
+    "continue_text": "Lanjutkan",
+    "save": "Simpan",
+    "save_changes": "Simpan perubahan",
+    "close_and_save": "Simpan dan tutup",
+    "add": "Tambah",
+    "edit": "Edit",
+    "delete": "Hapus",
+    "see-more": "Lihat lebih banyak",
+    "select-all": "Pilih semua",
+    "deselect-all": "Batalkan pilihan semua",
+    "select": "Pilih",
+    "search": "Cari",
+    "filter": "Filter",
+    "reset": "Reset",
+    "submit": "Kirim",
+    "next": "Selanjutnya",
+    "previous": "Sebelumnya",
+    "back": "Kembali",
+    "reload": "Muat ulang",
+    "view": "Lihat",
+    "download": "Unduh",
+    "upload": "Unggah",
+    "retry": "Coba lagi",
+    "copy": "Salin",
+    "paste": "Tempel",
+    "undo": "Batalkan",
+    "redo": "Ulangi",
+    "open": "Buka",
+    "close": "Tutup",
+    "apply": "Terapkan",
+    "discard": "Buang",
+    "refresh": "Segarkan",
+    "details": "Detail",
+    "share": "Bagikan"
+  },
+  "GENERAL": {
+    "or": "atau",
+    "understood": "Dimengerti",
+    "unspecified": "Tidak ditentukan",
+    "quick_actions": "Aksi cepat",
+    "balance": "Saldo",
+    "account": "Akun",
+    "accounts": "Akun-akun",
+    "categories": "Kategori",
+    "category": "Kategori",
+    "today": "Hari ini",
+    "yesterday": "Kemarin",
+    "filters": "Filter",
+    "empty-warn": "Ups! Ini sangat kosong",
+    "insufficient-data": "Data tidak cukup",
+    "show-more-fields": "Tampilkan lebih banyak bidang",
+    "show-less-fields": "Tampilkan lebih sedikit bidang",
+    "tap-to-search": "Ketuk untuk mencari",
+    "CLIPBOARD": {
+      "success": "{{x}} disalin ke clipboard",
+      "error": "Gagal menyalin"
+    },
+    "TIME": {
+      "start-date": "Tanggal mulai",
+      "end-date": "Tanggal berakhir",
+      "from-date": "Dari tanggal",
+      "until-date": "Sampai tanggal",
+      "date": "Tanggal",
+      "datetime": "Tanggal dan waktu",
+      "time": "Waktu",
+      "each": "Setiap",
+      "after": "Setelah",
+      "RANGES": {
+        "display": "Rentang waktu",
+        "it-repeat": "Berulang",
+        "it-ends": "Berakhir",
+        "forever": "Selamanya",
+        "TYPES": {
+          "cycle": "Siklus",
+          "last_days": "Hari terakhir",
+          "last_days_form": "{{x}} hari sebelumnya",
+          "all": "Selalu",
+          "date_range": "Rentang kustom"
+        },
+        "each-range": {
+          "one": "Setiap {{range}}",
+          "other": "Setiap {{n}} {{range}}"
+        },
+        "each-range-until-date": {
+          "one": "Setiap {{range}} sampai {{day}}",
+          "other": "Setiap {{n}} {{range}} sampai {{day}}"
+        },
+        "each-range-until-times": {
+          "one": "Setiap {{range}} {{limit}} kali",
+          "other": "Setiap {{n}} {{range}} {{limit}} kali"
+        },
+        "each-range-until-once": {
+          "one": "Setiap {{range}} sekali",
+          "other": "Setiap {{n}} {{range}} sekali"
+        },
+        "month": {
+          "one": "Bulan",
+          "other": "Bulan"
+        },
+        "year": {
+          "one": "Tahun",
+          "other": "Tahun"
+        },
+        "day": {
+          "one": "Hari",
+          "other": "Hari"
+        },
+        "week": {
+          "one": "Minggu",
+          "other": "Minggu"
+        }
+      },
+      "PERIODICITY": {
+        "display": "Pengulangan",
+        "no-repeat": "Tidak berulang",
+        "repeat": {
+          "one": "Pengulangan",
+          "other": "Pengulangan"
+        },
+        "diary": "Harian",
+        "monthly": "Bulanan",
+        "annually": "Tahunan",
+        "quaterly": "Triwulan",
+        "weekly": "Mingguan",
+        "custom": "Kustom",
+        "infinite": "Selalu"
+      },
+      "CURRENT": {
+        "Monthly": "Bulan ini",
+        "Annually": "Tahun ini",
+        "Quaterly": "Triwulan ini",
+        "Weekly": "Minggu ini",
+        "Infinite": "Selamanya",
+        "Custom": "Rentang Kustom"
+      },
+      "ALL": {
+        "diary": "Setiap hari",
+        "Monthly": "Setiap bulan",
+        "Annually": "Setiap tahun",
+        "Quaterly": "Setiap triwulan",
+        "Weekly": "Setiap minggu"
+      }
+    },
+    "TRANSACTION-ORDER": {
+      "display": "Urutkan transaksi",
+      "Category": "Berdasarkan kategori",
+      "Quantity": "Berdasarkan jumlah",
+      "Date": "Berdasarkan tanggal"
+    },
+    "VALIDATIONS": {
+      "form_error": "Perbaiki bidang yang ditunjukkan untuk melanjutkan",
+      "required": "Bidang wajib diisi",
+      "positive": "Harus positif",
+      "min_number": "Harus lebih besar dari {{x}}",
+      "max_number": "Harus kurang dari {{x}}"
+    }
+  },
+  "INTRO": {
+    "start": "Mulai",
+    "skip": "Lewati",
+    "next": "Selanjutnya",
+    "select-your-currency": "Pilih mata uang Anda",
+    "welcome.subtitle": "Manajer keuangan pribadi Anda",
+    "welcome.subtitle2": "100% terbuka, 100% gratis",
+    "welcome.footer": "Dengan masuk, Anda menyetujui <a href='https://github.com/enrique-lozano/Monekin/blob/main/docs/PRIVACY_POLICY.md'>Kebijakan Privasi</a> dan <a href='https://github.com/enrique-lozano/Monekin/blob/main/docs/TERMS_OF_USE.md'>Syarat Penggunaan</a> aplikasi",
+    "offline.descr.title": "AKUN OFFLINE:",
+    "offline.descr": "Data Anda hanya akan disimpan di perangkat Anda, dan akan aman selama Anda tidak mencopot pemasangan aplikasi atau mengganti ponsel. Untuk mencegah kehilangan data, disarankan untuk membuat cadangan secara teratur dari pengaturan aplikasi.",
+    "offline.start": "Mulai sesi offline",
+    "sl1Title": "Pilih mata uang Anda",
+    "sl1Descr": "Mata uang default Anda akan digunakan dalam laporan dan grafik umum. Anda dapat mengubah mata uang dan bahasa aplikasi kapan saja di pengaturan aplikasi",
+    "sl2Title": "Aman, pribadi, dan andal",
+    "sl2Descr": "Data Anda hanya milik Anda. Kami menyimpan informasi langsung di perangkat Anda, tanpa melalui server eksternal. Ini memungkinkan penggunaan aplikasi bahkan tanpa internet",
+    "sl2Descr2": "Selain itu, kode sumber aplikasi bersifat publik, siapa pun dapat berkolaborasi dan melihat cara kerjanya",
+    "lastSlideTitle": "Semua siap",
+    "lastSlideDescr": "Dengan Monekin, Anda akhirnya dapat mencapai kemandirian finansial yang Anda inginkan. Anda akan memiliki grafik, anggaran, tips, statistik, dan banyak lagi tentang uang Anda.",
+    "lastSlideDescr2": "Kami harap Anda menikmati pengalaman Anda! Jangan ragu untuk menghubungi kami jika ada pertanyaan, saran..."
+  },
+  "HOME": {
+    "title": "Dasbor",
+    "filter-transactions": "Filter transaksi",
+    "hello-day": "Selamat pagi,",
+    "hello-night": "Selamat malam,",
+    "total-balance": "Saldo total",
+    "my-accounts": "Akun saya",
+    "active-accounts": "Akun aktif",
+    "no-accounts": "Belum ada akun yang dibuat",
+    "no-accounts.descr": "Mulai menggunakan semua keajaiban Monekin. Buat setidaknya satu akun untuk mulai menambahkan transaksi",
+    "last-transactions": "Transaksi terakhir",
+    "should-create-account.header": "Ups!",
+    "should-create-account.message": "Anda harus memiliki setidaknya satu akun yang tidak diarsipkan sebelum dapat mulai membuat transaksi"
+  },
+  "FINANCIAL-HEALTH": {
+    "display": "Kesehatan finansial",
+    "review": {
+      "very_good(context=GenderContext)": { "male,female": "Sangat baik!" },
+      "good(context=GenderContext)": { "male,female": "Baik" },
+      "normal(context=GenderContext)": { "male,female": "Rata-rata" },
+      "bad(context=GenderContext)": { "male,female": "Cukup" },
+      "very_bad(context=GenderContext)": { "male,female": "Sangat buruk" },
+      "insufficient_data(context=GenderContext)": {
+        "male,female": "Data tidak cukup"
+      },
+
+      "descr": {
+        "insufficient_data": "Sepertinya kami tidak memiliki cukup pengeluaran untuk menghitung kesehatan finansial Anda. Tambahkan beberapa pengeluaran/pendapatan dalam periode ini untuk memungkinkan kami membantu Anda!",
+        "very_good": "Selamat! Kesehatan finansial Anda luar biasa. Kami harap Anda melanjutkan tren baik Anda dan terus belajar dengan Monekin",
+        "good": "Bagus! Kesehatan finansial Anda baik. Kunjungi tab analisis untuk melihat cara menghemat lebih banyak lagi!",
+        "normal": "Kesehatan finansial Anda lebih atau kurang rata-rata dibandingkan populasi lainnya untuk periode ini",
+        "bad": "Tampaknya situasi keuangan Anda belum yang terbaik. Jelajahi grafik lainnya untuk mempelajari lebih lanjut tentang keuangan Anda",
+        "very_bad": "Hmm, kesehatan finansial Anda jauh di bawah yang seharusnya. Jelajahi grafik lainnya untuk mempelajari lebih lanjut tentang keuangan Anda"
+      }
+    },
+    "monthsWithoutIncome": {
+      "title": "Tingkat kelangsungan hidup",
+      "subtitle": "Dengan saldo Anda, berapa lama Anda bisa bertahan tanpa pendapatan",
+      "text.zero": "Anda tidak bisa bertahan sebulan tanpa pendapatan dengan tingkat pengeluaran ini!",
+      "text.one": "Anda hanya bisa bertahan sekitar satu bulan tanpa pendapatan dengan tingkat pengeluaran ini!",
+      "text.other": "Anda bisa bertahan sekitar <b>{{ n }} bulan</b> tanpa pendapatan dengan tingkat pengeluaran ini.",
+      "text.infinite": "Anda bisa bertahan sekitar <b>seumur hidup</b> tanpa pendapatan dengan tingkat pengeluaran ini.",
+      "suggestion": "Ingatlah bahwa disarankan untuk selalu menjaga rasio ini di atas 5 bulan setidaknya. Jika Anda melihat bahwa Anda tidak memiliki bantal tabungan yang cukup, kurangi pengeluaran yang tidak perlu.",
+      "insufficient_data": "Sepertinya kami tidak memiliki cukup transaksi untuk menghitung berapa bulan Anda bisa bertahan tanpa pendapatan. Masukkan beberapa transaksi dan kembali ke sini untuk memeriksa kesehatan finansial Anda"
+    },
+    "savingsPercentage": {
+      "title": "Persentase tabungan",
+      "subtitle": "Bagian dari pendapatan Anda yang tidak dibelanjakan dalam periode ini",
+      "text": {
+        "good": "Selamat! Anda telah berhasil menabung <b>{{value}}%</b> dari pendapatan Anda selama periode ini. Tampaknya Anda sudah ahli, pertahankan kerja bagus!",
+        "normal": "Selamat, Anda telah berhasil menabung <b>{{value}}%</b> dari pendapatan Anda selama periode ini.",
+        "bad": "Anda telah berhasil menabung <b>{{value}}%</b> dari pendapatan Anda selama periode ini. Namun, kami pikir Anda masih bisa melakukan lebih banyak lagi!",
+        "very_bad": "Wow, Anda belum berhasil menabung apa pun selama periode ini."
+      },
+      "suggestion": "Ingatlah bahwa disarankan untuk menabung setidaknya 15-20% dari apa yang Anda hasilkan."
+    }
+  },
+  "STATS": {
+    "title": "Statistik",
+    "balance": "Saldo",
+    "final-balance": "Saldo akhir",
+    "balance-by-account": "Saldo berdasarkan akun",
+    "balance-by-account-subtitle": "Di mana saya memiliki sebagian besar uang saya?",
+    "balance-by-currency": "Saldo berdasarkan mata uang",
+    "balance-by-currency-subtitle": "Berapa banyak uang yang saya miliki dalam mata uang asing?",
+    "balance-evolution": "Tren saldo",
+    "balance-evolution-subtitle": "Apakah saya memiliki lebih banyak uang daripada sebelumnya?",
+    "compared-to-previous-period": "Dibandingkan dengan periode sebelumnya",
+    "cash-flow": "Arus kas",
+    "cash-flow-subtitle": "Apakah saya menghabiskan kurang dari yang saya hasilkan?",
+    "by-periods": "Berdasarkan periode",
+    "by-categories": "Berdasarkan kategori",
+    "by-tags": "Berdasarkan tag",
+    "distribution": "Distribusi",
+    "finance-health-resume": "Ringkasan",
+    "finance-health-breakdown": "Rincian"
+  },
+  "ICON-SELECTOR": {
+    "name": "Nama:",
+    "icon": "Ikon",
+    "color": "Warna",
+    "select-icon": "Pilih ikon",
+    "select-color": "Pilih warna",
+    "custom-color": "Warna kustom",
+    "current-color-selection": "Pilihan saat ini",
+    "select-account-icon": "Identifikasi akun Anda",
+    "select-category-icon": "Identifikasi kategori Anda",
+    "SCOPES": {
+      "transport": "Transportasi",
+      "money": "Uang",
+      "food": "Makanan",
+      "medical": "Kesehatan",
+      "entertainment": "Hiburan",
+      "technology": "Teknologi",
+      "other": "Lainnya",
+      "logos/financial_institutions": "Lembaga keuangan"
+    }
+  },
+  "TRANSACTION": {
+    "display": {
+      "one": "Transaksi",
+      "other": "Transaksi"
+    },
+    "create": "Transaksi baru",
+    "new.income": "Pendapatan baru",
+    "new.expense": "Pengeluaran baru",
+    "new.success": "Transaksi berhasil dibuat",
+    "edit": "Edit transaksi",
+    "edit.success": "Transaksi berhasil diedit",
+    "edit.multiple": "Edit transaksi",
+    "edit.multiple.success": "{{ x }} transaksi berhasil diedit",
+    "duplicate": "Duplikat transaksi",
+    "duplicate.short": "Duplikat",
+    "duplicate.warning-message": "Transaksi identik dengan ini akan dibuat dengan tanggal yang sama, apakah Anda ingin melanjutkan?",
+    "duplicate.success": "Transaksi berhasil diduplikasi",
+    "delete": "Hapus transaksi",
+    "delete.warning-message": "Tindakan ini tidak dapat diurungkan. Saldo akun Anda saat ini dan semua statistik Anda akan dihitung ulang",
+    "delete.success": "Transaksi berhasil dihapus",
+    "delete.multiple": "Hapus transaksi",
+    "delete.multiple.warning-message": "Tindakan ini tidak dapat diurungkan dan akan menghapus {{ x }} transaksi. Saldo akun Anda saat ini dan semua statistik Anda akan dihitung ulang",
+    "delete.multiple.success": "{{x}} transaksi berhasil dihapus",
+    "details": "Detail transaksi",
+    "NEXT-PAYMENTS": {
+      "accept": "Terima",
+      "skip": "Lewati",
+      "skip.success": "Transaksi berhasil dilewati",
+      "skip-dialog.title": "Lewati transaksi",
+      "skip-dialog.msg": "Tindakan ini tidak dapat diurungkan. Kami akan memindahkan tanggal transaksi berikutnya ke {{date}}",
+      "accept-today": "Terima hari ini",
+      "accept-in-required-date": "Terima pada tanggal yang ditentukan ({{date}})",
+      "accept-dialog.title": "Terima transaksi",
+      "accept-dialog.msg-single": "Status baru transaksi akan menjadi null. Anda dapat mengedit ulang status transaksi ini kapan saja",
+      "accept-dialog.msg": "Tindakan ini akan membuat transaksi baru dengan tanggal {{date}}. Anda dapat memeriksa detail transaksi ini di halaman transaksi",
+      "recurrent-rule-finished": "Aturan berulang telah selesai, tidak ada lagi pembayaran yang harus dilakukan!"
+    },
+    "LIST": {
+      "empty": "Tidak ada transaksi yang ditemukan untuk ditampilkan di sini. Tambahkan beberapa transaksi di aplikasi dan mungkin Anda akan lebih beruntung lain kali.",
+      "searcher.placeholder": "Cari berdasarkan kategori, deskripsi...",
+      "searcher.no-results": "Tidak ada transaksi yang cocok dengan kriteria pencarian",
+      "loading": "Memuat lebih banyak transaksi...",
+      "selected.short": { "one": "{{n}} dipilih", "other": "{{n}} dipilih" },
+      "selected.long": {
+        "one": "{{n}} transaksi dipilih",
+        "other": "{{n}} transaksi dipilih"
+      },
+      "BULK_EDIT": {
+        "dates": "Edit tanggal",
+        "categories": "Edit kategori",
+        "status": "Edit status"
+      }
+    },
+    "FILTERS": {
+      "from_value": "Dari jumlah",
+      "to_value": "Sampai jumlah",
+      "from_value_def": "Dari {{ x }}",
+      "to_value_def": "Sampai {{ x }}",
+      "from_date_def": "Dari tanggal {{ date }}",
+      "to_date_def": "Sampai tanggal {{ date }}"
+    },
+    "FORM": {
+      "VALIDATORS": {
+        "zero": "Nilai transaksi tidak boleh sama dengan nol",
+        "date-max": "Tanggal yang dipilih adalah setelah tanggal saat ini. Transaksi akan ditambahkan sebagai tertunda",
+        "date-after-account-creation": "Anda tidak dapat membuat transaksi yang tanggalnya sebelum tanggal pembuatan akun yang dimilikinya",
+        "negative-transfer": "Nilai moneter transfer tidak boleh negatif",
+        "transfer-between-same-accounts": "Akun asal dan tujuan tidak boleh sama"
+      },
+      "title": "Judul transaksi",
+      "title.short": "Judul",
+      "value": "Nilai transaksi",
+      "tap-to-see-more": "Ketuk untuk melihat lebih banyak detail",
+      "no-tags": "-- Tidak ada tag --",
+      "description": "Deskripsi",
+      "description-info": "Ketuk di sini untuk memasukkan deskripsi yang lebih rinci tentang transaksi ini",
+      "exchange-to-preferred-title": "Nilai tukar ke {{ currency }}",
+      "exchange-to-preferred-in-date": "Pada tanggal transaksi"
+    },
+    "REVERSED": {
+      "title": "Transaksi terbalik",
+      "title.short": "Transaksi terbalik",
+      "description-for-expenses": "Meskipun merupakan transaksi pengeluaran, ini memiliki jumlah positif. Jenis transaksi ini dapat digunakan untuk mewakili pengembalian pengeluaran yang sebelumnya dicatat, seperti pengembalian dana atau pembayaran utang.",
+      "description-for-incomes": "Meskipun merupakan transaksi pendapatan, ini memiliki jumlah negatif. Jenis transaksi ini dapat digunakan untuk membatalkan atau memperbaiki pendapatan yang salah dicatat, untuk mencerminkan pengembalian atau pengembalian uang atau untuk mencatat pembayaran utang."
+    },
+    "STATUS": {
+      "display": {
+        "one": "Status",
+        "other": "Status"
+      },
+      "display_long": "Status transaksi",
+      "tr_status": "Transaksi {{ status }}",
+      "none": "Tanpa status",
+      "none.descr": "Transaksi tanpa status tertentu",
+      "reconciled": "Direkonsiliasi",
+      "reconciled.descr": "Transaksi ini telah divalidasi dan sesuai dengan transaksi nyata dari bank Anda",
+      "unreconciled": "Belum direkonsiliasi",
+      "unreconciled.descr": "Transaksi ini belum divalidasi dan karena itu belum muncul di akun bank nyata Anda. Namun, ini dihitung untuk perhitungan saldo dan statistik di Monekin",
+      "pending": "Tertunda",
+      "pending.descr": "Transaksi ini tertunda dan karena itu tidak akan diperhitungkan saat menghitung saldo dan statistik",
+      "voided": "Dibatalkan",
+      "voided.descr": "Transaksi batal/dibatalkan karena kesalahan pembayaran atau alasan lainnya. Ini tidak akan diperhitungkan saat menghitung saldo dan statistik"
+    },
+    "TYPES": {
+      "display": {
+        "one": "Jenis transaksi",
+        "other": "Jenis transaksi"
+      },
+      "income": {
+        "one": "Pendapatan",
+        "other": "Pendapatan"
+      },
+      "expense": {
+        "one": "Pengeluaran",
+        "other": "Pengeluaran"
+      },
+      "transfer": {
+        "one": "Transfer",
+        "other": "Transfer"
+      }
+    }
+  },
+  "TRANSFER": {
+    "display": "Transfer",
+    "transfers": "Transfer",
+    "transfer-to": "Transfer ke {{ account }}",
+    "create": "Transfer Baru",
+    "need-two-accounts.warning.header": "Ups!",
+    "need-two-accounts.warning.message": "Setidaknya dua akun diperlukan untuk melakukan tindakan ini. Jika Anda perlu menyesuaikan atau mengedit saldo saat ini dari akun ini, klik tombol edit",
+    "FORM": {
+      "from": "Akun asal",
+      "to": "Akun tujuan",
+      "VALUE-IN-DESTINY": {
+        "title": "Jumlah yang ditransfer di tujuan",
+        "amount-short": "{{amount}} ke akun tujuan"
+      }
+    }
+  },
+  "RECURRENT-TRANSACTIONS": {
+    "title": "Transaksi berulang",
+    "title.short": "Transaksi berulang",
+    "empty": "Sepertinya Anda tidak memiliki transaksi berulang. Buat transaksi berulang bulanan, tahunan, atau mingguan dan itu akan muncul di sini",
+    "total-expense.title": "Total pengeluaran per periode",
+    "total-expense.descr": "* Tanpa mempertimbangkan tanggal mulai dan berakhir dari setiap pengulangan",
+    "DETAILS": {
+      "title": "Transaksi berulang",
+      "descr": "Transaksi berikutnya untuk transaksi ini ditunjukkan di bawah ini. Anda dapat menerima transaksi pertama atau melewati transaksi ini",
+      "last-payment-info": "Transaksi ini adalah yang terakhir dari aturan berulang, jadi aturan ini akan otomatis dihapus saat mengonfirmasi tindakan ini",
+      "delete-header": "Hapus transaksi berulang",
+      "delete-message": "Tindakan ini tidak dapat diurungkan dan tidak akan memengaruhi transaksi yang sudah Anda konfirmasi/bayar"
+    },
+    "STATUS": {
+      "delayed_by": "Terlambat {{x}} hari",
+      "coming_in": "Dalam {{x}} hari"
+    }
+  },
+  "ACCOUNT": {
+    "details": "Detail akun",
+    "date": "Tanggal pembukaan",
+    "close_date": "Tanggal penutupan",
+    "reopen": "Buka kembali akun",
+    "reopen.short": "Buka kembali",
+    "reopen.descr": "Apakah Anda yakin ingin membuka kembali akun ini?",
+    "balance": "Saldo akun",
+    "n_transactions": "Jumlah transaksi",
+    "add_money": "Tambahkan uang",
+    "withdraw_money": "Tarik uang",
+    "no-accounts": "Tidak ada transaksi yang ditemukan untuk ditampilkan di sini. Tambahkan transaksi dengan mengeklik tombol '+' di bagian bawah",
+    "TYPES": {
+      "title": "Jenis akun",
+      "warning": "Setelah jenis akun dipilih, tidak dapat diubah di masa mendatang",
+      "normal": "Akun normal",
+      "normal.descr": "Berguna untuk mencatat keuangan sehari-hari Anda. Ini adalah akun paling umum, memungkinkan Anda menambahkan pengeluaran, pendapatan...",
+      "saving": "Akun tabungan",
+      "saving.descr": "Anda hanya dapat menambah dan menarik uang darinya dari akun lain. Sempurna untuk mulai menabung uang"
+    },
+    "FORM": {
+      "name": "Nama akun",
+      "name.placeholder": "Contoh: Akun tabungan",
+      "notes": "Catatan",
+      "notes.placeholder": "Ketik beberapa catatan/deskripsi tentang akun ini",
+      "initial-balance": "Saldo awal",
+      "current-balance": "Saldo saat ini",
+      "create": "Buat akun",
+      "edit": "Edit akun",
+      "currency-not-found-warn": "Anda tidak memiliki informasi tentang nilai tukar untuk mata uang ini. 1.0 akan digunakan sebagai nilai tukar default. Anda dapat mengubah ini di pengaturan",
+      "already-exists": "Sudah ada yang lain dengan nama yang sama, silakan tulis yang lain",
+      "tr-before-opening-date": "Ada transaksi di akun ini dengan tanggal sebelum tanggal pembukaan",
+      "iban": "IBAN",
+      "swift": "SWIFT"
+    },
+    "DELETE": {
+      "warning-header": "Hapus akun?",
+      "warning-text": "Tindakan ini akan menghapus akun ini dan semua transaksinya",
+      "success": "Akun berhasil dihapus"
+    },
+    "CLOSE": {
+      "title": "Tutup akun",
+      "title.short": "Tutup",
+      "warn": "Akun ini tidak akan lagi muncul dalam daftar tertentu dan Anda tidak akan dapat membuat transaksi di dalamnya dengan tanggal setelah yang ditentukan di bawah ini. Tindakan ini tidak memengaruhi transaksi atau saldo apa pun, dan Anda juga dapat membuka kembali akun ini kapan saja. ",
+      "should-have-zero-balance": "Anda harus memiliki saldo saat ini sebesar 0 di akun ini untuk menutupnya. Silakan edit akun sebelum melanjutkan",
+      "should-have-no-transactions": "Akun ini memiliki transaksi setelah tanggal penutupan yang ditentukan. Hapus atau edit tanggal penutupan akun sebelum melanjutkan",
+      "success": "Akun berhasil ditutup",
+      "unarchive-succes": "Akun berhasil dibuka kembali"
+    },
+    "SELECT": {
+      "one": "Pilih akun",
+      "all": "Semua akun",
+      "multiple": "Pilih akun"
+    }
+  },
+  "CURRENCIES": {
+    "currency-converter": "Konverter mata uang",
+    "currency": "Mata uang",
+    "currency-manager": "Manajer mata uang",
+    "currency-manager.descr": "Konfigurasikan mata uang Anda dan nilai tukarnya dengan yang lain",
+    "preferred-currency": "Mata uang preferensi/dasar",
+    "change-preferred-currency-title": "Ubah mata uang preferensi",
+    "change-preferred-currency-msg": "Semua statistik dan anggaran akan ditampilkan dalam mata uang ini mulai sekarang. Akun dan transaksi akan mempertahankan mata uang yang mereka miliki. Semua nilai tukar yang disimpan akan dihapus jika Anda menjalankan tindakan ini. Apakah Anda ingin melanjutkan?",
+    "FORM": {
+      "equal-to-preferred-warn": "Mata uang tidak boleh sama dengan mata uang pengguna",
+      "specify-a-currency": "Harap tentukan mata uang",
+      "add": "Tambahkan nilai tukar",
+      "add-success": "Nilai tukar berhasil ditambahkan",
+      "edit": "Edit nilai tukar",
+      "edit-success": "Nilai tukar berhasil diedit"
+    },
+    "delete-all-success": "Nilai tukar berhasil dihapus",
+    "historical": "Nilai tukar historis",
+    "exchange-rate": "Nilai tukar",
+    "exchange-rates": "Nilai tukar",
+    "empty": "Tambahkan nilai tukar di sini sehingga jika Anda memiliki akun dalam mata uang selain mata uang dasar Anda, grafik kami lebih akurat",
+    "select-a-currency": "Pilih mata uang",
+    "search": "Cari berdasarkan nama atau kode mata uang"
+  },
+  "TAGS": {
+    "display": {
+      "one": "Label",
+      "other": "Tag"
+    },
+    "FORM": {
+      "name": "Nama tag",
+      "description": "Deskripsi"
+    },
+    "SELECT": {
+      "title": "Pilih tag",
+      "all": "Semua tag"
+    },
+    "empty-list": "Anda belum membuat tag apa pun. Tag dan kategori adalah cara yang bagus untuk mengategorikan transaksi Anda",
+    "without-tags": "Tanpa tag",
+    "add": "Tambahkan tag",
+    "create": "Buat label",
+    "create.success": "Label berhasil dibuat",
+    "already-exists": "Nama tag ini sudah ada. Anda mungkin ingin mengeditnya",
+    "edit": "Edit tag",
+    "edit.success": "Tag berhasil diedit",
+    "delete.success": "Kategori berhasil dihapus",
+    "delete-warning-header": "Hapus tag?",
+    "delete-warning-message": "Tindakan ini tidak akan menghapus transaksi yang memiliki tag ini."
+  },
+  "CATEGORIES": {
+    "unknown": "Kategori tidak dikenal",
+    "create": "Buat kategori",
+    "create.success": "Kategori berhasil dibuat",
+    "new-category": "Kategori baru",
+    "already-exists": "Nama kategori ini sudah ada. Mungkin Anda ingin mengeditnya",
+    "edit": "Edit kategori",
+    "edit.success": "Kategori berhasil diedit",
+    "name": "Nama kategori",
+    "type": "Jenis kategori",
+    "both-types": "Kedua jenis",
+    "subcategories": "Subkategori",
+    "subcategories.add": "Tambahkan subkategori",
+    "make-parent": "Jadikan kategori",
+    "make-child": "Jadikan subkategori",
+    "make-child.warning1": "Kategori ini dan subkategorinya akan menjadi subkategori dari <b>{{destiny}}</b>.",
+    "make-child.warning2": "Transaksi mereka <b>({{x}})</b> akan dipindahkan ke subkategori baru yang dibuat dalam kategori <b>{{destiny}}</b>.",
+    "make-child.success": "Subkategori berhasil dibuat",
+    "merge": "Gabungkan dengan kategori lain",
+    "merge.warning1": "Semua transaksi ({{x}}) yang terkait dengan kategori <b>{{from}}</b> akan dipindahkan ke kategori <b>{{destiny}}</b>",
+    "merge.warning2": "Kategori <b>{{from}}</b> akan dihapus secara permanen.",
+    "merge.success": "Kategori berhasil digabungkan",
+    "delete.success": "Kategori berhasil dihapus",
+    "delete-warning-header": "Hapus kategori?",
+    "delete-warning-message": "Tindakan ini akan menghapus secara permanen semua transaksi <b>({{x}})</b> yang terkait dengan kategori ini.",
+    "SELECT": {
+      "title": "Pilih kategori",
+      "select-one": "Pilih kategori",
+      "select-subcategory": "Pilih subkategori",
+      "without-subcategory": "Tanpa subkategori",
+      "all": "Semua kategori",
+      "all.short": "Semua"
+    }
+  },
+  "BUDGETS": {
+    "title": "Anggaran",
+    "repeated": "Berulang",
+    "one-time": "Sekali",
+    "annual": "Tahunan",
+    "week": "Mingguan",
+    "month": "Bulanan",
+    "actives": "Aktif",
+    "pending": "Menunggu mulai",
+    "finish": "Selesai",
+    "from-budgeted": "tersisa dari ",
+    "days-left": "hari tersisa",
+    "days-to-start": "hari untuk mulai",
+    "since-expiration": "hari sejak kedaluwarsa",
+    "no-budgets": "Sepertinya tidak ada anggaran untuk ditampilkan di bagian ini. Mulailah dengan membuat anggaran dengan mengeklik tombol di bawah",
+    "delete": "Hapus anggaran",
+    "delete-warning": "Tindakan ini tidak dapat diurungkan. Kategori dan transaksi yang merujuk pada anggaran ini tidak akan dihapus",
+    "FORM": {
+      "title": "Tambahkan anggaran",
+      "name": "Nama anggaran",
+      "value": "Jumlah batas",
+      "create": "Tambahkan anggaran",
+      "edit": "Edit anggaran",
+      "negative-warn": "Anggaran tidak boleh memiliki jumlah negatif"
+    },
+    "DETAILS": {
+      "title": "Detail Anggaran",
+      "statistics": "Statistik",
+      "budget-value": "Dianggarkan",
+      "expend-diary-left": "Anda dapat menghabiskan {{ dailyAmount }}/hari untuk {{ remainingDays }} hari tersisa",
+      "expend-evolution": "Evolusi pengeluaran",
+      "no-transactions": "Sepertinya Anda belum melakukan pengeluaran yang terkait dengan anggaran ini"
+    }
+  },
+  "BACKUP": {
+    "EXPORT": {
+      "title": "Ekspor data Anda",
+      "title.short": "Ekspor",
+      "all": "Cadangan penuh",
+      "all.descr": "Ekspor semua data Anda (akun, transaksi, anggaran, pengaturan...). Impor lagi kapan saja sehingga Anda tidak kehilangan apa pun.",
+      "transactions": "Cadangan transaksi",
+      "transactions.descr": "Ekspor transaksi Anda dalam CSV sehingga Anda dapat lebih mudah menganalisisnya di program atau aplikasi lain.",
+      "description": "Unduh data Anda dalam berbagai format",
+      "dialog_title": "Simpan/Kirim file",
+      "success": "File berhasil disimpan/diunduh di {{x}}",
+      "error": "Gagal mengunduh file. Silakan hubungi pengembang melalui lozin.technologies@gmail.com"
+    },
+    "IMPORT": {
+      "title": "Impor data Anda",
+      "title.short": "Impor",
+      "restore-backup": "Pulihkan Cadangan",
+      "restore-backup-descr": "Impor database yang sebelumnya disimpan dari Monekin. Tindakan ini akan menggantikan data aplikasi saat ini dengan data baru",
+      "restore-backup-warn.description": "Saat mengimpor database baru, Anda akan kehilangan semua data yang saat ini disimpan di aplikasi. Disarankan untuk membuat cadangan sebelum melanjutkan. Jangan mengunggah file apa pun yang asalnya tidak Anda ketahui di sini, unggah hanya file yang sebelumnya Anda unduh dari Monekin",
+      "restore-backup-warn.title": "Timpa semua data",
+      "select-other-file": "Pilih file lain",
+      "tap-to-select-file": "Ketuk untuk memilih file",
+      "MANUAL-IMPORT": {
+        "title": "Impor manual",
+        "descr": "Impor transaksi dari file .csv secara manual",
+        "defaultAccount": "Akun default",
+        "removeDefaultAccount": "Hapus akun default",
+        "defaultCategory": "Kategori Default",
+        "select-a-column": "Pilih kolom dari .csv",
+        "steps": [
+          "Pilih file Anda",
+          "Kolom untuk jumlah",
+          "Kolom untuk akun",
+          "Kolom untuk kategori",
+          "Kolom untuk tanggal",
+          "kolom lainnya"
+        ],
+        "steps-descr": [
+          "Pilih file .csv dari perangkat Anda. Pastikan itu memiliki baris pertama yang menjelaskan nama setiap kolom",
+          "Pilih kolom di mana nilai setiap transaksi ditentukan. Gunakan nilai negatif untuk pengeluaran dan nilai positif untuk pendapatan. Gunakan titik sebagai pemisah desimal",
+          "Pilih kolom di mana akun tempat setiap transaksi dimiliki ditentukan. Anda juga dapat memilih akun default jika kami tidak dapat menemukan akun yang Anda inginkan. Jika akun default tidak ditentukan, kami akan membuat satu dengan nama yang sama ",
+          "Tentukan kolom di mana nama kategori transaksi berada. Anda harus menentukan kategori default sehingga kami menetapkan kategori ini ke transaksi, jika kategori tidak dapat ditemukan",
+          "Pilih kolom di mana tanggal setiap transaksi ditentukan. Jika tidak ditentukan, transaksi akan dibuat dengan tanggal saat ini",
+          "Menentukan kolom untuk atribut transaksi opsional lainnya"
+        ],
+        "success": "Berhasil mengimpor {{x}} transaksi"
+      },
+      "success": "Impor berhasil dilakukan",
+      "cancelled": "Impor dibatalkan oleh pengguna",
+      "error": "Gagal mengimpor file. Silakan hubungi pengembang melalui lozin.technologies@gmail.com"
+    },
+    "ABOUT": {
+      "title": "Informasi tentang database Anda",
+      "create-date": "Tanggal pembuatan",
+      "modify-date": "Terakhir diubah",
+      "last-backup": "Cadangan terakhir",
+      "size": "Ukuran"
+    }
+  },
+  "SETTINGS": {
+    "title_long": "Pengaturan dan tampilan",
+    "title_short": "Pengaturan",
+    "description": "Tema aplikasi, teks, dan pengaturan umum lainnya",
+    "edit_profile": "Edit profil",
+    "lang.section": "Bahasa dan teks",
+    "lang.title": "Bahasa aplikasi",
+    "lang.descr": "Bahasa di mana teks akan ditampilkan di aplikasi",
+    "lang.help": "Jika Anda ingin berkolaborasi dengan terjemahan aplikasi ini, Anda dapat berkonsultasi <a href='https://github.com/enrique-lozano/Monekin/tree/main/lib/i18n'>panduan kami</a>",
+    "locale": "Wilayah",
+    "locale.descr": "Atur format yang akan digunakan untuk tanggal, angka...",
+    "locale.warn": "Saat mengubah wilayah aplikasi akan diperbarui",
+    "first_day_of_week": "Hari pertama minggu",
+    "theme_and_colors": "Tema dan warna",
+    "theme": "Tema",
+    "theme.auto": "Sistem",
+    "theme.light": "Terang",
+    "theme.dark": "Gelap",
+    "amoled-mode": "Mode AMOLED",
+    "amoled-mode.descr": "Gunakan wallpaper hitam pekat bila memungkinkan. Ini akan sedikit membantu baterai perangkat dengan layar AMOLED",
+    "dynamic-colors": "Warna dinamis",
+    "dynamic-colors.descr": "Gunakan warna aksen sistem Anda bila memungkinkan",
+    "accent-color": "Warna aksen",
+    "accent-color.descr": "Pilih warna yang akan digunakan aplikasi untuk menekankan bagian tertentu dari antarmuka",
+    "SECURITY": {
+      "title": "Keamanan",
+      "private-mode-at-launch": "Mode pribadi saat peluncuran",
+      "private-mode-at-launch.descr": "Luncurkan aplikasi dalam mode pribadi secara default",
+      "private-mode": "Mode pribadi",
+      "private-mode.descr": "Sembunyikan semua nilai moneter",
+      "private-mode.activated": "Mode pribadi diaktifkan",
+      "private-mode.deactivated": "Mode pribadi dinonaktifkan"
+    }
+  },
+  "MORE": {
+    "title": "Lainnya",
+    "title_long": "Tindakan lainnya",
+    "DATA": {
+      "display": "Data",
+      "display.descr": "Ekspor dan impor data Anda sehingga Anda tidak kehilangan apa pun",
+      "delete-all": "Hapus data saya",
+      "delete-all-header1": "Berhenti di situ padawan ⚠️⚠️",
+      "delete-all-message1": "Apakah Anda yakin ingin melanjutkan? Semua data Anda akan dihapus secara permanen dan tidak dapat dipulihkan",
+      "delete-all-header2": "Satu langkah terakhir ⚠️⚠️",
+      "delete-all-message2": "Dengan menghapus akun, Anda akan menghapus semua data pribadi yang disimpan. Akun, transaksi, anggaran, dan kategori Anda akan dihapus dan tidak dapat dipulihkan. Apakah Anda setuju?"
+    },
+    "ABOUT_US": {
+      "display": "Informasi aplikasi",
+      "description": "Periksa persyaratan dan informasi relevan lainnya tentang Monekin. Hubungi komunitas dengan melaporkan bug, meninggalkan saran...",
+      "LEGAL": {
+        "display": "Informasi hukum",
+        "privacy": "Kebijakan privasi",
+        "terms": "Syarat penggunaan",
+        "licenses": "Lisensi"
+      },
+      "PROJECT": {
+        "display": "Proyek",
+        "contributors": "Kontributor",
+        "contributors.descr": "Semua pengembang yang telah membuat Monekin berkembang",
+        "contact": "Hubungi kami"
+      }
+    },
+    "HELP_US": {
+      "display": "Bantu kami",
+      "description": "Cari tahu bagaimana Anda dapat membantu Monekin menjadi lebih baik",
+      "rate-us": "Beri kami nilai",
+      "rate-us.descr": "Nilai apa pun diterima!",
+      "share": "Bagikan Monekin",
+      "share.descr": "Bagikan aplikasi kami ke teman dan keluarga",
+      "share.text": "Monekin! Aplikasi keuangan pribadi terbaik. Unduh di sini",
+      "thanks": "Terima kasih!",
+      "thanks_long": "Kontribusi Anda untuk Monekin dan proyek sumber terbuka lainnya, besar dan kecil, membuat proyek hebat seperti ini mungkin. Terima kasih telah meluangkan waktu untuk berkontribusi.",
+      "donate": "Buat donasi",
+      "donate.descr": "Dengan donasi Anda, Anda akan membantu aplikasi terus menerima peningkatan. Apa cara yang lebih baik daripada mengucapkan terima kasih atas pekerjaan yang dilakukan dengan mengundang saya untuk minum kopi?",
+      "donate.success": "Donasi dilakukan. Terima kasih banyak atas kontribusi Anda! ❤️",
+      "donate.err": "Ups! Sepertinya ada kesalahan menerima pembayaran Anda",
+      "report": "Laporkan bug, tinggalkan saran..."
+    }
+  }
+}

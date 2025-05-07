@@ -1,0 +1,449 @@
+[
+  {
+    "names": {
+      "en": "Aesthetics & Health",
+      "es": "Salud & belleza",
+      "tr": "Estetik & Sağlık",
+      "zh_TW": "醫美 & 健康"
+    },
+    "icon": "ecg_heart",
+    "color": "CC0605",
+    "type": "E",
+    "subcategories": [
+      {
+        "icon": "self_care",
+        "names": {
+          "en": "Personal care",
+          "es": "Cuidado personal",
+          "tr": "Kişisel bakım",
+          "zh_TW": "個人護理"
+        }
+      },
+      {
+        "icon": "medication",
+        "names": {
+          "en": "Medical",
+          "es": "Médico",
+          "tr": "Tıbbi",
+          "zh_TW": "醫療"
+        }
+      },
+      {
+        "icon": "fitness_center",
+        "names": {
+          "en": "Fitness",
+          "es": "Fitness",
+          "tr": "Fitness",
+          "zh_TW": "健康"
+        }
+      }
+    ]
+  },
+  {
+    "names": {
+      "en": "Food & Dining",
+      "es": "Alimentación",
+      "tr": "Yiyecek & Yemek",
+      "zh_TW": "食品 & 餐飲"
+    },
+    "icon": "shopping_cart",
+    "color": "F4A900",
+    "type": "E",
+    "subcategories": [
+      {
+        "icon": "dinner_dining",
+        "names": {
+          "en": "Eating out",
+          "es": "Comer fuera",
+          "tr": "Dışarıda yemek",
+          "zh_TW": "外出用餐"
+        }
+      },
+      {
+        "icon": "nutrition",
+        "names": {
+          "en": "Groceries",
+          "es": "Comestibles",
+          "tr": "Market Alışverişi",
+          "zh_TW": "雜貨"
+        }
+      }
+    ]
+  },
+  {
+    "names": {
+      "en": "Purchases",
+      "es": "Compras",
+      "tr": "Satın Alımlar",
+      "zh_TW": "購買"
+    },
+    "icon": "shopping_bag",
+    "color": "3D642D",
+    "type": "E",
+    "subcategories": [
+      {
+        "icon": "library_books",
+        "names": {
+          "en": "Stationery",
+          "es": "Papelería",
+          "tr": "Kırtasiye",
+          "zh_TW": "文具"
+        }
+      },
+      {
+        "icon": "computer",
+        "names": {
+          "en": "Electronics",
+          "es": "Electrónica",
+          "tr": "Elektronik",
+          "zh_TW": "電子產品"
+        }
+      },
+      {
+        "icon": "checkroom",
+        "names": {
+          "en": "Clothes",
+          "es": "Ropa",
+          "tr": "Kıyafetler",
+          "zh_TW": "服裝"
+        }
+      }
+    ]
+  },
+  {
+    "names": {
+      "en": "Leisure",
+      "es": "Entretenimiento",
+      "tr": "Boş Zaman",
+      "zh_TW": "閒暇"
+    },
+    "icon": "golf_course",
+    "color": "2A6478",
+    "type": "E",
+    "subcategories": [
+      {
+        "icon": "celebration",
+        "names": {
+          "en": "Party",
+          "es": "Fiesta",
+          "tr": "Parti",
+          "zh_TW": "派對"
+        }
+      },
+      {
+        "icon": "museum",
+        "names": {
+          "en": "Sites of interest and events",
+          "es": "Eventos y sitios de interes",
+          "tr": "İlgi çekici yerler ve etkinlikler",
+          "zh_TW": "名勝古蹟 & 活動"
+        }
+      },
+      {
+        "icon": "music_note",
+        "names": {
+          "en": "Music",
+          "es": "Música y conciertos",
+          "tr": "Müzik",
+          "zh_TW": "音樂"
+        }
+      },
+      {
+        "icon": "movie",
+        "names": {
+          "en": "TV-shows and movies",
+          "es": "Cine y TV",
+          "tr": "TV dizileri ve filmler",
+          "zh_TW": "電視節目 & 電影"
+        }
+      }
+    ]
+  },
+  {
+    "names": {
+      "en": "Transportation",
+      "es": "Transporte",
+      "tr": "Ulaşım",
+      "zh_TW": "交通"
+    },
+    "icon": "tram",
+    "color": "84C3BE",
+    "type": "E",
+    "subcategories": [
+      {
+        "icon": "train",
+        "names": {
+          "en": "Public Transport",
+          "es": "Transporte público",
+          "tr": "Toplu Taşıma",
+          "zh_TW": "大眾運輸"
+        }
+      },
+      {
+        "icon": "speed",
+        "names": {
+          "en": "Fuel",
+          "es": "Gasolina",
+          "tr": "Yakıt",
+          "zh_TW": "燃料"
+        }
+      },
+      {
+        "icon": "receipt_long",
+        "names": {
+          "en": "Tolls and parking",
+          "es": "Multas y parkimétros",
+          "tr": "Otoyol ve park ücretleri",
+          "zh_TW": "通行費 & 停車費"
+        }
+      },
+      {
+        "icon": "receipt",
+        "names": {
+          "en": "Taxes and car insurance",
+          "es": "Seguro e impuestos",
+          "tr": "Vergiler ve araç sigortası",
+          "zh_TW": "稅金 & 汽車保險"
+        }
+      },
+      {
+        "icon": "car_repair",
+        "names": {
+          "en": "Maintenance",
+          "es": "Mantenimiento",
+          "tr": "Bakım",
+          "zh_TW": "維修"
+        }
+      }
+    ]
+  },
+  {
+    "names": {
+      "en": "Housing",
+      "es": "Hogar",
+      "tr": "Konut",
+      "zh_TW": "居家"
+    },
+    "icon": "home",
+    "color": "4E5452",
+    "type": "E",
+    "subcategories": [
+      {
+        "icon": "key",
+        "names": {
+          "en": "Rental",
+          "es": "Alquiler",
+          "tr": "Kira",
+          "zh_TW": "房租"
+        }
+      },
+      {
+        "icon": "water",
+        "names": {
+          "en": "Water",
+          "es": "Agua",
+          "tr": "Su",
+          "zh_TW": "水"
+        }
+      },
+      {
+        "icon": "bolt",
+        "names": {
+          "en": "Electricity",
+          "es": "Luz",
+          "tr": "Elektrik",
+          "zh_TW": "電"
+        }
+      },
+      {
+        "icon": "language",
+        "names": {
+          "en": "Internet",
+          "es": "Internet",
+          "tr": "İnternet",
+          "zh_TW": "電"
+        }
+      },
+      {
+        "icon": "call",
+        "names": {
+          "en": "Phone",
+          "es": "Teléfono",
+          "tr": "Telefon",
+          "zh_TW": "電話"
+        }
+      },
+      {
+        "icon": "sprinkler",
+        "names": {
+          "en": "Home supplies",
+          "es": "Productos para el hogar",
+          "tr": "Ev gereçleri",
+          "zh_TW": "電話"
+        }
+      },
+      {
+        "icon": "bed",
+        "names": {
+          "en": "Furniture and appliances",
+          "es": "Muebles y accesorios",
+          "tr": "Mobilya ve ev aletleri",
+          "zh_TW": "電話"
+        }
+      }
+    ]
+  },
+  {
+    "names": {
+      "en": "Taxes",
+      "es": "Impuestos",
+      "tr": "Vergiler",
+      "zh_TW": "稅款"
+    },
+    "icon": "receipt",
+    "color": "B32821",
+    "type": "E"
+  },
+  {
+    "names": {
+      "en": "Plants & Pets",
+      "es": "Plantas & mascotas",
+      "tr": "Bitkiler & Evcil Hayvanlar",
+      "zh_TW": "植物 & 寵物"
+    },
+    "icon": "pets",
+    "color": "587246",
+    "type": "E",
+    "subcategories": []
+  },
+  {
+    "names": {
+      "en": "Holidays",
+      "es": "Vacaciones",
+      "tr": "Tatiller",
+      "zh_TW": "假期"
+    },
+    "icon": "landscape",
+    "color": "FF7514",
+    "type": "E",
+    "subcategories": [
+      {
+        "icon": "flight",
+        "names": {
+          "en": "Travel",
+          "es": "Viaje",
+          "tr": "Seyahat",
+          "zh_TW": "旅行"
+        }
+      },
+      {
+        "icon": "bed",
+        "names": {
+          "en": "Accommodation",
+          "es": "Alojamiento",
+          "tr": "Konaklama",
+          "zh_TW": "旅行"
+        }
+      }
+    ]
+  },
+  {
+    "names": {
+      "en": "Salary",
+      "es": "Salario",
+      "tr": "Maaş",
+      "zh_TW": "薪水"
+    },
+    "icon": "work",
+    "color": "4C9141",
+    "type": "I"
+  },
+  {
+    "names": {
+      "en": "Gifts & Donations",
+      "es": "Regalos & Donaciones",
+      "tr": "Hediyeler & Bağışlar",
+      "zh_TW": "禮品 & 贈與"
+    },
+    "icon": "redeem",
+    "color": "BB4B4B",
+    "type": "B"
+  },
+  {
+    "names": {
+      "en": "Sale",
+      "es": "Venta",
+      "tr": "Satış",
+      "zh_TW": "銷售"
+    },
+    "icon": "logout",
+    "color": "CDA434",
+    "type": "I"
+  },
+  {
+    "names": {
+      "en": "Investments",
+      "es": "Inversión",
+      "tr": "Yatırımlar",
+      "zh_TW": "投資"
+    },
+    "icon": "auto_graph",
+    "color": "1E2460",
+    "type": "B"
+  },
+  {
+    "names": {
+      "en": "Gambling",
+      "es": "Juegos & apuestas",
+      "tr": "Kumar",
+      "zh_TW": "賭博"
+    },
+    "icon": "casino",
+    "color": "2A6478",
+    "type": "B"
+  },
+  {
+    "names": {
+      "en": "Awards & Honours",
+      "es": "Premios & reconocimientos",
+      "tr": "Ödüller & Onurlar",
+      "zh_TW": "獎項 & 榮譽"
+    },
+    "icon": "military_tech",
+    "color": "F39F18",
+    "type": "I"
+  },
+  {
+    "names": {
+      "en": "Debts",
+      "es": "Deudas & devoluciones",
+      "tr": "Borçlar",
+      "zh_TW": "債務"
+    },
+    "icon": "redo",
+    "color": "781F19",
+    "type": "E"
+  },
+  {
+    "names": {
+      "en": "Loans",
+      "es": "Préstamos",
+      "tr": "Krediler",
+      "zh_TW": "貸款"
+    },
+    "icon": "undo",
+    "color": "781F19",
+    "type": "I"
+  },
+  {
+    "names": {
+      "en": "Others",
+      "es": "Otros",
+      "tr": "Diğerleri",
+      "zh_TW": "其他"
+    },
+    "icon": "inventory_2",
+    "color": "403A3A",
+    "type": "B"
+  }
+]
