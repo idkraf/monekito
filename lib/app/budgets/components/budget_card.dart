@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart' show DateFormat, NumberFormat;
-import 'package:monekin/app/budgets/budget_details_page.dart';
-import 'package:monekin/core/database/services/currency/currency_service.dart';
-import 'package:monekin/core/models/budget/budget.dart';
-import 'package:monekin/core/models/date-utils/period_type.dart';
-import 'package:monekin/core/presentation/app_colors.dart';
-import 'package:monekin/core/presentation/widgets/animated_progress_bar.dart';
-import 'package:monekin/core/presentation/widgets/number_ui_formatters/currency_displayer.dart';
-import 'package:monekin/core/presentation/widgets/skeleton.dart';
-import 'package:monekin/core/presentation/widgets/tappable.dart';
-import 'package:monekin/core/routes/route_utils.dart';
-import 'package:monekin/i18n/generated/translations.g.dart';
+import 'package:monekito/app/budgets/budget_details_page.dart';
+import 'package:monekito/core/database/services/currency/currency_service.dart';
+import 'package:monekito/core/models/budget/budget.dart';
+import 'package:monekito/core/models/date-utils/period_type.dart';
+import 'package:monekito/core/presentation/app_colors.dart';
+import 'package:monekito/core/presentation/widgets/animated_progress_bar.dart';
+import 'package:monekito/core/presentation/widgets/number_ui_formatters/currency_displayer.dart';
+import 'package:monekito/core/presentation/widgets/skeleton.dart';
+import 'package:monekito/core/presentation/widgets/tappable.dart';
+import 'package:monekito/core/routes/route_utils.dart';
+import 'package:monekito/i18n/generated/translations.g.dart';
 
 class BudgetCard extends StatelessWidget {
   const BudgetCard({

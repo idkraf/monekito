@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:monekin/app/accounts/account_form.dart';
-import 'package:monekin/app/accounts/details/account_details.dart';
-import 'package:monekin/core/database/services/account/account_service.dart';
-import 'package:monekin/core/models/date-utils/date_period_state.dart';
-import 'package:monekin/core/presentation/widgets/number_ui_formatters/currency_displayer.dart';
-import 'package:monekin/core/presentation/widgets/tappable.dart';
-import 'package:monekin/core/presentation/widgets/trending_value.dart';
-import 'package:monekin/core/routes/route_utils.dart';
-import 'package:monekin/i18n/generated/translations.g.dart';
+import 'package:monekito/app/accounts/account_form.dart';
+import 'package:monekito/app/accounts/details/account_details.dart';
+import 'package:monekito/core/database/services/account/account_service.dart';
+import 'package:monekito/core/models/date-utils/date_period_state.dart';
+import 'package:monekito/core/presentation/widgets/number_ui_formatters/currency_displayer.dart';
+import 'package:monekito/core/presentation/widgets/tappable.dart';
+import 'package:monekito/core/presentation/widgets/trending_value.dart';
+import 'package:monekito/core/routes/route_utils.dart';
+import 'package:monekito/i18n/generated/translations.g.dart';
 
 class HorizontalScrollableAccountList extends StatelessWidget {
   const HorizontalScrollableAccountList({

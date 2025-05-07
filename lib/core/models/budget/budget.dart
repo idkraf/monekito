@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:monekin/core/database/app_db.dart';
-import 'package:monekin/core/database/services/account/account_service.dart';
-import 'package:monekin/core/models/date-utils/date_period.dart';
-import 'package:monekin/core/models/date-utils/date_period_state.dart';
-import 'package:monekin/core/models/transaction/transaction_status.enum.dart';
-import 'package:monekin/core/presentation/widgets/transaction_filter/transaction_filters.dart';
-import 'package:monekin/core/utils/date_utils.dart';
+import 'package:monekito/core/database/app_db.dart';
+import 'package:monekito/core/database/services/account/account_service.dart';
+import 'package:monekito/core/models/date-utils/date_period.dart';
+import 'package:monekito/core/models/date-utils/date_period_state.dart';
+import 'package:monekito/core/models/transaction/transaction_status.enum.dart';
+import 'package:monekito/core/presentation/widgets/transaction_filter/transaction_filters.dart';
+import 'package:monekito/core/utils/date_utils.dart';
 
 import '../transaction/transaction_type.enum.dart';
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:monekin/core/presentation/animations/fade_in.dart';
-import 'package:monekin/core/presentation/theme.dart';
+import 'package:monekito/core/presentation/animations/fade_in.dart';
+import 'package:monekito/core/presentation/theme.dart';
 
 class NoResults extends StatelessWidget {
   const NoResults({

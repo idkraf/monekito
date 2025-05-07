@@ -1,4 +1,4 @@
-name: monekin
+name: monekito
 description: The best personal finance controller on the market. Learn to save and manage your finances with Monekin.
 
 # For information on the generic Dart part of this file, see the
@@ -77,7 +77,7 @@ dev_dependencies:
   json_serializable: ^6.2.0
   flutter_launcher_icons: ^0.14.2 # Package to regenerate icons (config later in this file). To run, type `dart run flutter_launcher_icons`
   drift_dev: ^2.13.2
-  slang_build_runner: ^4.4.0 # To regenerate the translations run 'dart run slang'
+  slang_build_runner: ^4.5.0 # To regenerate the translations run 'dart run slang'
   copy_with_extension_gen: ^5.0.4
   freezed: ^2.4.5
 

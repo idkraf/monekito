@@ -1,13 +1,13 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:monekin/core/database/services/account/account_service.dart';
-import 'package:monekin/core/extensions/lists.extensions.dart';
-import 'package:monekin/core/presentation/widgets/animated_progress_bar.dart';
-import 'package:monekin/core/presentation/widgets/number_ui_formatters/currency_displayer.dart';
-import 'package:monekin/core/presentation/widgets/skeleton.dart';
-import 'package:monekin/core/presentation/widgets/transaction_filter/transaction_filters.dart';
-import 'package:monekin/i18n/generated/translations.g.dart';
+import 'package:monekito/core/database/services/account/account_service.dart';
+import 'package:monekito/core/extensions/lists.extensions.dart';
+import 'package:monekito/core/presentation/widgets/animated_progress_bar.dart';
+import 'package:monekito/core/presentation/widgets/number_ui_formatters/currency_displayer.dart';
+import 'package:monekito/core/presentation/widgets/skeleton.dart';
+import 'package:monekito/core/presentation/widgets/transaction_filter/transaction_filters.dart';
+import 'package:monekito/i18n/generated/translations.g.dart';
 import 'package:rxdart/rxdart.dart';
 
 import '../../../core/models/transaction/transaction_type.enum.dart';

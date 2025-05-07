@@ -1,10 +1,10 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
-import 'package:monekin/core/database/services/transaction/transaction_service.dart';
-import 'package:monekin/core/presentation/widgets/outlined_button_stacked.dart';
-import 'package:monekin/core/presentation/widgets/persistent_footer_button.dart';
-import 'package:monekin/core/presentation/widgets/transaction_filter/transaction_filters.dart';
-import 'package:monekin/i18n/generated/translations.g.dart';
+import 'package:monekito/core/database/services/transaction/transaction_service.dart';
+import 'package:monekito/core/presentation/widgets/outlined_button_stacked.dart';
+import 'package:monekito/core/presentation/widgets/persistent_footer_button.dart';
+import 'package:monekito/core/presentation/widgets/transaction_filter/transaction_filters.dart';
+import 'package:monekito/i18n/generated/translations.g.dart';
 
 import '../../core/database/backup/backup_database_service.dart';
 

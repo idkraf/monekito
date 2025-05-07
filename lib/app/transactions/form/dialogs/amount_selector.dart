@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:monekin/app/transactions/form/dialogs/evaluate_expression.dart';
-import 'package:monekin/core/database/app_db.dart';
-import 'package:monekin/core/extensions/bool.extension.dart';
-import 'package:monekin/core/extensions/numbers.extensions.dart';
-import 'package:monekin/core/presentation/animations/animated_expanded.dart';
-import 'package:monekin/core/presentation/app_colors.dart';
-import 'package:monekin/core/presentation/widgets/modal_container.dart';
-import 'package:monekin/core/presentation/widgets/number_ui_formatters/currency_displayer.dart';
+import 'package:monekito/app/transactions/form/dialogs/evaluate_expression.dart';
+import 'package:monekito/core/database/app_db.dart';
+import 'package:monekito/core/extensions/bool.extension.dart';
+import 'package:monekito/core/extensions/numbers.extensions.dart';
+import 'package:monekito/core/presentation/animations/animated_expanded.dart';
+import 'package:monekito/core/presentation/app_colors.dart';
+import 'package:monekito/core/presentation/widgets/modal_container.dart';
+import 'package:monekito/core/presentation/widgets/number_ui_formatters/currency_displayer.dart';
 
 class AmountSelector extends StatefulWidget {
   const AmountSelector({

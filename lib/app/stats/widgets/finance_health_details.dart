@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:monekin/app/stats/widgets/finance_health/finance_health_main_info.dart';
-import 'package:monekin/core/presentation/widgets/card_with_header.dart';
-import 'package:monekin/core/presentation/widgets/html_text.dart';
-import 'package:monekin/core/presentation/widgets/transaction_filter/transaction_filters.dart';
-import 'package:monekin/core/services/finance_health_service.dart';
-import 'package:monekin/i18n/generated/translations.g.dart';
+import 'package:monekito/app/stats/widgets/finance_health/finance_health_main_info.dart';
+import 'package:monekito/core/presentation/widgets/card_with_header.dart';
+import 'package:monekito/core/presentation/widgets/html_text.dart';
+import 'package:monekito/core/presentation/widgets/transaction_filter/transaction_filters.dart';
+import 'package:monekito/core/services/finance_health_service.dart';
+import 'package:monekito/i18n/generated/translations.g.dart';
 
 class FinanceHealthDetails extends StatefulWidget {
   const FinanceHealthDetails({super.key, required this.filters});

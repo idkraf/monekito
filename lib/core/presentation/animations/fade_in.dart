@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:monekin/core/presentation/animations/animation_controller.dart';
+import 'package:monekito/core/presentation/animations/animation_controller.dart';
 
 class FadeIn extends StatefulWidget {
   const FadeIn({

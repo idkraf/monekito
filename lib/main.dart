@@ -2,18 +2,18 @@ import 'package:dynamic_color/dynamic_color.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart';
-import 'package:monekin/app/layout/navigation_sidebar.dart';
-import 'package:monekin/app/layout/tabs.dart';
-import 'package:monekin/app/onboarding/intro.page.dart';
-import 'package:monekin/core/database/services/app-data/app_data_service.dart';
-import 'package:monekin/core/database/services/user-setting/private_mode_service.dart';
-import 'package:monekin/core/database/services/user-setting/user_setting_service.dart';
-import 'package:monekin/core/database/services/user-setting/utils/get_theme_from_string.dart';
-import 'package:monekin/core/presentation/theme.dart';
-import 'package:monekin/core/routes/root_navigator_observer.dart';
-import 'package:monekin/core/utils/logger.dart';
-import 'package:monekin/core/utils/scroll_behavior_override.dart';
-import 'package:monekin/i18n/generated/translations.g.dart';
+import 'package:monekito/app/layout/navigation_sidebar.dart';
+import 'package:monekito/app/layout/tabs.dart';
+import 'package:monekito/app/onboarding/intro.page.dart';
+import 'package:monekito/core/database/services/app-data/app_data_service.dart';
+import 'package:monekito/core/database/services/user-setting/private_mode_service.dart';
+import 'package:monekito/core/database/services/user-setting/user_setting_service.dart';
+import 'package:monekito/core/database/services/user-setting/utils/get_theme_from_string.dart';
+import 'package:monekito/core/presentation/theme.dart';
+import 'package:monekito/core/routes/root_navigator_observer.dart';
+import 'package:monekito/core/utils/logger.dart';
+import 'package:monekito/core/utils/scroll_behavior_override.dart';
+import 'package:monekito/i18n/generated/translations.g.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -132,7 +132,7 @@ class MaterialAppContainer extends StatelessWidget {
     return DynamicColorBuilder(
         builder: (ColorScheme? lightDynamic, ColorScheme? darkDynamic) {
       return MaterialApp(
-        title: 'Monekin',
+        title: 'Monekito',
         debugShowCheckedModeBanner: false,
         locale: TranslationProvider.of(context).flutterLocale,
         scrollBehavior: ScrollBehaviorOverride(),

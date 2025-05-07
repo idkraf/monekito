@@ -1,6 +1,6 @@
 import 'package:drift/drift.dart';
 import 'package:flutter/material.dart';
-import 'package:monekin/core/models/exchange-rate/exchange_rate.dart';
+import 'package:monekito/core/models/exchange-rate/exchange_rate.dart';
 import 'package:rxdart/rxdart.dart';
 
 import '../../app_db.dart';

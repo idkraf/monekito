@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:monekin/core/database/services/user-setting/user_setting_service.dart';
+import 'package:monekito/core/database/services/user-setting/user_setting_service.dart';
 import 'package:rxdart/rxdart.dart';
 
 class PrivateModeService {

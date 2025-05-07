@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:monekin/main.dart';
+import 'package:monekito/main.dart';
 
 abstract class RouteUtils {
   static Future<T?> pushRoute<T extends Object>(

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:monekin/app/accounts/account_form.dart';
-import 'package:monekin/app/transactions/form/transaction_form.page.dart';
-import 'package:monekin/core/database/services/transaction/transaction_service.dart';
-import 'package:monekin/core/presentation/animations/animated_expanded.dart';
-import 'package:monekin/core/presentation/widgets/confirm_dialog.dart';
-import 'package:monekin/core/routes/route_utils.dart';
-import 'package:monekin/i18n/generated/translations.g.dart';
+import 'package:monekito/app/accounts/account_form.dart';
+import 'package:monekito/app/transactions/form/transaction_form.page.dart';
+import 'package:monekito/core/database/services/transaction/transaction_service.dart';
+import 'package:monekito/core/presentation/animations/animated_expanded.dart';
+import 'package:monekito/core/presentation/widgets/confirm_dialog.dart';
+import 'package:monekito/core/routes/route_utils.dart';
+import 'package:monekito/i18n/generated/translations.g.dart';
 
 class NewTransactionButton extends StatelessWidget {
   const NewTransactionButton({

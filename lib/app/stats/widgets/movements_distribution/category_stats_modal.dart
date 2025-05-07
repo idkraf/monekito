@@ -2,18 +2,18 @@ import 'dart:math';
 
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
-import 'package:monekin/app/stats/widgets/movements_distribution/tr_distribution_chart_item.dart';
-import 'package:monekin/app/transactions/transactions.page.dart';
-import 'package:monekin/core/extensions/color.extensions.dart';
-import 'package:monekin/core/models/category/category.dart';
-import 'package:monekin/core/models/supported-icon/icon_displayer.dart';
-import 'package:monekin/core/models/supported-icon/supported_icon.dart';
-import 'package:monekin/core/models/transaction/transaction_type.enum.dart';
-import 'package:monekin/core/presentation/widgets/animated_progress_bar.dart';
-import 'package:monekin/core/presentation/widgets/number_ui_formatters/currency_displayer.dart';
-import 'package:monekin/core/presentation/widgets/transaction_filter/transaction_filters.dart';
-import 'package:monekin/core/routes/route_utils.dart';
-import 'package:monekin/i18n/generated/translations.g.dart';
+import 'package:monekito/app/stats/widgets/movements_distribution/tr_distribution_chart_item.dart';
+import 'package:monekito/app/transactions/transactions.page.dart';
+import 'package:monekito/core/extensions/color.extensions.dart';
+import 'package:monekito/core/models/category/category.dart';
+import 'package:monekito/core/models/supported-icon/icon_displayer.dart';
+import 'package:monekito/core/models/supported-icon/supported_icon.dart';
+import 'package:monekito/core/models/transaction/transaction_type.enum.dart';
+import 'package:monekito/core/presentation/widgets/animated_progress_bar.dart';
+import 'package:monekito/core/presentation/widgets/number_ui_formatters/currency_displayer.dart';
+import 'package:monekito/core/presentation/widgets/transaction_filter/transaction_filters.dart';
+import 'package:monekito/core/routes/route_utils.dart';
+import 'package:monekito/i18n/generated/translations.g.dart';
 
 class SubcategoryModalItem {
   String id;

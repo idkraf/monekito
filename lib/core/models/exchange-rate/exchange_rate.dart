@@ -1,4 +1,4 @@
-import 'package:monekin/core/database/app_db.dart';
+import 'package:monekito/core/database/app_db.dart';
 
 class ExchangeRate extends ExchangeRateInDB {
   CurrencyInDB currency;

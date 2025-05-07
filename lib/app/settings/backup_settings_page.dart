@@ -2,16 +2,16 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:monekin/app/settings/export_page.dart';
-import 'package:monekin/app/settings/import_csv.dart';
-import 'package:monekin/core/database/app_db.dart';
-import 'package:monekin/core/database/backup/backup_database_service.dart';
-import 'package:monekin/core/extensions/numbers.extensions.dart';
-import 'package:monekin/core/presentation/widgets/confirm_dialog.dart';
-import 'package:monekin/core/routes/destinations.dart';
-import 'package:monekin/core/routes/route_utils.dart';
-import 'package:monekin/i18n/generated/translations.g.dart';
-import 'package:monekin/main.dart';
+import 'package:monekito/app/settings/export_page.dart';
+import 'package:monekito/app/settings/import_csv.dart';
+import 'package:monekito/core/database/app_db.dart';
+import 'package:monekito/core/database/backup/backup_database_service.dart';
+import 'package:monekito/core/extensions/numbers.extensions.dart';
+import 'package:monekito/core/presentation/widgets/confirm_dialog.dart';
+import 'package:monekito/core/routes/destinations.dart';
+import 'package:monekito/core/routes/route_utils.dart';
+import 'package:monekito/i18n/generated/translations.g.dart';
+import 'package:monekito/main.dart';
 
 import 'widgets/settings_list_separator.dart';
 

@@ -1,12 +1,12 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
-import 'package:monekin/app/home/dashboard.page.dart';
-import 'package:monekin/app/onboarding/onboarding.dart';
-import 'package:monekin/app/settings/settings.page.dart';
-import 'package:monekin/core/database/services/app-data/app_data_service.dart';
-import 'package:monekin/core/database/services/user-setting/user_setting_service.dart';
-import 'package:monekin/i18n/generated/translations.g.dart';
-import 'package:monekin/main.dart';
+import 'package:monekito/app/home/dashboard.page.dart';
+import 'package:monekito/app/onboarding/onboarding.dart';
+import 'package:monekito/app/settings/settings.page.dart';
+import 'package:monekito/core/database/services/app-data/app_data_service.dart';
+import 'package:monekito/core/database/services/user-setting/user_setting_service.dart';
+import 'package:monekito/i18n/generated/translations.g.dart';
+import 'package:monekito/main.dart';
 
 Future<void> setupMonekin() async {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();

@@ -2,8 +2,8 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:monekin/core/database/app_db.dart';
-import 'package:monekin/core/presentation/widgets/number_ui_formatters/decimal_separator.dart';
+import 'package:monekito/core/database/app_db.dart';
+import 'package:monekito/core/presentation/widgets/number_ui_formatters/decimal_separator.dart';
 
 enum UINumberFormatterMode { currency, percentage, decimal }
 

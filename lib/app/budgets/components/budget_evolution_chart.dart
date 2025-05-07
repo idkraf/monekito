@@ -4,10 +4,10 @@ import 'package:collection/collection.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:monekin/app/stats/utils/common_axis_titles.dart';
-import 'package:monekin/app/stats/widgets/fund_evolution_line_chart.dart';
-import 'package:monekin/core/models/budget/budget.dart';
-import 'package:monekin/i18n/generated/translations.g.dart';
+import 'package:monekito/app/stats/utils/common_axis_titles.dart';
+import 'package:monekito/app/stats/widgets/fund_evolution_line_chart.dart';
+import 'package:monekito/core/models/budget/budget.dart';
+import 'package:monekito/i18n/generated/translations.g.dart';
 
 class BudgetEvolutionChart extends StatelessWidget {
   const BudgetEvolutionChart({super.key, required this.budget});

@@ -2,14 +2,14 @@
 
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
-import 'package:monekin/app/transactions/widgets/transaction_list.dart';
-import 'package:monekin/core/database/services/transaction/transaction_service.dart';
-import 'package:monekin/core/models/date-utils/periodicity.dart';
-import 'package:monekin/core/presentation/responsive/breakpoints.dart';
-import 'package:monekin/core/presentation/widgets/no_results.dart';
-import 'package:monekin/core/presentation/widgets/number_ui_formatters/currency_displayer.dart';
-import 'package:monekin/core/presentation/widgets/transaction_filter/transaction_filters.dart';
-import 'package:monekin/i18n/generated/translations.g.dart';
+import 'package:monekito/app/transactions/widgets/transaction_list.dart';
+import 'package:monekito/core/database/services/transaction/transaction_service.dart';
+import 'package:monekito/core/models/date-utils/periodicity.dart';
+import 'package:monekito/core/presentation/responsive/breakpoints.dart';
+import 'package:monekito/core/presentation/widgets/no_results.dart';
+import 'package:monekito/core/presentation/widgets/number_ui_formatters/currency_displayer.dart';
+import 'package:monekito/core/presentation/widgets/transaction_filter/transaction_filters.dart';
+import 'package:monekito/i18n/generated/translations.g.dart';
 
 class RecurrentTransactionPage extends StatefulWidget {
   const RecurrentTransactionPage({super.key});

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:monekin/app/transactions/transaction_details.page.dart';
-import 'package:monekin/core/extensions/color.extensions.dart';
-import 'package:monekin/core/models/date-utils/periodicity.dart';
-import 'package:monekin/core/models/transaction/transaction.dart';
-import 'package:monekin/core/models/transaction/transaction_status.enum.dart';
-import 'package:monekin/core/presentation/widgets/number_ui_formatters/currency_displayer.dart';
-import 'package:monekin/core/presentation/widgets/number_ui_formatters/ui_number_formatter.dart';
-import 'package:monekin/core/routes/route_utils.dart';
-import 'package:monekin/core/services/view-actions/transaction_view_actions_service.dart';
+import 'package:monekito/app/transactions/transaction_details.page.dart';
+import 'package:monekito/core/extensions/color.extensions.dart';
+import 'package:monekito/core/models/date-utils/periodicity.dart';
+import 'package:monekito/core/models/transaction/transaction.dart';
+import 'package:monekito/core/models/transaction/transaction_status.enum.dart';
+import 'package:monekito/core/presentation/widgets/number_ui_formatters/currency_displayer.dart';
+import 'package:monekito/core/presentation/widgets/number_ui_formatters/ui_number_formatter.dart';
+import 'package:monekito/core/routes/route_utils.dart';
+import 'package:monekito/core/services/view-actions/transaction_view_actions_service.dart';
 
 import '../../../core/presentation/app_colors.dart';
 

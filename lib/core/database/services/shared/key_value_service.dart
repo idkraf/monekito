@@ -1,7 +1,7 @@
 import 'package:drift/drift.dart';
-import 'package:monekin/core/database/app_db.dart';
-import 'package:monekin/core/database/services/shared/key_value_pair.dart';
-import 'package:monekin/main.dart';
+import 'package:monekito/core/database/app_db.dart';
+import 'package:monekito/core/database/services/shared/key_value_pair.dart';
+import 'package:monekito/main.dart';
 
 /// Base service to handle key-value pairs for any table
 abstract class KeyValueService<KeyType extends Enum, TableType extends Table,

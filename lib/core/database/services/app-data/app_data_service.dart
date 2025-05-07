@@ -1,6 +1,6 @@
-import 'package:monekin/core/database/app_db.dart';
-import 'package:monekin/core/database/services/shared/key_value_pair.dart';
-import 'package:monekin/core/database/services/shared/key_value_service.dart';
+import 'package:monekito/core/database/app_db.dart';
+import 'package:monekito/core/database/services/shared/key_value_pair.dart';
+import 'package:monekito/core/database/services/shared/key_value_service.dart';
 
 /// The keys of the avalaible settings of the app
 enum AppDataKey { dbVersion, introSeen, lastExportDate }

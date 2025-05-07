@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:monekin/core/presentation/widgets/modal_container.dart';
+import 'package:monekito/core/presentation/widgets/modal_container.dart';
 
 class DynamicSelectorModal<T, V> extends StatelessWidget {
   const DynamicSelectorModal({

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:monekin/core/presentation/app_colors.dart';
+import 'package:monekito/core/presentation/app_colors.dart';
 
 class TranslucentTransactionStatusCard extends StatelessWidget {
   const TranslucentTransactionStatusCard({

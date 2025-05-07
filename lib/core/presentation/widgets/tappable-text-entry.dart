@@ -1,9 +1,9 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:monekin/core/extensions/string.extension.dart';
-import 'package:monekin/core/presentation/app_colors.dart';
-import 'package:monekin/core/presentation/widgets/tappable.dart';
+import 'package:monekito/core/extensions/string.extension.dart';
+import 'package:monekito/core/presentation/app_colors.dart';
+import 'package:monekito/core/presentation/widgets/tappable.dart';
 
 class TappableTextEntry extends StatelessWidget {
   const TappableTextEntry({

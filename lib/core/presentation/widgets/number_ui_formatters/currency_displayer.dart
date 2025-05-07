@@ -1,11 +1,11 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:monekin/core/database/app_db.dart';
-import 'package:monekin/core/database/services/currency/currency_service.dart';
-import 'package:monekin/core/database/services/user-setting/private_mode_service.dart';
-import 'package:monekin/core/database/services/user-setting/user_setting_service.dart';
-import 'package:monekin/core/presentation/widgets/skeleton.dart';
+import 'package:monekito/core/database/app_db.dart';
+import 'package:monekito/core/database/services/currency/currency_service.dart';
+import 'package:monekito/core/database/services/user-setting/private_mode_service.dart';
+import 'package:monekito/core/database/services/user-setting/user_setting_service.dart';
+import 'package:monekito/core/presentation/widgets/skeleton.dart';
 
 import 'ui_number_formatter.dart';
 

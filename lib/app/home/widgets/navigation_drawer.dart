@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:monekin/app/settings/widgets/display_app_icon.dart';
-import 'package:monekin/core/extensions/string.extension.dart';
-import 'package:monekin/core/presentation/widgets/skeleton.dart';
-import 'package:monekin/core/routes/destinations.dart';
+import 'package:monekito/app/settings/widgets/display_app_icon.dart';
+import 'package:monekito/core/extensions/string.extension.dart';
+import 'package:monekito/core/presentation/widgets/skeleton.dart';
+import 'package:monekito/core/routes/destinations.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 
 class SideNavigationDrawer extends StatelessWidget {

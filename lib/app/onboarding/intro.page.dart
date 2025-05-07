@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:monekin/app/onboarding/onboarding.dart';
-import 'package:monekin/app/settings/widgets/display_app_icon.dart';
-import 'package:monekin/core/presentation/app_colors.dart';
-import 'package:monekin/core/presentation/responsive/breakpoint_container.dart';
-import 'package:monekin/core/presentation/styles/big_button_style.dart';
-import 'package:monekin/core/presentation/widgets/html_text.dart';
-import 'package:monekin/core/routes/route_utils.dart';
-import 'package:monekin/i18n/generated/translations.g.dart';
+import 'package:monekito/app/onboarding/onboarding.dart';
+import 'package:monekito/app/settings/widgets/display_app_icon.dart';
+import 'package:monekito/core/presentation/app_colors.dart';
+import 'package:monekito/core/presentation/responsive/breakpoint_container.dart';
+import 'package:monekito/core/presentation/styles/big_button_style.dart';
+import 'package:monekito/core/presentation/widgets/html_text.dart';
+import 'package:monekito/core/routes/route_utils.dart';
+import 'package:monekito/i18n/generated/translations.g.dart';
 
 class IntroPage extends StatelessWidget {
   const IntroPage({super.key});
@@ -25,7 +25,7 @@ class IntroPage extends StatelessWidget {
         ),
         const SizedBox(height: 12),
         Text(
-          'Monekin',
+          'Monekito',
           style: Theme.of(context)
               .textTheme
               .headlineLarge!

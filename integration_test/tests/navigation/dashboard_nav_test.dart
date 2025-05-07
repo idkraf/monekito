@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:monekin/app/accounts/account_form.dart';
-import 'package:monekin/app/home/dashboard.page.dart';
-import 'package:monekin/app/settings/edit_profile_modal.dart';
-import 'package:monekin/app/stats/stats_page.dart';
-import 'package:monekin/app/transactions/transactions.page.dart';
-import 'package:monekin/core/presentation/widgets/card_with_header.dart';
-import 'package:monekin/core/presentation/widgets/dates/date_period_modal.dart';
-import 'package:monekin/i18n/generated/translations.g.dart';
+import 'package:monekito/app/accounts/account_form.dart';
+import 'package:monekito/app/home/dashboard.page.dart';
+import 'package:monekito/app/settings/edit_profile_modal.dart';
+import 'package:monekito/app/stats/stats_page.dart';
+import 'package:monekito/app/transactions/transactions.page.dart';
+import 'package:monekito/core/presentation/widgets/card_with_header.dart';
+import 'package:monekito/core/presentation/widgets/dates/date_period_modal.dart';
+import 'package:monekito/i18n/generated/translations.g.dart';
 
 import '../helpers.dart';
 

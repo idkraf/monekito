@@ -1,19 +1,19 @@
 import 'package:drift/drift.dart' as drift;
 import 'package:flutter/material.dart';
-import 'package:monekin/core/database/app_db.dart';
-import 'package:monekin/core/database/services/tags/tags_service.dart';
-import 'package:monekin/core/extensions/color.extensions.dart';
-import 'package:monekin/core/extensions/lists.extensions.dart';
-import 'package:monekin/core/models/tags/tag.dart';
-import 'package:monekin/core/presentation/widgets/color_picker/color_picker.dart';
-import 'package:monekin/core/presentation/widgets/color_picker/color_picker_modal.dart';
-import 'package:monekin/core/presentation/widgets/confirm_dialog.dart';
-import 'package:monekin/core/presentation/widgets/form_fields/read_only_form_field.dart';
-import 'package:monekin/core/presentation/widgets/persistent_footer_button.dart';
-import 'package:monekin/core/utils/constants.dart';
-import 'package:monekin/core/utils/text_field_utils.dart';
-import 'package:monekin/core/utils/uuid.dart';
-import 'package:monekin/i18n/generated/translations.g.dart';
+import 'package:monekito/core/database/app_db.dart';
+import 'package:monekito/core/database/services/tags/tags_service.dart';
+import 'package:monekito/core/extensions/color.extensions.dart';
+import 'package:monekito/core/extensions/lists.extensions.dart';
+import 'package:monekito/core/models/tags/tag.dart';
+import 'package:monekito/core/presentation/widgets/color_picker/color_picker.dart';
+import 'package:monekito/core/presentation/widgets/color_picker/color_picker_modal.dart';
+import 'package:monekito/core/presentation/widgets/confirm_dialog.dart';
+import 'package:monekito/core/presentation/widgets/form_fields/read_only_form_field.dart';
+import 'package:monekito/core/presentation/widgets/persistent_footer_button.dart';
+import 'package:monekito/core/utils/constants.dart';
+import 'package:monekito/core/utils/text_field_utils.dart';
+import 'package:monekito/core/utils/uuid.dart';
+import 'package:monekito/i18n/generated/translations.g.dart';
 
 class TagFormPage extends StatefulWidget {
   const TagFormPage({super.key, this.tag});

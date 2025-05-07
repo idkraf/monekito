@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_colorpicker/flutter_colorpicker.dart';
-import 'package:monekin/core/extensions/color.extensions.dart';
-import 'package:monekin/core/presentation/responsive/breakpoints.dart';
-import 'package:monekin/core/presentation/responsive/responsive_row_column.dart';
-import 'package:monekin/core/utils/logger.dart';
-import 'package:monekin/i18n/generated/translations.g.dart';
+import 'package:monekito/core/extensions/color.extensions.dart';
+import 'package:monekito/core/presentation/responsive/breakpoints.dart';
+import 'package:monekito/core/presentation/responsive/responsive_row_column.dart';
+import 'package:monekito/core/utils/logger.dart';
+import 'package:monekito/i18n/generated/translations.g.dart';
 
 class CustomColorPicker extends StatefulWidget {
   const CustomColorPicker({

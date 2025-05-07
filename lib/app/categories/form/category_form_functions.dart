@@ -1,16 +1,16 @@
 import 'package:drift/drift.dart' as drift;
 import 'package:flutter/material.dart';
-import 'package:monekin/app/categories/selectors/category_picker.dart';
-import 'package:monekin/app/categories/subcategory_form.dart';
-import 'package:monekin/core/database/services/category/category_service.dart';
-import 'package:monekin/core/database/services/transaction/transaction_service.dart';
-import 'package:monekin/core/extensions/color.extensions.dart';
-import 'package:monekin/core/models/category/category.dart';
-import 'package:monekin/core/models/supported-icon/supported_icon.dart';
-import 'package:monekin/core/presentation/widgets/confirm_dialog.dart';
-import 'package:monekin/core/presentation/widgets/html_text.dart';
-import 'package:monekin/core/presentation/widgets/transaction_filter/transaction_filters.dart';
-import 'package:monekin/i18n/generated/translations.g.dart';
+import 'package:monekito/app/categories/selectors/category_picker.dart';
+import 'package:monekito/app/categories/subcategory_form.dart';
+import 'package:monekito/core/database/services/category/category_service.dart';
+import 'package:monekito/core/database/services/transaction/transaction_service.dart';
+import 'package:monekito/core/extensions/color.extensions.dart';
+import 'package:monekito/core/models/category/category.dart';
+import 'package:monekito/core/models/supported-icon/supported_icon.dart';
+import 'package:monekito/core/presentation/widgets/confirm_dialog.dart';
+import 'package:monekito/core/presentation/widgets/html_text.dart';
+import 'package:monekito/core/presentation/widgets/transaction_filter/transaction_filters.dart';
+import 'package:monekito/i18n/generated/translations.g.dart';
 
 import '../../../core/services/supported_icon/supported_icon_service.dart';
 

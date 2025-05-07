@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:monekin/app/transactions/widgets/transaction_list_tile.dart';
-import 'package:monekin/core/database/services/account/account_service.dart';
-import 'package:monekin/core/database/services/transaction/transaction_service.dart';
-import 'package:monekin/core/models/date-utils/periodicity.dart';
-import 'package:monekin/core/models/transaction/transaction.dart';
-import 'package:monekin/core/presentation/widgets/number_ui_formatters/currency_displayer.dart';
-import 'package:monekin/core/presentation/widgets/transaction_filter/transaction_filters.dart';
+import 'package:monekito/app/transactions/widgets/transaction_list_tile.dart';
+import 'package:monekito/core/database/services/account/account_service.dart';
+import 'package:monekito/core/database/services/transaction/transaction_service.dart';
+import 'package:monekito/core/models/date-utils/periodicity.dart';
+import 'package:monekito/core/models/transaction/transaction.dart';
+import 'package:monekito/core/presentation/widgets/number_ui_formatters/currency_displayer.dart';
+import 'package:monekito/core/presentation/widgets/transaction_filter/transaction_filters.dart';
 
 class TransactionListComponent extends StatefulWidget {
   const TransactionListComponent({

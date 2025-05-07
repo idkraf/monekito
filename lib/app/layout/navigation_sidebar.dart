@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:monekin/app/home/widgets/navigation_drawer.dart';
-import 'package:monekin/app/settings/widgets/display_app_icon.dart';
-import 'package:monekin/core/presentation/responsive/breakpoint_container.dart';
-import 'package:monekin/core/presentation/responsive/breakpoints.dart';
-import 'package:monekin/core/routes/destinations.dart';
-import 'package:monekin/core/routes/route_utils.dart';
-import 'package:monekin/main.dart';
+import 'package:monekito/app/home/widgets/navigation_drawer.dart';
+import 'package:monekito/app/settings/widgets/display_app_icon.dart';
+import 'package:monekito/core/presentation/responsive/breakpoint_container.dart';
+import 'package:monekito/core/presentation/responsive/breakpoints.dart';
+import 'package:monekito/core/routes/destinations.dart';
+import 'package:monekito/core/routes/route_utils.dart';
+import 'package:monekito/main.dart';
 
 double getNavigationSidebarWidth(BuildContext context) {
   if (BreakPoint.of(context).isSmallerThan(BreakpointID.md)) {

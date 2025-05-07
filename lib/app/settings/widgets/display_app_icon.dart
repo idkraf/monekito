@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:monekin/core/extensions/color.extensions.dart';
+import 'package:monekito/core/extensions/color.extensions.dart';
 
 class DisplayAppIcon extends StatelessWidget {
   const DisplayAppIcon({

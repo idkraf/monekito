@@ -1,9 +1,9 @@
 import 'package:copy_with_extension/copy_with_extension.dart';
 import 'package:drift/drift.dart';
-import 'package:monekin/core/database/app_db.dart';
-import 'package:monekin/core/database/services/account/account_service.dart';
-import 'package:monekin/core/models/account/account.dart';
-import 'package:monekin/core/models/transaction/transaction_status.enum.dart';
+import 'package:monekito/core/database/app_db.dart';
+import 'package:monekito/core/database/services/account/account_service.dart';
+import 'package:monekito/core/models/account/account.dart';
+import 'package:monekito/core/models/transaction/transaction_status.enum.dart';
 
 import '../../../models/transaction/transaction_type.enum.dart';
 

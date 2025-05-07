@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:monekin/core/models/account/account.dart';
+import 'package:monekito/core/models/account/account.dart';
 
 class AccountTypeSelector extends StatefulWidget {
   const AccountTypeSelector(

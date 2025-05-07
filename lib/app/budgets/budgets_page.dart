@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:monekin/app/budgets/budget_form_page.dart';
-import 'package:monekin/core/database/services/budget/budget_service.dart';
-import 'package:monekin/core/presentation/responsive/breakpoints.dart';
-import 'package:monekin/core/presentation/widgets/no_results.dart';
-import 'package:monekin/core/routes/route_utils.dart';
-import 'package:monekin/i18n/generated/translations.g.dart';
+import 'package:monekito/app/budgets/budget_form_page.dart';
+import 'package:monekito/core/database/services/budget/budget_service.dart';
+import 'package:monekito/core/presentation/responsive/breakpoints.dart';
+import 'package:monekito/core/presentation/widgets/no_results.dart';
+import 'package:monekito/core/routes/route_utils.dart';
+import 'package:monekito/i18n/generated/translations.g.dart';
 
 import 'components/budget_card.dart';
 

@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:monekin/core/utils/debouncer.dart';
+import 'package:monekito/core/utils/debouncer.dart';
 
 class MonekinTileSwitch extends StatefulWidget {
   const MonekinTileSwitch({

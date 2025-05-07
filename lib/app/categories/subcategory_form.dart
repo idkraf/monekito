@@ -1,15 +1,15 @@
 import 'package:drift/drift.dart';
 import 'package:flutter/material.dart';
-import 'package:monekin/core/extensions/color.extensions.dart';
-import 'package:monekin/core/models/category/category.dart';
-import 'package:monekin/core/models/supported-icon/icon_displayer.dart';
-import 'package:monekin/core/models/supported-icon/supported_icon.dart';
-import 'package:monekin/core/presentation/widgets/bottomSheetFooter.dart';
-import 'package:monekin/core/presentation/widgets/icon_selector_modal.dart';
-import 'package:monekin/core/presentation/widgets/modal_container.dart';
-import 'package:monekin/core/utils/constants.dart';
-import 'package:monekin/core/utils/text_field_utils.dart';
-import 'package:monekin/i18n/generated/translations.g.dart';
+import 'package:monekito/core/extensions/color.extensions.dart';
+import 'package:monekito/core/models/category/category.dart';
+import 'package:monekito/core/models/supported-icon/icon_displayer.dart';
+import 'package:monekito/core/models/supported-icon/supported_icon.dart';
+import 'package:monekito/core/presentation/widgets/bottomSheetFooter.dart';
+import 'package:monekito/core/presentation/widgets/icon_selector_modal.dart';
+import 'package:monekito/core/presentation/widgets/modal_container.dart';
+import 'package:monekito/core/utils/constants.dart';
+import 'package:monekito/core/utils/text_field_utils.dart';
+import 'package:monekito/i18n/generated/translations.g.dart';
 
 class SubcategoryFormDialog extends StatefulWidget {
   const SubcategoryFormDialog(

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:monekin/core/extensions/color.extensions.dart';
-import 'package:monekin/core/presentation/app_colors.dart';
+import 'package:monekito/core/extensions/color.extensions.dart';
+import 'package:monekito/core/presentation/app_colors.dart';
 
 class DebugPage extends StatelessWidget {
   const DebugPage({super.key});

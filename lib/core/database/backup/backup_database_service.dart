@@ -3,10 +3,10 @@ import 'dart:io';
 import 'package:csv/csv.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:intl/intl.dart';
-import 'package:monekin/core/database/app_db.dart';
-import 'package:monekin/core/database/services/app-data/app_data_service.dart';
-import 'package:monekin/core/models/transaction/transaction.dart';
-import 'package:monekin/core/utils/logger.dart';
+import 'package:monekito/core/database/app_db.dart';
+import 'package:monekito/core/database/services/app-data/app_data_service.dart';
+import 'package:monekito/core/models/transaction/transaction.dart';
+import 'package:monekito/core/utils/logger.dart';
 import 'package:path/path.dart' as path;
 
 class BackupDatabaseService {

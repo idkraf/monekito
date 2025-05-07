@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:monekin/core/extensions/color.extensions.dart';
-import 'package:monekin/core/presentation/responsive/responsive_row_column.dart';
-import 'package:monekin/core/presentation/theme.dart';
+import 'package:monekito/core/extensions/color.extensions.dart';
+import 'package:monekito/core/presentation/responsive/responsive_row_column.dart';
+import 'package:monekito/core/presentation/theme.dart';
 
 enum InlineInfoCardMode { warn, info }
 
