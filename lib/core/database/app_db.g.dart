@@ -278,7 +278,6 @@ class Accounts extends Table with TableInfo<Accounts, AccountInDB> {
       type: DriftSqlType.string,
       requiredDuringInsert: false,
       $customConstraints: '');
-  static const VerificationMeta _typeMeta = const VerificationMeta('type');
   late final GeneratedColumnWithTypeConverter<AccountType, String> type =
       GeneratedColumn<String>('type', aliasedName, false,
               type: DriftSqlType.string,
@@ -387,7 +386,6 @@ class Accounts extends Table with TableInfo<Accounts, AccountInDB> {
           description.isAcceptableOrUnknown(
               data['description']!, _descriptionMeta));
     }
-    context.handle(_typeMeta, const VerificationResult.success());
     if (data.containsKey('iconId')) {
       context.handle(_iconIdMeta,
           iconId.isAcceptableOrUnknown(data['iconId']!, _iconIdMeta));
@@ -933,7 +931,6 @@ class Categories extends Table with TableInfo<Categories, CategoryInDB> {
       type: DriftSqlType.int,
       requiredDuringInsert: true,
       $customConstraints: 'NOT NULL');
-  static const VerificationMeta _typeMeta = const VerificationMeta('type');
   late final GeneratedColumnWithTypeConverter<CategoryType?, String> type =
       GeneratedColumn<String>('type', aliasedName, true,
               type: DriftSqlType.string,
@@ -990,7 +987,6 @@ class Categories extends Table with TableInfo<Categories, CategoryInDB> {
     } else if (isInserting) {
       context.missing(_displayOrderMeta);
     }
-    context.handle(_typeMeta, const VerificationResult.success());
     if (data.containsKey('parentCategoryID')) {
       context.handle(
           _parentCategoryIDMeta,
@@ -1362,7 +1358,6 @@ class Transactions extends Table with TableInfo<Transactions, TransactionInDB> {
       type: DriftSqlType.string,
       requiredDuringInsert: false,
       $customConstraints: '');
-  static const VerificationMeta _typeMeta = const VerificationMeta('type');
   late final GeneratedColumnWithTypeConverter<TransactionType, String> type =
       GeneratedColumn<String>('type', aliasedName, false,
               type: DriftSqlType.string,
@@ -1370,7 +1365,6 @@ class Transactions extends Table with TableInfo<Transactions, TransactionInDB> {
               $customConstraints:
                   'NOT NULL CHECK (type IN (\'E\', \'I\', \'T\'))')
           .withConverter<TransactionType>(Transactions.$convertertype);
-  static const VerificationMeta _statusMeta = const VerificationMeta('status');
   late final GeneratedColumnWithTypeConverter<TransactionStatus?,
       String> status = GeneratedColumn<String>('status', aliasedName, true,
           type: DriftSqlType.string,
@@ -1430,8 +1424,6 @@ class Transactions extends Table with TableInfo<Transactions, TransactionInDB> {
       type: DriftSqlType.string,
       requiredDuringInsert: false,
       $customConstraints: '');
-  static const VerificationMeta _intervalPeriodMeta =
-      const VerificationMeta('intervalPeriod');
   late final GeneratedColumnWithTypeConverter<Periodicity?,
       String> intervalPeriod = GeneratedColumn<String>(
           'intervalPeriod', aliasedName, true,
@@ -1524,8 +1516,6 @@ class Transactions extends Table with TableInfo<Transactions, TransactionInDB> {
       context.handle(
           _notesMeta, notes.isAcceptableOrUnknown(data['notes']!, _notesMeta));
     }
-    context.handle(_typeMeta, const VerificationResult.success());
-    context.handle(_statusMeta, const VerificationResult.success());
     if (data.containsKey('categoryID')) {
       context.handle(
           _categoryIDMeta,
@@ -1566,7 +1556,6 @@ class Transactions extends Table with TableInfo<Transactions, TransactionInDB> {
           locAddress.isAcceptableOrUnknown(
               data['locAddress']!, _locAddressMeta));
     }
-    context.handle(_intervalPeriodMeta, const VerificationResult.success());
     if (data.containsKey('intervalEach')) {
       context.handle(
           _intervalEachMeta,
@@ -1691,8 +1680,8 @@ class TransactionInDB extends DataClass implements Insertable<TransactionInDB> {
   final String? receivingAccountID;
   final bool isHidden;
 
-  /// Latitude of the location where the transaction occurred
   ///--------- Location data --------------
+  /// Latitude of the location where the transaction occurred
   final double? locLatitude;
 
   /// Longitude of the location where the transaction occurred
@@ -1701,8 +1690,8 @@ class TransactionInDB extends DataClass implements Insertable<TransactionInDB> {
   /// Address, name or description of the location where the transaction occurred
   final String? locAddress;
 
-  /// The time range with which new transactions to be paid will appear (weekly, monthly...)
   ///----------- Recurrency data ---------------
+  /// The time range with which new transactions to be paid will appear (weekly, monthly...)
   final Periodicity? intervalPeriod;
 
   /// Within the time range chosen in the `intervalPeriod` attribute, every few times new transactions will appear to be paid. For example, putting a 2 here and having monthly as `intervalPeriod`, new payments will appear every two months
@@ -3157,8 +3146,6 @@ class Budgets extends Table with TableInfo<Budgets, BudgetInDB> {
       type: DriftSqlType.double,
       requiredDuringInsert: true,
       $customConstraints: 'NOT NULL');
-  static const VerificationMeta _intervalPeriodMeta =
-      const VerificationMeta('intervalPeriod');
   late final GeneratedColumnWithTypeConverter<Periodicity?,
       String> intervalPeriod = GeneratedColumn<String>(
           'intervalPeriod', aliasedName, true,
@@ -3213,7 +3200,6 @@ class Budgets extends Table with TableInfo<Budgets, BudgetInDB> {
     } else if (isInserting) {
       context.missing(_limitAmountMeta);
     }
-    context.handle(_intervalPeriodMeta, const VerificationResult.success());
     if (data.containsKey('startDate')) {
       context.handle(_startDateMeta,
           startDate.isAcceptableOrUnknown(data['startDate']!, _startDateMeta));
@@ -3931,8 +3917,6 @@ class UserSettings extends Table with TableInfo<UserSettings, UserSetting> {
   final GeneratedDatabase attachedDatabase;
   final String? _alias;
   UserSettings(this.attachedDatabase, [this._alias]);
-  static const VerificationMeta _settingKeyMeta =
-      const VerificationMeta('settingKey');
   late final GeneratedColumnWithTypeConverter<SettingKey, String> settingKey =
       GeneratedColumn<String>('settingKey', aliasedName, false,
               type: DriftSqlType.string,
@@ -3958,7 +3942,6 @@ class UserSettings extends Table with TableInfo<UserSettings, UserSetting> {
       {bool isInserting = false}) {
     final context = VerificationContext();
     final data = instance.toColumns(true);
-    context.handle(_settingKeyMeta, const VerificationResult.success());
     if (data.containsKey('settingValue')) {
       context.handle(
           _settingValueMeta,
@@ -4144,8 +4127,6 @@ class AppData extends Table with TableInfo<AppData, AppDataData> {
   final GeneratedDatabase attachedDatabase;
   final String? _alias;
   AppData(this.attachedDatabase, [this._alias]);
-  static const VerificationMeta _appDataKeyMeta =
-      const VerificationMeta('appDataKey');
   late final GeneratedColumnWithTypeConverter<AppDataKey, String> appDataKey =
       GeneratedColumn<String>('appDataKey', aliasedName, false,
               type: DriftSqlType.string,
@@ -4171,7 +4152,6 @@ class AppData extends Table with TableInfo<AppData, AppDataData> {
       {bool isInserting = false}) {
     final context = VerificationContext();
     final data = instance.toColumns(true);
-    context.handle(_appDataKeyMeta, const VerificationResult.success());
     if (data.containsKey('appDataValue')) {
       context.handle(
           _appDataValueMeta,
@@ -4924,8 +4904,8 @@ final class $CurrenciesReferences
               $_aliasNameGenerator(db.currencies.code, db.accounts.currencyId));
 
   $AccountsProcessedTableManager get accountsRefs {
-    final manager = $AccountsTableManager($_db, $_db.accounts)
-        .filter((f) => f.currencyId.code($_item.code));
+    final manager = $AccountsTableManager($_db, $_db.accounts).filter(
+        (f) => f.currencyId.code.sqlEquals($_itemColumn<String>('code')!));
 
     final cache = $_typedResult.readTableOrNull(_accountsRefsTable($_db));
     return ProcessedTableManager(
@@ -4939,8 +4919,8 @@ final class $CurrenciesReferences
                   db.currencies.code, db.exchangeRates.currencyCode));
 
   $ExchangeRatesProcessedTableManager get exchangeRatesRefs {
-    final manager = $ExchangeRatesTableManager($_db, $_db.exchangeRates)
-        .filter((f) => f.currencyCode.code($_item.code));
+    final manager = $ExchangeRatesTableManager($_db, $_db.exchangeRates).filter(
+        (f) => f.currencyCode.code.sqlEquals($_itemColumn<String>('code')!));
 
     final cache = $_typedResult.readTableOrNull(_exchangeRatesRefsTable($_db));
     return ProcessedTableManager(
@@ -5148,7 +5128,8 @@ class $CurrenciesTableManager extends RootTableManager<
               getPrefetchedDataCallback: (items) async {
                 return [
                   if (accountsRefs)
-                    await $_getPrefetchedData(
+                    await $_getPrefetchedData<CurrencyInDB, Currencies,
+                            AccountInDB>(
                         currentTable: table,
                         referencedTable:
                             $CurrenciesReferences._accountsRefsTable(db),
@@ -5159,7 +5140,8 @@ class $CurrenciesTableManager extends RootTableManager<
                                 .where((e) => e.currencyId == item.code),
                         typedResults: items),
                   if (exchangeRatesRefs)
-                    await $_getPrefetchedData(
+                    await $_getPrefetchedData<CurrencyInDB, Currencies,
+                            ExchangeRateInDB>(
                         currentTable: table,
                         referencedTable:
                             $CurrenciesReferences._exchangeRatesRefsTable(db),
@@ -5230,8 +5212,10 @@ final class $AccountsReferences
       $_aliasNameGenerator(db.accounts.currencyId, db.currencies.code));
 
   $CurrenciesProcessedTableManager get currencyId {
+    final $_column = $_itemColumn<String>('currencyId')!;
+
     final manager = $CurrenciesTableManager($_db, $_db.currencies)
-        .filter((f) => f.code($_item.currencyId!));
+        .filter((f) => f.code.sqlEquals($_column));
     final item = $_typedResult.readTableOrNull(_currencyIdTable($_db));
     if (item == null) return manager;
     return ProcessedTableManager(
@@ -5246,7 +5230,7 @@ final class $AccountsReferences
 
   $BudgetAccountProcessedTableManager get budgetAccountRefs {
     final manager = $BudgetAccountTableManager($_db, $_db.budgetAccount)
-        .filter((f) => f.accountID.id($_item.id));
+        .filter((f) => f.accountID.id.sqlEquals($_itemColumn<String>('id')!));
 
     final cache = $_typedResult.readTableOrNull(_budgetAccountRefsTable($_db));
     return ProcessedTableManager(
@@ -5619,7 +5603,8 @@ class $AccountsTableManager extends RootTableManager<
               getPrefetchedDataCallback: (items) async {
                 return [
                   if (budgetAccountRefs)
-                    await $_getPrefetchedData(
+                    await $_getPrefetchedData<AccountInDB, Accounts,
+                            BudgetAccountData>(
                         currentTable: table,
                         referencedTable:
                             $AccountsReferences._budgetAccountRefsTable(db),
@@ -5682,7 +5667,7 @@ final class $CategoriesReferences
 
   $TransactionsProcessedTableManager get transactionsRefs {
     final manager = $TransactionsTableManager($_db, $_db.transactions)
-        .filter((f) => f.categoryID.id($_item.id));
+        .filter((f) => f.categoryID.id.sqlEquals($_itemColumn<String>('id')!));
 
     final cache = $_typedResult.readTableOrNull(_transactionsRefsTable($_db));
     return ProcessedTableManager(
@@ -5697,7 +5682,7 @@ final class $CategoriesReferences
 
   $BudgetCategoryProcessedTableManager get budgetCategoryRefs {
     final manager = $BudgetCategoryTableManager($_db, $_db.budgetCategory)
-        .filter((f) => f.categoryID.id($_item.id));
+        .filter((f) => f.categoryID.id.sqlEquals($_itemColumn<String>('id')!));
 
     final cache = $_typedResult.readTableOrNull(_budgetCategoryRefsTable($_db));
     return ProcessedTableManager(
@@ -5962,7 +5947,8 @@ class $CategoriesTableManager extends RootTableManager<
               getPrefetchedDataCallback: (items) async {
                 return [
                   if (transactionsRefs)
-                    await $_getPrefetchedData(
+                    await $_getPrefetchedData<CategoryInDB, Categories,
+                            TransactionInDB>(
                         currentTable: table,
                         referencedTable:
                             $CategoriesReferences._transactionsRefsTable(db),
@@ -5974,7 +5960,8 @@ class $CategoriesTableManager extends RootTableManager<
                                 .where((e) => e.categoryID == item.id),
                         typedResults: items),
                   if (budgetCategoryRefs)
-                    await $_getPrefetchedData(
+                    await $_getPrefetchedData<CategoryInDB, Categories,
+                            BudgetCategoryData>(
                         currentTable: table,
                         referencedTable:
                             $CategoriesReferences._budgetCategoryRefsTable(db),
@@ -6057,8 +6044,10 @@ final class $TransactionsReferences
       $_aliasNameGenerator(db.transactions.accountID, db.accounts.id));
 
   $AccountsProcessedTableManager get accountID {
+    final $_column = $_itemColumn<String>('accountID')!;
+
     final manager = $AccountsTableManager($_db, $_db.accounts)
-        .filter((f) => f.id($_item.accountID!));
+        .filter((f) => f.id.sqlEquals($_column));
     final item = $_typedResult.readTableOrNull(_accountIDTable($_db));
     if (item == null) return manager;
     return ProcessedTableManager(
@@ -6069,9 +6058,10 @@ final class $TransactionsReferences
       $_aliasNameGenerator(db.transactions.categoryID, db.categories.id));
 
   $CategoriesProcessedTableManager? get categoryID {
-    if ($_item.categoryID == null) return null;
+    final $_column = $_itemColumn<String>('categoryID');
+    if ($_column == null) return null;
     final manager = $CategoriesTableManager($_db, $_db.categories)
-        .filter((f) => f.id($_item.categoryID!));
+        .filter((f) => f.id.sqlEquals($_column));
     final item = $_typedResult.readTableOrNull(_categoryIDTable($_db));
     if (item == null) return manager;
     return ProcessedTableManager(
@@ -6083,9 +6073,10 @@ final class $TransactionsReferences
           db.transactions.receivingAccountID, db.accounts.id));
 
   $AccountsProcessedTableManager? get receivingAccountID {
-    if ($_item.receivingAccountID == null) return null;
+    final $_column = $_itemColumn<String>('receivingAccountID');
+    if ($_column == null) return null;
     final manager = $AccountsTableManager($_db, $_db.accounts)
-        .filter((f) => f.id($_item.receivingAccountID!));
+        .filter((f) => f.id.sqlEquals($_column));
     final item = $_typedResult.readTableOrNull(_receivingAccountIDTable($_db));
     if (item == null) return manager;
     return ProcessedTableManager(
@@ -6100,7 +6091,8 @@ final class $TransactionsReferences
 
   $TransactionTagsProcessedTableManager get transactionTagsRefs {
     final manager = $TransactionTagsTableManager($_db, $_db.transactionTags)
-        .filter((f) => f.transactionID.id($_item.id));
+        .filter(
+            (f) => f.transactionID.id.sqlEquals($_itemColumn<String>('id')!));
 
     final cache =
         $_typedResult.readTableOrNull(_transactionTagsRefsTable($_db));
@@ -6693,7 +6685,8 @@ class $TransactionsTableManager extends RootTableManager<
               getPrefetchedDataCallback: (items) async {
                 return [
                   if (transactionTagsRefs)
-                    await $_getPrefetchedData(
+                    await $_getPrefetchedData<TransactionInDB, Transactions,
+                            TransactionTag>(
                         currentTable: table,
                         referencedTable: $TransactionsReferences
                             ._transactionTagsRefsTable(db),
@@ -6750,8 +6743,10 @@ final class $ExchangeRatesReferences
       $_aliasNameGenerator(db.exchangeRates.currencyCode, db.currencies.code));
 
   $CurrenciesProcessedTableManager get currencyCode {
+    final $_column = $_itemColumn<String>('currencyCode')!;
+
     final manager = $CurrenciesTableManager($_db, $_db.currencies)
-        .filter((f) => f.code($_item.currencyCode!));
+        .filter((f) => f.code.sqlEquals($_column));
     final item = $_typedResult.readTableOrNull(_currencyCodeTable($_db));
     if (item == null) return manager;
     return ProcessedTableManager(
@@ -7007,7 +7002,7 @@ final class $TagsReferences extends BaseReferences<_$AppDB, Tags, TagInDB> {
 
   $TransactionTagsProcessedTableManager get transactionTagsRefs {
     final manager = $TransactionTagsTableManager($_db, $_db.transactionTags)
-        .filter((f) => f.tagID.id($_item.id));
+        .filter((f) => f.tagID.id.sqlEquals($_itemColumn<String>('id')!));
 
     final cache =
         $_typedResult.readTableOrNull(_transactionTagsRefsTable($_db));
@@ -7198,7 +7193,7 @@ class $TagsTableManager extends RootTableManager<
               getPrefetchedDataCallback: (items) async {
                 return [
                   if (transactionTagsRefs)
-                    await $_getPrefetchedData(
+                    await $_getPrefetchedData<TagInDB, Tags, TransactionTag>(
                         currentTable: table,
                         referencedTable:
                             $TagsReferences._transactionTagsRefsTable(db),
@@ -7249,8 +7244,10 @@ final class $TransactionTagsReferences
           db.transactionTags.transactionID, db.transactions.id));
 
   $TransactionsProcessedTableManager get transactionID {
+    final $_column = $_itemColumn<String>('transactionID')!;
+
     final manager = $TransactionsTableManager($_db, $_db.transactions)
-        .filter((f) => f.id($_item.transactionID!));
+        .filter((f) => f.id.sqlEquals($_column));
     final item = $_typedResult.readTableOrNull(_transactionIDTable($_db));
     if (item == null) return manager;
     return ProcessedTableManager(
@@ -7261,8 +7258,10 @@ final class $TransactionTagsReferences
       .createAlias($_aliasNameGenerator(db.transactionTags.tagID, db.tags.id));
 
   $TagsProcessedTableManager get tagID {
-    final manager =
-        $TagsTableManager($_db, $_db.tags).filter((f) => f.id($_item.tagID!));
+    final $_column = $_itemColumn<String>('tagID')!;
+
+    final manager = $TagsTableManager($_db, $_db.tags)
+        .filter((f) => f.id.sqlEquals($_column));
     final item = $_typedResult.readTableOrNull(_tagIDTable($_db));
     if (item == null) return manager;
     return ProcessedTableManager(
@@ -7558,7 +7557,7 @@ final class $BudgetsReferences
 
   $BudgetCategoryProcessedTableManager get budgetCategoryRefs {
     final manager = $BudgetCategoryTableManager($_db, $_db.budgetCategory)
-        .filter((f) => f.budgetID.id($_item.id));
+        .filter((f) => f.budgetID.id.sqlEquals($_itemColumn<String>('id')!));
 
     final cache = $_typedResult.readTableOrNull(_budgetCategoryRefsTable($_db));
     return ProcessedTableManager(
@@ -7573,7 +7572,7 @@ final class $BudgetsReferences
 
   $BudgetAccountProcessedTableManager get budgetAccountRefs {
     final manager = $BudgetAccountTableManager($_db, $_db.budgetAccount)
-        .filter((f) => f.budgetID.id($_item.id));
+        .filter((f) => f.budgetID.id.sqlEquals($_itemColumn<String>('id')!));
 
     final cache = $_typedResult.readTableOrNull(_budgetAccountRefsTable($_db));
     return ProcessedTableManager(
@@ -7824,7 +7823,8 @@ class $BudgetsTableManager extends RootTableManager<
               getPrefetchedDataCallback: (items) async {
                 return [
                   if (budgetCategoryRefs)
-                    await $_getPrefetchedData(
+                    await $_getPrefetchedData<BudgetInDB, Budgets,
+                            BudgetCategoryData>(
                         currentTable: table,
                         referencedTable:
                             $BudgetsReferences._budgetCategoryRefsTable(db),
@@ -7836,7 +7836,8 @@ class $BudgetsTableManager extends RootTableManager<
                             referencedItems.where((e) => e.budgetID == item.id),
                         typedResults: items),
                   if (budgetAccountRefs)
-                    await $_getPrefetchedData(
+                    await $_getPrefetchedData<BudgetInDB, Budgets,
+                            BudgetAccountData>(
                         currentTable: table,
                         referencedTable:
                             $BudgetsReferences._budgetAccountRefsTable(db),
@@ -7886,8 +7887,10 @@ final class $BudgetCategoryReferences
       $_aliasNameGenerator(db.budgetCategory.budgetID, db.budgets.id));
 
   $BudgetsProcessedTableManager get budgetID {
+    final $_column = $_itemColumn<String>('budgetID')!;
+
     final manager = $BudgetsTableManager($_db, $_db.budgets)
-        .filter((f) => f.id($_item.budgetID!));
+        .filter((f) => f.id.sqlEquals($_column));
     final item = $_typedResult.readTableOrNull(_budgetIDTable($_db));
     if (item == null) return manager;
     return ProcessedTableManager(
@@ -7898,8 +7901,10 @@ final class $BudgetCategoryReferences
       $_aliasNameGenerator(db.budgetCategory.categoryID, db.categories.id));
 
   $CategoriesProcessedTableManager get categoryID {
+    final $_column = $_itemColumn<String>('categoryID')!;
+
     final manager = $CategoriesTableManager($_db, $_db.categories)
-        .filter((f) => f.id($_item.categoryID!));
+        .filter((f) => f.id.sqlEquals($_column));
     final item = $_typedResult.readTableOrNull(_categoryIDTable($_db));
     if (item == null) return manager;
     return ProcessedTableManager(
@@ -8181,8 +8186,10 @@ final class $BudgetAccountReferences
       $_aliasNameGenerator(db.budgetAccount.budgetID, db.budgets.id));
 
   $BudgetsProcessedTableManager get budgetID {
+    final $_column = $_itemColumn<String>('budgetID')!;
+
     final manager = $BudgetsTableManager($_db, $_db.budgets)
-        .filter((f) => f.id($_item.budgetID!));
+        .filter((f) => f.id.sqlEquals($_column));
     final item = $_typedResult.readTableOrNull(_budgetIDTable($_db));
     if (item == null) return manager;
     return ProcessedTableManager(
@@ -8193,8 +8200,10 @@ final class $BudgetAccountReferences
       $_aliasNameGenerator(db.budgetAccount.accountID, db.accounts.id));
 
   $AccountsProcessedTableManager get accountID {
+    final $_column = $_itemColumn<String>('accountID')!;
+
     final manager = $AccountsTableManager($_db, $_db.accounts)
-        .filter((f) => f.id($_item.accountID!));
+        .filter((f) => f.id.sqlEquals($_column));
     final item = $_typedResult.readTableOrNull(_accountIDTable($_db));
     if (item == null) return manager;
     return ProcessedTableManager(
