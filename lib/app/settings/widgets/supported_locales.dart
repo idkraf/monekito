@@ -8,6 +8,7 @@ class SupportedLocale {
 }
 
 const appSupportedLocales = [
+  SupportedLocale(locale: AppLocale.id, label: 'Indonesia'),
   SupportedLocale(locale: AppLocale.es, label: 'Español'),
   SupportedLocale(locale: AppLocale.en, label: 'English'),
   SupportedLocale(locale: AppLocale.de, label: 'Deutsch'),
