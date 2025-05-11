@@ -108,6 +108,7 @@ class _TranslationsGeneralZhTw implements TranslationsGeneralEn {
 	final TranslationsZhTw _root; // ignore: unused_field
 
 	// Translations
+	@override String get welcome => '歡迎回來';
 	@override String get or => '或';
 	@override String get understood => '明白了';
 	@override String get unspecified => '未指定';
@@ -1401,6 +1402,7 @@ extension on TranslationsZhTw {
 			case 'ui_actions.refresh': return '重新整理';
 			case 'ui_actions.details': return '詳細資訊';
 			case 'ui_actions.share': return '分享';
+			case 'general.welcome': return '歡迎回來';
 			case 'general.or': return '或';
 			case 'general.understood': return '明白了';
 			case 'general.unspecified': return '未指定';

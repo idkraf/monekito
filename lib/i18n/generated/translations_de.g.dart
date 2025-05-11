@@ -108,6 +108,7 @@ class _TranslationsGeneralDe implements TranslationsGeneralEn {
 	final TranslationsDe _root; // ignore: unused_field
 
 	// Translations
+	@override String get welcome => 'Willkommen wieder';
 	@override String get or => 'oder';
 	@override String get understood => 'Verstanden';
 	@override String get unspecified => 'Nicht spezifiziert';
@@ -1401,6 +1402,7 @@ extension on TranslationsDe {
 			case 'ui_actions.refresh': return 'Aktualisieren';
 			case 'ui_actions.details': return 'Details';
 			case 'ui_actions.share': return 'Teilen';
+			case 'general.welcome': return 'Willkommen wieder';
 			case 'general.or': return 'oder';
 			case 'general.understood': return 'Verstanden';
 			case 'general.unspecified': return 'Nicht spezifiziert';

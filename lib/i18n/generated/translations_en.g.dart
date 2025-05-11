@@ -111,6 +111,7 @@ class TranslationsGeneralEn {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
+	String get welcome => 'Welcome again';
 	String get or => 'or';
 	String get understood => 'Understood';
 	String get unspecified => 'Unspecified';
@@ -1404,6 +1405,7 @@ extension on Translations {
 			case 'ui_actions.refresh': return 'Refresh';
 			case 'ui_actions.details': return 'Details';
 			case 'ui_actions.share': return 'Share';
+			case 'general.welcome': return 'Welcome again';
 			case 'general.or': return 'or';
 			case 'general.understood': return 'Understood';
 			case 'general.unspecified': return 'Unspecified';

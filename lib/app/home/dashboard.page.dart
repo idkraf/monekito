@@ -304,7 +304,7 @@ class _DashboardPageState extends State<DashboardPage> {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Text(
-                    "Welcome again!",
+                    t.general.welcome, //"Welcome again!",
                     softWrap: false,
                     style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                           fontWeight: FontWeight.w300,

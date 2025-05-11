@@ -108,6 +108,7 @@ class _TranslationsGeneralHu implements TranslationsGeneralEn {
 	final TranslationsHu _root; // ignore: unused_field
 
 	// Translations
+	@override String get welcome => 'Üdvözlünk újra!';
 	@override String get or => 'vagy';
 	@override String get understood => 'Megértve';
 	@override String get unspecified => 'Meghatározatlan';
@@ -1401,6 +1402,7 @@ extension on TranslationsHu {
 			case 'ui_actions.refresh': return 'Frissítés';
 			case 'ui_actions.details': return 'Részletek';
 			case 'ui_actions.share': return 'Megosztás';
+			case 'general.welcome': return 'Üdvözlünk újra!';
 			case 'general.or': return 'vagy';
 			case 'general.understood': return 'Megértve';
 			case 'general.unspecified': return 'Meghatározatlan';

@@ -108,6 +108,7 @@ class _TranslationsGeneralTr implements TranslationsGeneralEn {
 	final TranslationsTr _root; // ignore: unused_field
 
 	// Translations
+	@override String get welcome => 'Welcome again';
 	@override String get or => 'veya';
 	@override String get understood => 'Anlaşıldı';
 	@override String get unspecified => 'Belirtilmemiş';
@@ -1401,6 +1402,7 @@ extension on TranslationsTr {
 			case 'ui_actions.refresh': return 'Yenile';
 			case 'ui_actions.details': return 'Detaylar';
 			case 'ui_actions.share': return 'Paylaş';
+			case 'general.welcome': return 'Welcome again';
 			case 'general.or': return 'veya';
 			case 'general.understood': return 'Anlaşıldı';
 			case 'general.unspecified': return 'Belirtilmemiş';

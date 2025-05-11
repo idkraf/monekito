@@ -108,6 +108,7 @@ class _TranslationsGeneralId implements TranslationsGeneralEn {
 	final TranslationsId _root; // ignore: unused_field
 
 	// Translations
+	@override String get welcome => 'Selamat datang kembali';
 	@override String get or => 'atau';
 	@override String get understood => 'Dimengerti';
 	@override String get unspecified => 'Tidak ditentukan';
@@ -1401,6 +1402,7 @@ extension on TranslationsId {
 			case 'ui_actions.refresh': return 'Segarkan';
 			case 'ui_actions.details': return 'Detail';
 			case 'ui_actions.share': return 'Bagikan';
+			case 'general.welcome': return 'Selamat datang kembali';
 			case 'general.or': return 'atau';
 			case 'general.understood': return 'Dimengerti';
 			case 'general.unspecified': return 'Tidak ditentukan';

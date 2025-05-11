@@ -108,6 +108,7 @@ class _TranslationsGeneralUk implements TranslationsGeneralEn {
 	final TranslationsUk _root; // ignore: unused_field
 
 	// Translations
+	@override String get welcome => 'Ласкаво просимо знову!';
 	@override String get or => 'або';
 	@override String get understood => 'Зрозуміло';
 	@override String get unspecified => 'Не вказано';
@@ -1401,6 +1402,7 @@ extension on TranslationsUk {
 			case 'ui_actions.refresh': return 'Оновити';
 			case 'ui_actions.details': return 'Деталі';
 			case 'ui_actions.share': return 'Поділитися';
+			case 'general.welcome': return 'Ласкаво просимо знову!';
 			case 'general.or': return 'або';
 			case 'general.understood': return 'Зрозуміло';
 			case 'general.unspecified': return 'Не вказано';
