@@ -145,7 +145,7 @@ class _TranslationsIntroEs implements TranslationsIntroEn {
 	@override String get select_your_currency => 'Selecciona tu divisa';
 	@override String get welcome_subtitle => 'Tu gestor de finanzas personales';
 	@override String get welcome_subtitle2 => '100% libre, 100% gratis';
-	@override String get welcome_footer => 'Al iniciar sesión aceptas la <a href=\'https://github.com/enrique-lozano/Monekin/blob/main/docs/PRIVACY_POLICY.md\'>Política de Privacidad</a> y los <a href=\'https://github.com/enrique-lozano/Monekin/blob/main/docs/TERMS_OF_USE.md\'>Términos de uso</a> de la aplicación';
+	@override String get welcome_footer => 'Al iniciar sesión aceptas la <a href=\'\'>Política de Privacidad</a> y los <a href=\'https://github.com/enrique-lozano/Monekito/blob/main/docs/TERMS_OF_USE.md\'>Términos de uso</a> de la aplicación';
 	@override String get offline_descr_title => 'CUENTA SIN CONEXIÓN:';
 	@override String get offline_descr => 'Tus datos serán guardados unicamente en tu dispositivo, y estarán seguros mientras no desinstales la app o cambies de telefono. Para prevenir la perdida de datos se recomienda realizar una copia de seguridad regularmente desde los ajustes de la app.';
 	@override String get offline_start => 'Iniciar sesión offline';
@@ -155,7 +155,7 @@ class _TranslationsIntroEs implements TranslationsIntroEn {
 	@override String get sl2_descr => 'Tus datos son solo tuyos. Almacenamos la información directamente en tu dispositivo, sin pasar por servidores externos. Esto hace que puedas usar la aplicación incluso sin Internet';
 	@override String get sl2_descr2 => 'Además, el código fuente de la aplicación es público, cualquiera puede colaborar en el y ver como funciona';
 	@override String get last_slide_title => 'Todo listo!';
-	@override String get last_slide_descr => 'Con Monekin, podrás al fin lograr la independencia financiaria que tanto deseas. Podrás ver gráficas, presupuestos, consejos, estadisticas y mucho más sobre tu dinero.';
+	@override String get last_slide_descr => 'Con Monekito, podrás al fin lograr la independencia financiaria que tanto deseas. Podrás ver gráficas, presupuestos, consejos, estadisticas y mucho más sobre tu dinero.';
 	@override String get last_slide_descr2 => 'Esperemos que disfrutes de tu experiencia! No dudes en contactar con nosotros en caso de dudas, sugerencias...';
 }
 
@@ -174,7 +174,7 @@ class _TranslationsHomeEs implements TranslationsHomeEn {
 	@override String get my_accounts => 'Mis cuentas';
 	@override String get active_accounts => 'Cuentas activas';
 	@override String get no_accounts => 'Aun no hay cuentas creadas';
-	@override String get no_accounts_descr => 'Empieza a usar toda la magia de Monekin. Crea al menos una cuenta para empezar a añadir tranacciones';
+	@override String get no_accounts_descr => 'Empieza a usar toda la magia de Monekito. Crea al menos una cuenta para empezar a añadir tranacciones';
 	@override String get last_transactions => 'Últimas transacciones';
 	@override String get should_create_account_header => 'Ops!';
 	@override String get should_create_account_message => 'Debes tener al menos una cuenta no archivada que no sea de ahorros antes de empezar a crear transacciones';
@@ -472,7 +472,7 @@ class _TranslationsSettingsEs implements TranslationsSettingsEn {
 	@override String get lang_section => 'Idioma y textos';
 	@override String get lang_title => 'Idioma de la aplicación';
 	@override String get lang_descr => 'Idioma en el que se mostrarán los textos en la aplicación';
-	@override String get lang_help => 'Si quieres colaborar con las traducciones de esta app puedes consultar <a href=\'https://github.com/enrique-lozano/Monekin/tree/main/lib/i18n\'>nuestra guía</a> ';
+	@override String get lang_help => 'Si quieres colaborar con las traducciones de esta app puedes consultar <a href=\'https://github.com/enrique-lozano/Monekito/tree/main/lib/i18n\'>nuestra guía</a> ';
 	@override String get locale => 'Región';
 	@override String get locale_descr => 'Establecer el formato a utilizar para fechas, números...';
 	@override String get locale_warn => 'Al cambiar la región, la aplicación se actualizará';
@@ -777,7 +777,7 @@ class _TranslationsTransactionStatusEs implements TranslationsTransactionStatusE
 	@override String get reconciled => 'Reconciliada';
 	@override String get reconciled_descr => 'Esta transacción ha sido validada ya y se corresponde con una transacción real de su banco';
 	@override String get unreconciled => 'No reconciliada';
-	@override String get unreconciled_descr => 'Esta transacción aun no ha sido validada y por tanto aun no figura en sus cuentas bancarias reales. Sin embargo, es tenida en cuenta para el calculo de balances y estadisticas en Monekin';
+	@override String get unreconciled_descr => 'Esta transacción aun no ha sido validada y por tanto aun no figura en sus cuentas bancarias reales. Sin embargo, es tenida en cuenta para el calculo de balances y estadisticas en Monekito';
 	@override String get pending => 'Pendiente';
 	@override String get pending_descr => 'Esta transacción esta pendiente y por tanto no será tenida en cuenta a la hora de calcular balances y estadísticas';
 	@override String get voided => 'Nula';
@@ -1034,8 +1034,8 @@ class _TranslationsBackupImportEs implements TranslationsBackupImportEn {
 	@override String get title => 'Importar tus datos';
 	@override String get title_short => 'Importar';
 	@override String get restore_backup => 'Restaurar copia de seguridad';
-	@override String get restore_backup_descr => 'Importa una base de datos anteriormente guardada desde Monekin. Esta acción remplazará cualquier dato actual de la aplicación por los nuevos datos';
-	@override String get restore_backup_warn_description => 'Al importar una nueva base de datos, perderas toda la información actualmente guardada en la app. Se recomienda hacer una copia de seguridad antes de continuar. No subas aquí ningún fichero cuyo origen no conozcas, sube solo ficheros que hayas descargado previamente desde Monekin';
+	@override String get restore_backup_descr => 'Importa una base de datos anteriormente guardada desde Monekito. Esta acción remplazará cualquier dato actual de la aplicación por los nuevos datos';
+	@override String get restore_backup_warn_description => 'Al importar una nueva base de datos, perderas toda la información actualmente guardada en la app. Se recomienda hacer una copia de seguridad antes de continuar. No subas aquí ningún fichero cuyo origen no conozcas, sube solo ficheros que hayas descargado previamente desde Monekito';
 	@override String get restore_backup_warn_title => 'Sobreescribir todos los datos';
 	@override String get select_other_file => 'Selecciona otro fichero';
 	@override String get tap_to_select_file => 'Pulsa para seleccionar un archivo';
@@ -1099,7 +1099,7 @@ class _TranslationsMoreAboutUsEs implements TranslationsMoreAboutUsEn {
 
 	// Translations
 	@override String get display => 'Información de la app';
-	@override String get description => 'Consulta los terminos y otra información relevante sobre Monekin. Ponte en contacto con la comunidad reportando errores, dejando sugerencias...';
+	@override String get description => 'Consulta los terminos y otra información relevante sobre Monekito. Ponte en contacto con la comunidad reportando errores, dejando sugerencias...';
 	@override late final _TranslationsMoreAboutUsLegalEs legal = _TranslationsMoreAboutUsLegalEs._(_root);
 	@override late final _TranslationsMoreAboutUsProjectEs project = _TranslationsMoreAboutUsProjectEs._(_root);
 }
@@ -1112,19 +1112,19 @@ class _TranslationsMoreHelpUsEs implements TranslationsMoreHelpUsEn {
 
 	// Translations
 	@override String get display => 'Ayúdanos';
-	@override String get description => 'Descubre de que formas puedes ayudar a que Monekin sea cada vez mejor';
+	@override String get description => 'Descubre de que formas puedes ayudar a que Monekito sea cada vez mejor';
 	@override String get rate_us => 'Califícanos';
 	@override String get rate_us_descr => '¡Cualquier valoración es bienvenida!';
-	@override String get share => 'Comparte Monekin';
+	@override String get share => 'Comparte Monekito';
 	@override String get share_descr => 'Comparte nuestra app a amigos y familiares';
-	@override String get share_text => 'Monekin! La mejor app de finanzas personales. Descargala aquí';
+	@override String get share_text => 'Monekito! La mejor app de finanzas personales. Descargala aquí';
 	@override String get thanks => '¡Gracias!';
 	@override String get donate => 'Haz una donación';
 	@override String get donate_descr => 'Con tu donación ayudaras a que la app siga recibiendo mejoras. ¿Que mejor forma que agradecer el trabajo realizado invitandome a un cafe?';
 	@override String get donate_success => 'Donación realizada. Muchas gracias por tu contribución! ❤️';
 	@override String get donate_err => 'Ups! Parece que ha habido un error a la hora de recibir tu pago';
 	@override String get report => 'Reporta errores, deja sugerencias...';
-	@override String get thanks_long => 'Tus contribuciones a Monekin y otros proyectos de código abierto, grandes o pequeños, hacen posibles grandes proyectos como este. Gracias por tomarse el tiempo para contribuir.';
+	@override String get thanks_long => 'Tus contribuciones a Monekito y otros proyectos de código abierto, grandes o pequeños, hacen posibles grandes proyectos como este. Gracias por tomarse el tiempo para contribuir.';
 }
 
 // Path: general.time.ranges
@@ -1233,7 +1233,7 @@ class _TranslationsFinancialHealthReviewDescrEs implements TranslationsFinancial
 
 	// Translations
 	@override String get insufficient_data => 'Parece que no tenemos gastos suficientes para calcular tu salud financiera. Añade unos pocos gastos e ingresos para que podamos ayudarte mas!';
-	@override String get very_good => 'Enhorabuena! Tu salud financiera es formidable. Esperamos que sigas con tu buena racha y que continues aprendiendo con Monekin';
+	@override String get very_good => 'Enhorabuena! Tu salud financiera es formidable. Esperamos que sigas con tu buena racha y que continues aprendiendo con Monekito';
 	@override String get good => 'Genial! Tu salud financiera es buena. Visita la pestaña de análisis para ver como ahorrar aun mas!';
 	@override String get normal => 'Tu salud financiera se encuentra mas o menos en la media del resto de la población para este periodo';
 	@override String get bad => 'Parece que tu situación financiera no es la mejor aun. Explora el resto de pestañas de análisis para conocer mas sobre tus finanzas';
@@ -1344,7 +1344,7 @@ class _TranslationsMoreAboutUsProjectEs implements TranslationsMoreAboutUsProjec
 	// Translations
 	@override String get display => 'Proyecto';
 	@override String get contributors => 'Colaboradores';
-	@override String get contributors_descr => 'Todos los desarrolladores que han hecho que Monekin crezca';
+	@override String get contributors_descr => 'Todos los desarrolladores que han hecho que Monekito crezca';
 	@override String get contact => 'Contacta con nosotros';
 }
 
@@ -1513,7 +1513,7 @@ extension on TranslationsEs {
 			case 'intro.select_your_currency': return 'Selecciona tu divisa';
 			case 'intro.welcome_subtitle': return 'Tu gestor de finanzas personales';
 			case 'intro.welcome_subtitle2': return '100% libre, 100% gratis';
-			case 'intro.welcome_footer': return 'Al iniciar sesión aceptas la <a href=\'https://github.com/enrique-lozano/Monekin/blob/main/docs/PRIVACY_POLICY.md\'>Política de Privacidad</a> y los <a href=\'https://github.com/enrique-lozano/Monekin/blob/main/docs/TERMS_OF_USE.md\'>Términos de uso</a> de la aplicación';
+			case 'intro.welcome_footer': return 'Al iniciar sesión aceptas la <a href=\'\'>Política de Privacidad</a> y los <a href=\'https://github.com/enrique-lozano/Monekito/blob/main/docs/TERMS_OF_USE.md\'>Términos de uso</a> de la aplicación';
 			case 'intro.offline_descr_title': return 'CUENTA SIN CONEXIÓN:';
 			case 'intro.offline_descr': return 'Tus datos serán guardados unicamente en tu dispositivo, y estarán seguros mientras no desinstales la app o cambies de telefono. Para prevenir la perdida de datos se recomienda realizar una copia de seguridad regularmente desde los ajustes de la app.';
 			case 'intro.offline_start': return 'Iniciar sesión offline';
@@ -1523,7 +1523,7 @@ extension on TranslationsEs {
 			case 'intro.sl2_descr': return 'Tus datos son solo tuyos. Almacenamos la información directamente en tu dispositivo, sin pasar por servidores externos. Esto hace que puedas usar la aplicación incluso sin Internet';
 			case 'intro.sl2_descr2': return 'Además, el código fuente de la aplicación es público, cualquiera puede colaborar en el y ver como funciona';
 			case 'intro.last_slide_title': return 'Todo listo!';
-			case 'intro.last_slide_descr': return 'Con Monekin, podrás al fin lograr la independencia financiaria que tanto deseas. Podrás ver gráficas, presupuestos, consejos, estadisticas y mucho más sobre tu dinero.';
+			case 'intro.last_slide_descr': return 'Con Monekito, podrás al fin lograr la independencia financiaria que tanto deseas. Podrás ver gráficas, presupuestos, consejos, estadisticas y mucho más sobre tu dinero.';
 			case 'intro.last_slide_descr2': return 'Esperemos que disfrutes de tu experiencia! No dudes en contactar con nosotros en caso de dudas, sugerencias...';
 			case 'home.title': return 'Inicio';
 			case 'home.filter_transactions': return 'Filtrar transacciones';
@@ -1533,7 +1533,7 @@ extension on TranslationsEs {
 			case 'home.my_accounts': return 'Mis cuentas';
 			case 'home.active_accounts': return 'Cuentas activas';
 			case 'home.no_accounts': return 'Aun no hay cuentas creadas';
-			case 'home.no_accounts_descr': return 'Empieza a usar toda la magia de Monekin. Crea al menos una cuenta para empezar a añadir tranacciones';
+			case 'home.no_accounts_descr': return 'Empieza a usar toda la magia de Monekito. Crea al menos una cuenta para empezar a añadir tranacciones';
 			case 'home.last_transactions': return 'Últimas transacciones';
 			case 'home.should_create_account_header': return 'Ops!';
 			case 'home.should_create_account_message': return 'Debes tener al menos una cuenta no archivada que no sea de ahorros antes de empezar a crear transacciones';
@@ -1587,7 +1587,7 @@ extension on TranslationsEs {
 				}
 			};
 			case 'financial_health.review.descr.insufficient_data': return 'Parece que no tenemos gastos suficientes para calcular tu salud financiera. Añade unos pocos gastos e ingresos para que podamos ayudarte mas!';
-			case 'financial_health.review.descr.very_good': return 'Enhorabuena! Tu salud financiera es formidable. Esperamos que sigas con tu buena racha y que continues aprendiendo con Monekin';
+			case 'financial_health.review.descr.very_good': return 'Enhorabuena! Tu salud financiera es formidable. Esperamos que sigas con tu buena racha y que continues aprendiendo con Monekito';
 			case 'financial_health.review.descr.good': return 'Genial! Tu salud financiera es buena. Visita la pestaña de análisis para ver como ahorrar aun mas!';
 			case 'financial_health.review.descr.normal': return 'Tu salud financiera se encuentra mas o menos en la media del resto de la población para este periodo';
 			case 'financial_health.review.descr.bad': return 'Parece que tu situación financiera no es la mejor aun. Explora el resto de pestañas de análisis para conocer mas sobre tus finanzas';
@@ -1726,7 +1726,7 @@ extension on TranslationsEs {
 			case 'transaction.status.reconciled': return 'Reconciliada';
 			case 'transaction.status.reconciled_descr': return 'Esta transacción ha sido validada ya y se corresponde con una transacción real de su banco';
 			case 'transaction.status.unreconciled': return 'No reconciliada';
-			case 'transaction.status.unreconciled_descr': return 'Esta transacción aun no ha sido validada y por tanto aun no figura en sus cuentas bancarias reales. Sin embargo, es tenida en cuenta para el calculo de balances y estadisticas en Monekin';
+			case 'transaction.status.unreconciled_descr': return 'Esta transacción aun no ha sido validada y por tanto aun no figura en sus cuentas bancarias reales. Sin embargo, es tenida en cuenta para el calculo de balances y estadisticas en Monekito';
 			case 'transaction.status.pending': return 'Pendiente';
 			case 'transaction.status.pending_descr': return 'Esta transacción esta pendiente y por tanto no será tenida en cuenta a la hora de calcular balances y estadísticas';
 			case 'transaction.status.voided': return 'Nula';
@@ -1922,8 +1922,8 @@ extension on TranslationsEs {
 			case 'backup.import.title': return 'Importar tus datos';
 			case 'backup.import.title_short': return 'Importar';
 			case 'backup.import.restore_backup': return 'Restaurar copia de seguridad';
-			case 'backup.import.restore_backup_descr': return 'Importa una base de datos anteriormente guardada desde Monekin. Esta acción remplazará cualquier dato actual de la aplicación por los nuevos datos';
-			case 'backup.import.restore_backup_warn_description': return 'Al importar una nueva base de datos, perderas toda la información actualmente guardada en la app. Se recomienda hacer una copia de seguridad antes de continuar. No subas aquí ningún fichero cuyo origen no conozcas, sube solo ficheros que hayas descargado previamente desde Monekin';
+			case 'backup.import.restore_backup_descr': return 'Importa una base de datos anteriormente guardada desde Monekito. Esta acción remplazará cualquier dato actual de la aplicación por los nuevos datos';
+			case 'backup.import.restore_backup_warn_description': return 'Al importar una nueva base de datos, perderas toda la información actualmente guardada en la app. Se recomienda hacer una copia de seguridad antes de continuar. No subas aquí ningún fichero cuyo origen no conozcas, sube solo ficheros que hayas descargado previamente desde Monekito';
 			case 'backup.import.restore_backup_warn_title': return 'Sobreescribir todos los datos';
 			case 'backup.import.select_other_file': return 'Selecciona otro fichero';
 			case 'backup.import.tap_to_select_file': return 'Pulsa para seleccionar un archivo';
@@ -1961,7 +1961,7 @@ extension on TranslationsEs {
 			case 'settings.lang_section': return 'Idioma y textos';
 			case 'settings.lang_title': return 'Idioma de la aplicación';
 			case 'settings.lang_descr': return 'Idioma en el que se mostrarán los textos en la aplicación';
-			case 'settings.lang_help': return 'Si quieres colaborar con las traducciones de esta app puedes consultar <a href=\'https://github.com/enrique-lozano/Monekin/tree/main/lib/i18n\'>nuestra guía</a> ';
+			case 'settings.lang_help': return 'Si quieres colaborar con las traducciones de esta app puedes consultar <a href=\'https://github.com/enrique-lozano/Monekito/tree/main/lib/i18n\'>nuestra guía</a> ';
 			case 'settings.locale': return 'Región';
 			case 'settings.locale_descr': return 'Establecer el formato a utilizar para fechas, números...';
 			case 'settings.locale_warn': return 'Al cambiar la región, la aplicación se actualizará';
@@ -1994,29 +1994,29 @@ extension on TranslationsEs {
 			case 'more.data.delete_all_header2': return 'Un último paso ⚠️⚠️';
 			case 'more.data.delete_all_message2': return 'Al eliminar una cuenta eliminarás todos tus datos personales almacenados. Tus cuentas, transacciones, presupuestos y categorías serán borrados y no podrán ser recuperados. ¿Estas de acuerdo?';
 			case 'more.about_us.display': return 'Información de la app';
-			case 'more.about_us.description': return 'Consulta los terminos y otra información relevante sobre Monekin. Ponte en contacto con la comunidad reportando errores, dejando sugerencias...';
+			case 'more.about_us.description': return 'Consulta los terminos y otra información relevante sobre Monekito. Ponte en contacto con la comunidad reportando errores, dejando sugerencias...';
 			case 'more.about_us.legal.display': return 'Información legal';
 			case 'more.about_us.legal.privacy': return 'Política de privacidad';
 			case 'more.about_us.legal.terms': return 'Términos de uso';
 			case 'more.about_us.legal.licenses': return 'Licencias';
 			case 'more.about_us.project.display': return 'Proyecto';
 			case 'more.about_us.project.contributors': return 'Colaboradores';
-			case 'more.about_us.project.contributors_descr': return 'Todos los desarrolladores que han hecho que Monekin crezca';
+			case 'more.about_us.project.contributors_descr': return 'Todos los desarrolladores que han hecho que Monekito crezca';
 			case 'more.about_us.project.contact': return 'Contacta con nosotros';
 			case 'more.help_us.display': return 'Ayúdanos';
-			case 'more.help_us.description': return 'Descubre de que formas puedes ayudar a que Monekin sea cada vez mejor';
+			case 'more.help_us.description': return 'Descubre de que formas puedes ayudar a que Monekito sea cada vez mejor';
 			case 'more.help_us.rate_us': return 'Califícanos';
 			case 'more.help_us.rate_us_descr': return '¡Cualquier valoración es bienvenida!';
-			case 'more.help_us.share': return 'Comparte Monekin';
+			case 'more.help_us.share': return 'Comparte Monekito';
 			case 'more.help_us.share_descr': return 'Comparte nuestra app a amigos y familiares';
-			case 'more.help_us.share_text': return 'Monekin! La mejor app de finanzas personales. Descargala aquí';
+			case 'more.help_us.share_text': return 'Monekito! La mejor app de finanzas personales. Descargala aquí';
 			case 'more.help_us.thanks': return '¡Gracias!';
 			case 'more.help_us.donate': return 'Haz una donación';
 			case 'more.help_us.donate_descr': return 'Con tu donación ayudaras a que la app siga recibiendo mejoras. ¿Que mejor forma que agradecer el trabajo realizado invitandome a un cafe?';
 			case 'more.help_us.donate_success': return 'Donación realizada. Muchas gracias por tu contribución! ❤️';
 			case 'more.help_us.donate_err': return 'Ups! Parece que ha habido un error a la hora de recibir tu pago';
 			case 'more.help_us.report': return 'Reporta errores, deja sugerencias...';
-			case 'more.help_us.thanks_long': return 'Tus contribuciones a Monekin y otros proyectos de código abierto, grandes o pequeños, hacen posibles grandes proyectos como este. Gracias por tomarse el tiempo para contribuir.';
+			case 'more.help_us.thanks_long': return 'Tus contribuciones a Monekito y otros proyectos de código abierto, grandes o pequeños, hacen posibles grandes proyectos como este. Gracias por tomarse el tiempo para contribuir.';
 			default: return null;
 		}
 	}

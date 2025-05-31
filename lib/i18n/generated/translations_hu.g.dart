@@ -145,7 +145,7 @@ class _TranslationsIntroHu implements TranslationsIntroEn {
 	@override String get select_your_currency => 'Válassza ki a pénznemet';
 	@override String get welcome_subtitle => 'Az Ön személyes pénzügyi menedzsere';
 	@override String get welcome_subtitle2 => '100% -ban nyitott, és 100% -ban ingyenes';
-	@override String get welcome_footer => 'A bejelentkezéssel elfogadja az <a href=\'https://github.com/enrique-lozano/Monekin/blob/main/docs/PRIVACY_POLICY.md\'>Adatvédelmi irányelveket</a> és az alkalmazás <a href=\' https://github.com/enrique-lozano/Monekin/blob/main/docs/TERMS_OF_USE.md\'>Felhasználási feltételeit</a>';
+	@override String get welcome_footer => 'A bejelentkezéssel elfogadja az <a href=\'\'>Adatvédelmi irányelveket</a> és az alkalmazás <a href=\' https://github.com/enrique-lozano/Monekito/blob/main/docs/TERMS_OF_USE.md\'>Felhasználási feltételeit</a>';
 	@override String get offline_descr_title => 'OFFLINE SZÁMLA:';
 	@override String get offline_descr => 'Az Ön adatai csak az Ön készülékén tárolódnak, és biztonságban lesznek, amíg nem távolítja el az alkalmazást, vagy nem cseréli le a telefont. Az adatvesztés megelőzése érdekében ajánlott rendszeresen biztonsági mentést készíteni az alkalmazás beállításaiból.';
 	@override String get offline_start => 'Offline munkamenet indítása';
@@ -155,7 +155,7 @@ class _TranslationsIntroHu implements TranslationsIntroEn {
 	@override String get sl2_descr => 'Az Ön adatai csak az Önéi. Az adatokat közvetlenül az Ön eszközén tároljuk, anélkül, hogy azok külső szervereken keresztül mennének át. Ez lehetővé teszi az alkalmazás használatát internet nélkül is.';
 	@override String get sl2_descr2 => 'Az alkalmazás forráskódja is nyilvános, így bárki közreműködhet benne, és megnézheti, hogyan is működik.';
 	@override String get last_slide_title => 'Minden kész';
-	@override String get last_slide_descr => 'A Monekin segítségével végre elérheti azt az anyagi függetlenséget, amelyre annyira vágyik. Grafikonok, költségvetések, tippek, statisztikák és még sok minden más lesz megtalálható a pénzével kapcsolatban.';
+	@override String get last_slide_descr => 'A Monekito segítségével végre elérheti azt az anyagi függetlenséget, amelyre annyira vágyik. Grafikonok, költségvetések, tippek, statisztikák és még sok minden más lesz megtalálható a pénzével kapcsolatban.';
 	@override String get last_slide_descr2 => 'Reméljük, hogy élvezni fogja az élményt! Ne habozzon kapcsolatba lépni velünk, ha kétségei, javaslatai vannak...';
 }
 
@@ -174,7 +174,7 @@ class _TranslationsHomeHu implements TranslationsHomeEn {
 	@override String get my_accounts => 'Saját számláim';
 	@override String get active_accounts => 'Aktív számlák';
 	@override String get no_accounts => 'Még nincsenek számlák létrehozva';
-	@override String get no_accounts_descr => 'Kezdje el élvezni a Monekin összes varázsát. A tranzakciók hozzáadásához legalább egy számlát hozzon létre.';
+	@override String get no_accounts_descr => 'Kezdje el élvezni a Monekito összes varázsát. A tranzakciók hozzáadásához legalább egy számlát hozzon létre.';
 	@override String get last_transactions => 'Legutóbbi tranzakciók';
 	@override String get should_create_account_header => 'Hoppá!';
 	@override String get should_create_account_message => 'A tranzakciók létrehozásához legalább egy nem archivált számlával kell rendelkeznie';
@@ -472,7 +472,7 @@ class _TranslationsSettingsHu implements TranslationsSettingsEn {
 	@override String get lang_section => 'Nyelv és szövegek';
 	@override String get lang_title => 'Alkalmazás nyelve';
 	@override String get lang_descr => 'Nyelv, amelyen a szövegek megjelennek az alkalmazásban';
-	@override String get lang_help => 'Ha együttműködni szeretne ennek az alkalmazásnak a fordításával, tekintse meg a <a href=\'https://github.com/enrique-lozano/Monekin/tree/main/lib/i18n\'> útmutatónk</a>';
+	@override String get lang_help => 'Ha együttműködni szeretne ennek az alkalmazásnak a fordításával, tekintse meg a <a href=\'https://github.com/enrique-lozano/Monekito/tree/main/lib/i18n\'> útmutatónk</a>';
 	@override String get locale => 'Régió';
 	@override String get locale_descr => 'Dátumok, számformátumok beállítása...';
 	@override String get locale_warn => 'Régióváltáskor az alkalmazás frissülni fog';
@@ -777,7 +777,7 @@ class _TranslationsTransactionStatusHu implements TranslationsTransactionStatusE
 	@override String get reconciled => 'Egyeztetett';
 	@override String get reconciled_descr => 'Ezt a tranzakciót már érvényesítették, és megfelel a bankja valós tranzakciójának.';
 	@override String get unreconciled => 'Nem egyeztetett';
-	@override String get unreconciled_descr => 'Ezt a tranzakciót még nem ellenőrizték, ezért még nem jelenik meg a valódi bankszámláin. Ez azonban szükséges a Monekin egyenlegeinek és statisztikáinak kiszámításához.';
+	@override String get unreconciled_descr => 'Ezt a tranzakciót még nem ellenőrizték, ezért még nem jelenik meg a valódi bankszámláin. Ez azonban szükséges a Monekito egyenlegeinek és statisztikáinak kiszámításához.';
 	@override String get pending => 'Függőben';
 	@override String get pending_descr => 'Ez a tranzakció függőben van, ezért az egyenlegek és statisztikák kiszámításakor nem kerül figyelembevételbe.';
 	@override String get voided => 'Érvénytelenítve';
@@ -1034,8 +1034,8 @@ class _TranslationsBackupImportHu implements TranslationsBackupImportEn {
 	@override String get title => 'Adatok importálása';
 	@override String get title_short => 'Importálás';
 	@override String get restore_backup => 'Mentés visszaállítása';
-	@override String get restore_backup_descr => 'Importáljon egy korábban mentett adatbázist a Monekinből. Ez a művelet minden jelenlegi alkalmazásadatot lecseréli az új adatokra.';
-	@override String get restore_backup_warn_description => 'Új adatbázis importálásakor az alkalmazásban jelenleg mentett összes adat elveszik. A folytatás előtt ajánlatos biztonsági másolatot készíteni. Ne töltsön fel ide olyan fájlt, amelynek eredetét nem ismeri, csak azokat a fájlokat töltse fel, amelyeket korábban letöltött a Monekin oldaláról.';
+	@override String get restore_backup_descr => 'Importáljon egy korábban mentett adatbázist a Monekitoből. Ez a művelet minden jelenlegi alkalmazásadatot lecseréli az új adatokra.';
+	@override String get restore_backup_warn_description => 'Új adatbázis importálásakor az alkalmazásban jelenleg mentett összes adat elveszik. A folytatás előtt ajánlatos biztonsági másolatot készíteni. Ne töltsön fel ide olyan fájlt, amelynek eredetét nem ismeri, csak azokat a fájlokat töltse fel, amelyeket korábban letöltött a Monekito oldaláról.';
 	@override String get restore_backup_warn_title => 'Az összes adat felülírása';
 	@override String get select_other_file => 'Másik fájl kiválasztása';
 	@override String get tap_to_select_file => 'Koppintson a fájl kiválasztásához';
@@ -1099,7 +1099,7 @@ class _TranslationsMoreAboutUsHu implements TranslationsMoreAboutUsEn {
 
 	// Translations
 	@override String get display => 'Alkalmazásinformációk';
-	@override String get description => 'Nézze meg a Monekinre vonatkozó feltételeket és egyéb fontos információkat. Lépjen kapcsolatba a közösséggel a hibák bejelentésével, javaslatok megtételével...';
+	@override String get description => 'Nézze meg a Monekitore vonatkozó feltételeket és egyéb fontos információkat. Lépjen kapcsolatba a közösséggel a hibák bejelentésével, javaslatok megtételével...';
 	@override late final _TranslationsMoreAboutUsLegalHu legal = _TranslationsMoreAboutUsLegalHu._(_root);
 	@override late final _TranslationsMoreAboutUsProjectHu project = _TranslationsMoreAboutUsProjectHu._(_root);
 }
@@ -1112,14 +1112,14 @@ class _TranslationsMoreHelpUsHu implements TranslationsMoreHelpUsEn {
 
 	// Translations
 	@override String get display => 'Segítsen nekünk';
-	@override String get description => 'Tudja meg, hogyan segíthet a Monekinnek abban, hogy egyre jobb és jobb legyen';
+	@override String get description => 'Tudja meg, hogyan segíthet a Monekitonek abban, hogy egyre jobb és jobb legyen';
 	@override String get rate_us => 'Értékeljen minket';
 	@override String get rate_us_descr => 'Bármilyen értékelést szívesen fogadunk!';
-	@override String get share => 'Monekin megosztása';
+	@override String get share => 'Monekito megosztása';
 	@override String get share_descr => 'Ossza meg alkalmazásunkat a barátaival és a családtagjaival';
-	@override String get share_text => 'Monekin! A legjobb személyes pénzügyi alkalmazás. Töltse le innen';
+	@override String get share_text => 'Monekito! A legjobb személyes pénzügyi alkalmazás. Töltse le innen';
 	@override String get thanks => 'Köszönjük!';
-	@override String get thanks_long => 'Az Ön hozzájárulása a Monekinhez és más nyílt forráskódú projektekhez, legyen az kicsi vagy nagy, lehetővé teszi az ehhez hasonló nagyszerű projekteket. Köszönjük, hogy időt szán a közreműködésre.';
+	@override String get thanks_long => 'Az Ön hozzájárulása a Monekitohez és más nyílt forráskódú projektekhez, legyen az kicsi vagy nagy, lehetővé teszi az ehhez hasonló nagyszerű projekteket. Köszönjük, hogy időt szán a közreműködésre.';
 	@override String get donate => 'Adományozás';
 	@override String get donate_descr => 'Az adományával segít az alkalmazás további fejlesztésében. Mi lehetne jobb módja, mint megköszönni az elvégzett munkát egy kávéra való meghívással?';
 	@override String get donate_success => 'Az adományozás megtörtént. Köszönöm szépen a közreműködését! ❤️';
@@ -1232,7 +1232,7 @@ class _TranslationsFinancialHealthReviewDescrHu implements TranslationsFinancial
 
 	// Translations
 	@override String get insufficient_data => 'Úgy tűnik, nincs elég rögzített kiadásunk ahhoz, hogy kiszámítsuk a pénzügyi állapotát. Adjon hozzá néhány kiadást/bevételt ebben az időszakban, hogy tudjunk segíteni Önnek!';
-	@override String get very_good => 'Gratulálunk! Az Ön pénzügyi helyzete nagyon rendben van. Reméljük, hogy folytatódik a jó szériája, és továbbra is tanulni fog a Monekin-nel.';
+	@override String get very_good => 'Gratulálunk! Az Ön pénzügyi helyzete nagyon rendben van. Reméljük, hogy folytatódik a jó szériája, és továbbra is tanulni fog a Monekito-nel.';
 	@override String get good => 'Nagyszerű! Az Ön pénzügyi helyzete rendben van. Látogasson el az elemzés fülre, hogy megtudja, hogyan takaríthat meg még többet!';
 	@override String get normal => 'Az Ön pénzügyi állapota nagyjából a lakosság többi részének átlagában van ebben az időszakban.';
 	@override String get bad => 'Úgy tűnik, hogy az Ön pénzügyi helyzete még nem a legjobb. Tekintse át a többi diagramot, hogy többet tudjon meg a pénzügyeiről.';
@@ -1343,7 +1343,7 @@ class _TranslationsMoreAboutUsProjectHu implements TranslationsMoreAboutUsProjec
 	// Translations
 	@override String get display => 'Projekt';
 	@override String get contributors => 'Közreműködők';
-	@override String get contributors_descr => 'Az összes fejlesztő, akik hozzájárultak a Monekin létrehozásához';
+	@override String get contributors_descr => 'Az összes fejlesztő, akik hozzájárultak a Monekito létrehozásához';
 	@override String get contact => 'Kapcsolatfelvétel';
 }
 
@@ -1511,7 +1511,7 @@ extension on TranslationsHu {
 			case 'intro.select_your_currency': return 'Válassza ki a pénznemet';
 			case 'intro.welcome_subtitle': return 'Az Ön személyes pénzügyi menedzsere';
 			case 'intro.welcome_subtitle2': return '100% -ban nyitott, és 100% -ban ingyenes';
-			case 'intro.welcome_footer': return 'A bejelentkezéssel elfogadja az <a href=\'https://github.com/enrique-lozano/Monekin/blob/main/docs/PRIVACY_POLICY.md\'>Adatvédelmi irányelveket</a> és az alkalmazás <a href=\' https://github.com/enrique-lozano/Monekin/blob/main/docs/TERMS_OF_USE.md\'>Felhasználási feltételeit</a>';
+			case 'intro.welcome_footer': return 'A bejelentkezéssel elfogadja az <a href=\'\'>Adatvédelmi irányelveket</a> és az alkalmazás <a href=\' https://github.com/enrique-lozano/Monekito/blob/main/docs/TERMS_OF_USE.md\'>Felhasználási feltételeit</a>';
 			case 'intro.offline_descr_title': return 'OFFLINE SZÁMLA:';
 			case 'intro.offline_descr': return 'Az Ön adatai csak az Ön készülékén tárolódnak, és biztonságban lesznek, amíg nem távolítja el az alkalmazást, vagy nem cseréli le a telefont. Az adatvesztés megelőzése érdekében ajánlott rendszeresen biztonsági mentést készíteni az alkalmazás beállításaiból.';
 			case 'intro.offline_start': return 'Offline munkamenet indítása';
@@ -1521,7 +1521,7 @@ extension on TranslationsHu {
 			case 'intro.sl2_descr': return 'Az Ön adatai csak az Önéi. Az adatokat közvetlenül az Ön eszközén tároljuk, anélkül, hogy azok külső szervereken keresztül mennének át. Ez lehetővé teszi az alkalmazás használatát internet nélkül is.';
 			case 'intro.sl2_descr2': return 'Az alkalmazás forráskódja is nyilvános, így bárki közreműködhet benne, és megnézheti, hogyan is működik.';
 			case 'intro.last_slide_title': return 'Minden kész';
-			case 'intro.last_slide_descr': return 'A Monekin segítségével végre elérheti azt az anyagi függetlenséget, amelyre annyira vágyik. Grafikonok, költségvetések, tippek, statisztikák és még sok minden más lesz megtalálható a pénzével kapcsolatban.';
+			case 'intro.last_slide_descr': return 'A Monekito segítségével végre elérheti azt az anyagi függetlenséget, amelyre annyira vágyik. Grafikonok, költségvetések, tippek, statisztikák és még sok minden más lesz megtalálható a pénzével kapcsolatban.';
 			case 'intro.last_slide_descr2': return 'Reméljük, hogy élvezni fogja az élményt! Ne habozzon kapcsolatba lépni velünk, ha kétségei, javaslatai vannak...';
 			case 'home.title': return 'Kezdőlap';
 			case 'home.filter_transactions': return 'Tranzakciók szűrése';
@@ -1531,7 +1531,7 @@ extension on TranslationsHu {
 			case 'home.my_accounts': return 'Saját számláim';
 			case 'home.active_accounts': return 'Aktív számlák';
 			case 'home.no_accounts': return 'Még nincsenek számlák létrehozva';
-			case 'home.no_accounts_descr': return 'Kezdje el élvezni a Monekin összes varázsát. A tranzakciók hozzáadásához legalább egy számlát hozzon létre.';
+			case 'home.no_accounts_descr': return 'Kezdje el élvezni a Monekito összes varázsát. A tranzakciók hozzáadásához legalább egy számlát hozzon létre.';
 			case 'home.last_transactions': return 'Legutóbbi tranzakciók';
 			case 'home.should_create_account_header': return 'Hoppá!';
 			case 'home.should_create_account_message': return 'A tranzakciók létrehozásához legalább egy nem archivált számlával kell rendelkeznie';
@@ -1585,7 +1585,7 @@ extension on TranslationsHu {
 				}
 			};
 			case 'financial_health.review.descr.insufficient_data': return 'Úgy tűnik, nincs elég rögzített kiadásunk ahhoz, hogy kiszámítsuk a pénzügyi állapotát. Adjon hozzá néhány kiadást/bevételt ebben az időszakban, hogy tudjunk segíteni Önnek!';
-			case 'financial_health.review.descr.very_good': return 'Gratulálunk! Az Ön pénzügyi helyzete nagyon rendben van. Reméljük, hogy folytatódik a jó szériája, és továbbra is tanulni fog a Monekin-nel.';
+			case 'financial_health.review.descr.very_good': return 'Gratulálunk! Az Ön pénzügyi helyzete nagyon rendben van. Reméljük, hogy folytatódik a jó szériája, és továbbra is tanulni fog a Monekito-nel.';
 			case 'financial_health.review.descr.good': return 'Nagyszerű! Az Ön pénzügyi helyzete rendben van. Látogasson el az elemzés fülre, hogy megtudja, hogyan takaríthat meg még többet!';
 			case 'financial_health.review.descr.normal': return 'Az Ön pénzügyi állapota nagyjából a lakosság többi részének átlagában van ebben az időszakban.';
 			case 'financial_health.review.descr.bad': return 'Úgy tűnik, hogy az Ön pénzügyi helyzete még nem a legjobb. Tekintse át a többi diagramot, hogy többet tudjon meg a pénzügyeiről.';
@@ -1724,7 +1724,7 @@ extension on TranslationsHu {
 			case 'transaction.status.reconciled': return 'Egyeztetett';
 			case 'transaction.status.reconciled_descr': return 'Ezt a tranzakciót már érvényesítették, és megfelel a bankja valós tranzakciójának.';
 			case 'transaction.status.unreconciled': return 'Nem egyeztetett';
-			case 'transaction.status.unreconciled_descr': return 'Ezt a tranzakciót még nem ellenőrizték, ezért még nem jelenik meg a valódi bankszámláin. Ez azonban szükséges a Monekin egyenlegeinek és statisztikáinak kiszámításához.';
+			case 'transaction.status.unreconciled_descr': return 'Ezt a tranzakciót még nem ellenőrizték, ezért még nem jelenik meg a valódi bankszámláin. Ez azonban szükséges a Monekito egyenlegeinek és statisztikáinak kiszámításához.';
 			case 'transaction.status.pending': return 'Függőben';
 			case 'transaction.status.pending_descr': return 'Ez a tranzakció függőben van, ezért az egyenlegek és statisztikák kiszámításakor nem kerül figyelembevételbe.';
 			case 'transaction.status.voided': return 'Érvénytelenítve';
@@ -1920,8 +1920,8 @@ extension on TranslationsHu {
 			case 'backup.import.title': return 'Adatok importálása';
 			case 'backup.import.title_short': return 'Importálás';
 			case 'backup.import.restore_backup': return 'Mentés visszaállítása';
-			case 'backup.import.restore_backup_descr': return 'Importáljon egy korábban mentett adatbázist a Monekinből. Ez a művelet minden jelenlegi alkalmazásadatot lecseréli az új adatokra.';
-			case 'backup.import.restore_backup_warn_description': return 'Új adatbázis importálásakor az alkalmazásban jelenleg mentett összes adat elveszik. A folytatás előtt ajánlatos biztonsági másolatot készíteni. Ne töltsön fel ide olyan fájlt, amelynek eredetét nem ismeri, csak azokat a fájlokat töltse fel, amelyeket korábban letöltött a Monekin oldaláról.';
+			case 'backup.import.restore_backup_descr': return 'Importáljon egy korábban mentett adatbázist a Monekitoből. Ez a művelet minden jelenlegi alkalmazásadatot lecseréli az új adatokra.';
+			case 'backup.import.restore_backup_warn_description': return 'Új adatbázis importálásakor az alkalmazásban jelenleg mentett összes adat elveszik. A folytatás előtt ajánlatos biztonsági másolatot készíteni. Ne töltsön fel ide olyan fájlt, amelynek eredetét nem ismeri, csak azokat a fájlokat töltse fel, amelyeket korábban letöltött a Monekito oldaláról.';
 			case 'backup.import.restore_backup_warn_title': return 'Az összes adat felülírása';
 			case 'backup.import.select_other_file': return 'Másik fájl kiválasztása';
 			case 'backup.import.tap_to_select_file': return 'Koppintson a fájl kiválasztásához';
@@ -1959,7 +1959,7 @@ extension on TranslationsHu {
 			case 'settings.lang_section': return 'Nyelv és szövegek';
 			case 'settings.lang_title': return 'Alkalmazás nyelve';
 			case 'settings.lang_descr': return 'Nyelv, amelyen a szövegek megjelennek az alkalmazásban';
-			case 'settings.lang_help': return 'Ha együttműködni szeretne ennek az alkalmazásnak a fordításával, tekintse meg a <a href=\'https://github.com/enrique-lozano/Monekin/tree/main/lib/i18n\'> útmutatónk</a>';
+			case 'settings.lang_help': return 'Ha együttműködni szeretne ennek az alkalmazásnak a fordításával, tekintse meg a <a href=\'https://github.com/enrique-lozano/Monekito/tree/main/lib/i18n\'> útmutatónk</a>';
 			case 'settings.locale': return 'Régió';
 			case 'settings.locale_descr': return 'Dátumok, számformátumok beállítása...';
 			case 'settings.locale_warn': return 'Régióváltáskor az alkalmazás frissülni fog';
@@ -1992,24 +1992,24 @@ extension on TranslationsHu {
 			case 'more.data.delete_all_header2': return 'Még egy utolsó lépés ⚠️⚠️';
 			case 'more.data.delete_all_message2': return 'A fiók törlésével törli az összes tárolt személyes adatát. A számlái, tranzakciói, költségvetései és kategóriái törlődnek, és nem állíthatók helyre. Egyetért ezzel?';
 			case 'more.about_us.display': return 'Alkalmazásinformációk';
-			case 'more.about_us.description': return 'Nézze meg a Monekinre vonatkozó feltételeket és egyéb fontos információkat. Lépjen kapcsolatba a közösséggel a hibák bejelentésével, javaslatok megtételével...';
+			case 'more.about_us.description': return 'Nézze meg a Monekitore vonatkozó feltételeket és egyéb fontos információkat. Lépjen kapcsolatba a közösséggel a hibák bejelentésével, javaslatok megtételével...';
 			case 'more.about_us.legal.display': return 'Jogi információk';
 			case 'more.about_us.legal.privacy': return 'Adatvédelem';
 			case 'more.about_us.legal.terms': return 'Használati feltételek';
 			case 'more.about_us.legal.licenses': return 'Licencek';
 			case 'more.about_us.project.display': return 'Projekt';
 			case 'more.about_us.project.contributors': return 'Közreműködők';
-			case 'more.about_us.project.contributors_descr': return 'Az összes fejlesztő, akik hozzájárultak a Monekin létrehozásához';
+			case 'more.about_us.project.contributors_descr': return 'Az összes fejlesztő, akik hozzájárultak a Monekito létrehozásához';
 			case 'more.about_us.project.contact': return 'Kapcsolatfelvétel';
 			case 'more.help_us.display': return 'Segítsen nekünk';
-			case 'more.help_us.description': return 'Tudja meg, hogyan segíthet a Monekinnek abban, hogy egyre jobb és jobb legyen';
+			case 'more.help_us.description': return 'Tudja meg, hogyan segíthet a Monekitonek abban, hogy egyre jobb és jobb legyen';
 			case 'more.help_us.rate_us': return 'Értékeljen minket';
 			case 'more.help_us.rate_us_descr': return 'Bármilyen értékelést szívesen fogadunk!';
-			case 'more.help_us.share': return 'Monekin megosztása';
+			case 'more.help_us.share': return 'Monekito megosztása';
 			case 'more.help_us.share_descr': return 'Ossza meg alkalmazásunkat a barátaival és a családtagjaival';
-			case 'more.help_us.share_text': return 'Monekin! A legjobb személyes pénzügyi alkalmazás. Töltse le innen';
+			case 'more.help_us.share_text': return 'Monekito! A legjobb személyes pénzügyi alkalmazás. Töltse le innen';
 			case 'more.help_us.thanks': return 'Köszönjük!';
-			case 'more.help_us.thanks_long': return 'Az Ön hozzájárulása a Monekinhez és más nyílt forráskódú projektekhez, legyen az kicsi vagy nagy, lehetővé teszi az ehhez hasonló nagyszerű projekteket. Köszönjük, hogy időt szán a közreműködésre.';
+			case 'more.help_us.thanks_long': return 'Az Ön hozzájárulása a Monekitohez és más nyílt forráskódú projektekhez, legyen az kicsi vagy nagy, lehetővé teszi az ehhez hasonló nagyszerű projekteket. Köszönjük, hogy időt szán a közreműködésre.';
 			case 'more.help_us.donate': return 'Adományozás';
 			case 'more.help_us.donate_descr': return 'Az adományával segít az alkalmazás további fejlesztésében. Mi lehetne jobb módja, mint megköszönni az elvégzett munkát egy kávéra való meghívással?';
 			case 'more.help_us.donate_success': return 'Az adományozás megtörtént. Köszönöm szépen a közreműködését! ❤️';

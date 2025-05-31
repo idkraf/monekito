@@ -39,11 +39,17 @@ class UserAvatar extends StatelessWidget {
             return const Skeleton(width: 36, height: 36, applyMarging: false);
           }
 
-          return SvgPicture.asset(
-            'assets/icons/avatars/$avatar.svg',
-            height: size,
+          return Image.asset(
+            'assets/icons/foto/$avatar.jpg',
             width: size,
+            height: size,
+            fit: BoxFit.cover,
           );
+          // return SvgPicture.asset(
+          //   'assets/icons/avatars/$avatar.svg',
+          //   height: size,
+          //   width: size,
+          // );
         }),
       ),
     );

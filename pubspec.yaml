@@ -1,5 +1,5 @@
 name: monekito
-description: The best personal finance controller on the market. Learn to save and manage your finances with Monekin.
+description: The best personal finance controller on the market. Learn to save and manage your finances with Monekito.
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -96,6 +96,7 @@ flutter:
   assets:
     - assets/resources/
     - assets/icons/app_onboarding/
+    - assets/icons/foto/
     - assets/icons/avatars/
     - assets/icons/currency_flags/
     - assets/icons/page_states/

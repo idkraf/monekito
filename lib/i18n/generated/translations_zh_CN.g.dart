@@ -145,7 +145,7 @@ class _TranslationsIntroZhCn implements TranslationsIntroEn {
 	@override String get select_your_currency => '选择您的货币';
 	@override String get welcome_subtitle => '您的个人财务管家';
 	@override String get welcome_subtitle2 => '100% 开放，100% 免费';
-	@override String get welcome_footer => '登录即表示您同意<a href=\'https://github.com/enrique-lozano/Monekin/blob/main/docs/PRIVACY_POLICY.md\'>隐私策略</a>和此应用的<a href= \'https: //github.com/enrique-lozano/Monekin/blob/main/docs/TERMS_OF_USE.md\'>使用条款</a>';
+	@override String get welcome_footer => '登录即表示您同意<a href=\'\'>隐私策略</a>和此应用的<a href= \'https: //github.com/enrique-lozano/Monekito/blob/main/docs/TERMS_OF_USE.md\'>使用条款</a>';
 	@override String get offline_descr_title => '本地账户：';
 	@override String get offline_descr => '您的数据只会存储于此设备中，只要您不卸载应用或更换手机，数据就会保持安全。为避免数据丢失，建议定期从应用设置中备份数据。';
 	@override String get offline_start => '开始使用本地账户';
@@ -155,7 +155,7 @@ class _TranslationsIntroZhCn implements TranslationsIntroEn {
 	@override String get sl2_descr => '您的数据只属于您。我们直接将您的信息存储于此设备，不会连接外部服务器。因此您可以在离线时继续使用此应用';
 	@override String get sl2_descr2 => '此外，此应用的源代码是公开的，任何人都可以查看它如何运行并贡献自己的力量';
 	@override String get last_slide_title => '全部就绪';
-	@override String get last_slide_descr => '使用 Monekin，您最终可以实现自己想要的财务独立。您将拥有和您的钱相关的图表、预算、提示、统计信息等。';
+	@override String get last_slide_descr => '使用 Monekito，您最终可以实现自己想要的财务独立。您将拥有和您的钱相关的图表、预算、提示、统计信息等。';
 	@override String get last_slide_descr2 => '祝您使用愉快！如果您有任何疑问或建议，请随时与我们联系……';
 }
 
@@ -174,7 +174,7 @@ class _TranslationsHomeZhCn implements TranslationsHomeEn {
 	@override String get my_accounts => '我的账户';
 	@override String get active_accounts => '活动账户';
 	@override String get no_accounts => '尚未创建账户';
-	@override String get no_accounts_descr => '要开始使用 Monekin，请创建至少一个账户，以便开始添加交易';
+	@override String get no_accounts_descr => '要开始使用 Monekito，请创建至少一个账户，以便开始添加交易';
 	@override String get last_transactions => '最近的交易';
 	@override String get should_create_account_header => '哎呀!';
 	@override String get should_create_account_message => '在可以开始创建交易之前，您必须拥有至少一个未被归档的账户';
@@ -472,7 +472,7 @@ class _TranslationsSettingsZhCn implements TranslationsSettingsEn {
 	@override String get lang_section => '语言和文字';
 	@override String get lang_title => '语言/Language';
 	@override String get lang_descr => '应用中显示文字的语言';
-	@override String get lang_help => '如果您想合作翻译此应用，您可参考<a href=\'https://github.com/enrique-lozano/Monekin/tree/main/lib/i18n\'>我们的指南</a>';
+	@override String get lang_help => '如果您想合作翻译此应用，您可参考<a href=\'https://github.com/enrique-lozano/Monekito/tree/main/lib/i18n\'>我们的指南</a>';
 	@override String get locale => '地区';
 	@override String get locale_descr => '设置用于日期、数字的格式……';
 	@override String get locale_warn => '更改区域时应用将更新';
@@ -777,7 +777,7 @@ class _TranslationsTransactionStatusZhCn implements TranslationsTransactionStatu
 	@override String get reconciled => '已核对';
 	@override String get reconciled_descr => '此交易已被核实，与您银行的一个真实交易相对应';
 	@override String get unreconciled => '未核实';
-	@override String get unreconciled_descr => '此交易尚未被核实，因此尚未出现在您的真实银行账户中。然而，在 Monekin 中，它将被用于计算余额和其它统计数据';
+	@override String get unreconciled_descr => '此交易尚未被核实，因此尚未出现在您的真实银行账户中。然而，在 Monekito 中，它将被用于计算余额和其它统计数据';
 	@override String get pending => '待办';
 	@override String get pending_descr => '此交易正在等待处理，因此在计算余额和其它统计数据时暂时不会被考虑';
 	@override String get voided => '作废';
@@ -1034,8 +1034,8 @@ class _TranslationsBackupImportZhCn implements TranslationsBackupImportEn {
 	@override String get title => '导入您的数据';
 	@override String get title_short => '导入';
 	@override String get restore_backup => '恢复备份';
-	@override String get restore_backup_descr => '导入一个从 Monekin 保存的数据库。此操作将用新数据覆盖当前应用数据';
-	@override String get restore_backup_warn_description => '导入新数据库时，您将丟失应用中当前保存的所有数据。建议在继续之前进行备份。请勿在此上传任何来源不明的文件，仅上传您之前从 Monekin 下载的文件';
+	@override String get restore_backup_descr => '导入一个从 Monekito 保存的数据库。此操作将用新数据覆盖当前应用数据';
+	@override String get restore_backup_warn_description => '导入新数据库时，您将丟失应用中当前保存的所有数据。建议在继续之前进行备份。请勿在此上传任何来源不明的文件，仅上传您之前从 Monekito 下载的文件';
 	@override String get restore_backup_warn_title => '覆盖所有数据';
 	@override String get select_other_file => '选择其它文件';
 	@override String get tap_to_select_file => '点击选择文件';
@@ -1099,7 +1099,7 @@ class _TranslationsMoreAboutUsZhCn implements TranslationsMoreAboutUsEn {
 
 	// Translations
 	@override String get display => '应用信息';
-	@override String get description => '查看有关 Monekin 的条款和其它相关信息。与社区取得联系以报告错误、留下建议……';
+	@override String get description => '查看有关 Monekito 的条款和其它相关信息。与社区取得联系以报告错误、留下建议……';
 	@override late final _TranslationsMoreAboutUsLegalZhCn legal = _TranslationsMoreAboutUsLegalZhCn._(_root);
 	@override late final _TranslationsMoreAboutUsProjectZhCn project = _TranslationsMoreAboutUsProjectZhCn._(_root);
 }
@@ -1112,14 +1112,14 @@ class _TranslationsMoreHelpUsZhCn implements TranslationsMoreHelpUsEn {
 
 	// Translations
 	@override String get display => '帮助我们';
-	@override String get description => '了解如何帮助 Monekin 变得越来越好';
+	@override String get description => '了解如何帮助 Monekito 变得越来越好';
 	@override String get rate_us => '评价我们';
 	@override String get rate_us_descr => '欢迎所有分数和评价！';
-	@override String get share => '分享 Monekin';
+	@override String get share => '分享 Monekito';
 	@override String get share_descr => '与朋友和家人分享我们的应用';
-	@override String get share_text => 'Monekin！最好的个人理财应用 。此处下载';
+	@override String get share_text => 'Monekito！最好的个人理财应用 。此处下载';
 	@override String get thanks => '谢谢您！';
-	@override String get thanks_long => '您对 Monekin 和其它大大小小的开源项目的贡献成就了这一伟大项目。感谢您花时间做出贡献。';
+	@override String get thanks_long => '您对 Monekito 和其它大大小小的开源项目的贡献成就了这一伟大项目。感谢您花时间做出贡献。';
 	@override String get donate => '捐款';
 	@override String get donate_descr => '通过您的捐款，您将帮助此应用持续改进完善。还有什么比请我喝一杯咖啡更好的感谢方式呢？';
 	@override String get donate_success => '捐款已完成。非常感谢您的贡献！❤️';
@@ -1232,7 +1232,7 @@ class _TranslationsFinancialHealthReviewDescrZhCn implements TranslationsFinanci
 
 	// Translations
 	@override String get insufficient_data => '看起来我们没有足够的数据来计算您的财务健康情况。请添加一些支出/收入以便我们帮助您！';
-	@override String get very_good => '恭喜！您的财务状况非常好。我们希望您能够继续保持，并继续和 Monekin 一起学习。';
+	@override String get very_good => '恭喜！您的财务状况非常好。我们希望您能够继续保持，并继续和 Monekito 一起学习。';
 	@override String get good => '很好！您的财务健康状况良好。请查看分析页面，了解如何省下更多！';
 	@override String get normal => '您的财务健康状况在这一段时间里处于平均水平';
 	@override String get bad => '看起来您的财务状况不是很理想。请查看其余的图表以便进一步了解您的财务情况。';
@@ -1343,7 +1343,7 @@ class _TranslationsMoreAboutUsProjectZhCn implements TranslationsMoreAboutUsProj
 	// Translations
 	@override String get display => '项目';
 	@override String get contributors => '合作者';
-	@override String get contributors_descr => '所有让 Monekin 成长的开发者';
+	@override String get contributors_descr => '所有让 Monekito 成长的开发者';
 	@override String get contact => '联系我们';
 }
 
@@ -1511,7 +1511,7 @@ extension on TranslationsZhCn {
 			case 'intro.select_your_currency': return '选择您的货币';
 			case 'intro.welcome_subtitle': return '您的个人财务管家';
 			case 'intro.welcome_subtitle2': return '100% 开放，100% 免费';
-			case 'intro.welcome_footer': return '登录即表示您同意<a href=\'https://github.com/enrique-lozano/Monekin/blob/main/docs/PRIVACY_POLICY.md\'>隐私策略</a>和此应用的<a href= \'https: //github.com/enrique-lozano/Monekin/blob/main/docs/TERMS_OF_USE.md\'>使用条款</a>';
+			case 'intro.welcome_footer': return '登录即表示您同意<a href=\'\'>隐私策略</a>和此应用的<a href= \'https: //github.com/enrique-lozano/Monekito/blob/main/docs/TERMS_OF_USE.md\'>使用条款</a>';
 			case 'intro.offline_descr_title': return '本地账户：';
 			case 'intro.offline_descr': return '您的数据只会存储于此设备中，只要您不卸载应用或更换手机，数据就会保持安全。为避免数据丢失，建议定期从应用设置中备份数据。';
 			case 'intro.offline_start': return '开始使用本地账户';
@@ -1521,7 +1521,7 @@ extension on TranslationsZhCn {
 			case 'intro.sl2_descr': return '您的数据只属于您。我们直接将您的信息存储于此设备，不会连接外部服务器。因此您可以在离线时继续使用此应用';
 			case 'intro.sl2_descr2': return '此外，此应用的源代码是公开的，任何人都可以查看它如何运行并贡献自己的力量';
 			case 'intro.last_slide_title': return '全部就绪';
-			case 'intro.last_slide_descr': return '使用 Monekin，您最终可以实现自己想要的财务独立。您将拥有和您的钱相关的图表、预算、提示、统计信息等。';
+			case 'intro.last_slide_descr': return '使用 Monekito，您最终可以实现自己想要的财务独立。您将拥有和您的钱相关的图表、预算、提示、统计信息等。';
 			case 'intro.last_slide_descr2': return '祝您使用愉快！如果您有任何疑问或建议，请随时与我们联系……';
 			case 'home.title': return '面板';
 			case 'home.filter_transactions': return '筛选交易';
@@ -1531,7 +1531,7 @@ extension on TranslationsZhCn {
 			case 'home.my_accounts': return '我的账户';
 			case 'home.active_accounts': return '活动账户';
 			case 'home.no_accounts': return '尚未创建账户';
-			case 'home.no_accounts_descr': return '要开始使用 Monekin，请创建至少一个账户，以便开始添加交易';
+			case 'home.no_accounts_descr': return '要开始使用 Monekito，请创建至少一个账户，以便开始添加交易';
 			case 'home.last_transactions': return '最近的交易';
 			case 'home.should_create_account_header': return '哎呀!';
 			case 'home.should_create_account_message': return '在可以开始创建交易之前，您必须拥有至少一个未被归档的账户';
@@ -1585,7 +1585,7 @@ extension on TranslationsZhCn {
 				}
 			};
 			case 'financial_health.review.descr.insufficient_data': return '看起来我们没有足够的数据来计算您的财务健康情况。请添加一些支出/收入以便我们帮助您！';
-			case 'financial_health.review.descr.very_good': return '恭喜！您的财务状况非常好。我们希望您能够继续保持，并继续和 Monekin 一起学习。';
+			case 'financial_health.review.descr.very_good': return '恭喜！您的财务状况非常好。我们希望您能够继续保持，并继续和 Monekito 一起学习。';
 			case 'financial_health.review.descr.good': return '很好！您的财务健康状况良好。请查看分析页面，了解如何省下更多！';
 			case 'financial_health.review.descr.normal': return '您的财务健康状况在这一段时间里处于平均水平';
 			case 'financial_health.review.descr.bad': return '看起来您的财务状况不是很理想。请查看其余的图表以便进一步了解您的财务情况。';
@@ -1724,7 +1724,7 @@ extension on TranslationsZhCn {
 			case 'transaction.status.reconciled': return '已核对';
 			case 'transaction.status.reconciled_descr': return '此交易已被核实，与您银行的一个真实交易相对应';
 			case 'transaction.status.unreconciled': return '未核实';
-			case 'transaction.status.unreconciled_descr': return '此交易尚未被核实，因此尚未出现在您的真实银行账户中。然而，在 Monekin 中，它将被用于计算余额和其它统计数据';
+			case 'transaction.status.unreconciled_descr': return '此交易尚未被核实，因此尚未出现在您的真实银行账户中。然而，在 Monekito 中，它将被用于计算余额和其它统计数据';
 			case 'transaction.status.pending': return '待办';
 			case 'transaction.status.pending_descr': return '此交易正在等待处理，因此在计算余额和其它统计数据时暂时不会被考虑';
 			case 'transaction.status.voided': return '作废';
@@ -1920,8 +1920,8 @@ extension on TranslationsZhCn {
 			case 'backup.import.title': return '导入您的数据';
 			case 'backup.import.title_short': return '导入';
 			case 'backup.import.restore_backup': return '恢复备份';
-			case 'backup.import.restore_backup_descr': return '导入一个从 Monekin 保存的数据库。此操作将用新数据覆盖当前应用数据';
-			case 'backup.import.restore_backup_warn_description': return '导入新数据库时，您将丟失应用中当前保存的所有数据。建议在继续之前进行备份。请勿在此上传任何来源不明的文件，仅上传您之前从 Monekin 下载的文件';
+			case 'backup.import.restore_backup_descr': return '导入一个从 Monekito 保存的数据库。此操作将用新数据覆盖当前应用数据';
+			case 'backup.import.restore_backup_warn_description': return '导入新数据库时，您将丟失应用中当前保存的所有数据。建议在继续之前进行备份。请勿在此上传任何来源不明的文件，仅上传您之前从 Monekito 下载的文件';
 			case 'backup.import.restore_backup_warn_title': return '覆盖所有数据';
 			case 'backup.import.select_other_file': return '选择其它文件';
 			case 'backup.import.tap_to_select_file': return '点击选择文件';
@@ -1959,7 +1959,7 @@ extension on TranslationsZhCn {
 			case 'settings.lang_section': return '语言和文字';
 			case 'settings.lang_title': return '语言/Language';
 			case 'settings.lang_descr': return '应用中显示文字的语言';
-			case 'settings.lang_help': return '如果您想合作翻译此应用，您可参考<a href=\'https://github.com/enrique-lozano/Monekin/tree/main/lib/i18n\'>我们的指南</a>';
+			case 'settings.lang_help': return '如果您想合作翻译此应用，您可参考<a href=\'https://github.com/enrique-lozano/Monekito/tree/main/lib/i18n\'>我们的指南</a>';
 			case 'settings.locale': return '地区';
 			case 'settings.locale_descr': return '设置用于日期、数字的格式……';
 			case 'settings.locale_warn': return '更改区域时应用将更新';
@@ -1992,24 +1992,24 @@ extension on TranslationsZhCn {
 			case 'more.data.delete_all_header2': return '最后一步⚠️⚠️';
 			case 'more.data.delete_all_message2': return '删除账户后，您将删除所有保存的个人数据。您的账户、交易、预算和类别将被删除且无法恢复。您同意吗？';
 			case 'more.about_us.display': return '应用信息';
-			case 'more.about_us.description': return '查看有关 Monekin 的条款和其它相关信息。与社区取得联系以报告错误、留下建议……';
+			case 'more.about_us.description': return '查看有关 Monekito 的条款和其它相关信息。与社区取得联系以报告错误、留下建议……';
 			case 'more.about_us.legal.display': return '法律信息';
 			case 'more.about_us.legal.privacy': return '隐私权政策';
 			case 'more.about_us.legal.terms': return '使用条款';
 			case 'more.about_us.legal.licenses': return '许可证';
 			case 'more.about_us.project.display': return '项目';
 			case 'more.about_us.project.contributors': return '合作者';
-			case 'more.about_us.project.contributors_descr': return '所有让 Monekin 成长的开发者';
+			case 'more.about_us.project.contributors_descr': return '所有让 Monekito 成长的开发者';
 			case 'more.about_us.project.contact': return '联系我们';
 			case 'more.help_us.display': return '帮助我们';
-			case 'more.help_us.description': return '了解如何帮助 Monekin 变得越来越好';
+			case 'more.help_us.description': return '了解如何帮助 Monekito 变得越来越好';
 			case 'more.help_us.rate_us': return '评价我们';
 			case 'more.help_us.rate_us_descr': return '欢迎所有分数和评价！';
-			case 'more.help_us.share': return '分享 Monekin';
+			case 'more.help_us.share': return '分享 Monekito';
 			case 'more.help_us.share_descr': return '与朋友和家人分享我们的应用';
-			case 'more.help_us.share_text': return 'Monekin！最好的个人理财应用 。此处下载';
+			case 'more.help_us.share_text': return 'Monekito！最好的个人理财应用 。此处下载';
 			case 'more.help_us.thanks': return '谢谢您！';
-			case 'more.help_us.thanks_long': return '您对 Monekin 和其它大大小小的开源项目的贡献成就了这一伟大项目。感谢您花时间做出贡献。';
+			case 'more.help_us.thanks_long': return '您对 Monekito 和其它大大小小的开源项目的贡献成就了这一伟大项目。感谢您花时间做出贡献。';
 			case 'more.help_us.donate': return '捐款';
 			case 'more.help_us.donate_descr': return '通过您的捐款，您将帮助此应用持续改进完善。还有什么比请我喝一杯咖啡更好的感谢方式呢？';
 			case 'more.help_us.donate_success': return '捐款已完成。非常感谢您的贡献！❤️';

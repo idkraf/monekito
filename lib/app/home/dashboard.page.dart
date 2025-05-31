@@ -118,12 +118,21 @@ class _DashboardPageState extends State<DashboardPage> {
                 child: DashboardCards(dateRangeService: dateRangeService),
               ),
 
-              if (kDebugMode)
-                TextButton(
-                    onPressed: () {
-                      RouteUtils.pushRoute(context, const DebugPage());
-                    },
-                    child: const Text('DEBUG PAGE'))
+              // if (kDebugMode)
+              //   TextButton(
+              //       onPressed: () {
+              //         RouteUtils.pushRoute(context, const DebugPage());
+              //       },
+              //       child: const Text('DEBUG PAGE')
+              //   ),
+
+              TextButton(
+                  onPressed: () {
+                    // RouteUtils.pushRoute(context, const DebugPage());
+                  },
+                  child: const Text('By Mahasiswa Binadarma Palembang')
+              )
+
             ]),
           ),
           Positioned(

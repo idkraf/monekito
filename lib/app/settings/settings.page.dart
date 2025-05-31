@@ -37,6 +37,7 @@ class _SettingsPageState extends State<SettingsPage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+
               SettingCardItem(
                 isPrimary: true,
                 title: t.more.help_us.display,

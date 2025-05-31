@@ -85,55 +85,55 @@ class AboutPage extends StatelessWidget {
                 ],
               ),
             ),
-            createListSeparator(context, t.more.about_us.project.display),
-            buildLinkItem(
-              t.more.about_us.project.contributors,
-              subtitle: t.more.about_us.project.contributors_descr,
-              onTap: () {
-                openExternalURL(context,
-                    'https://github.com/enrique-lozano/Monekin/graphs/contributors');
-              },
-            ),
-            buildLinkItem(
-              t.more.help_us.report,
-              onTap: () {
-                openExternalURL(context,
-                    'https://github.com/enrique-lozano/Monekin/issues/new/choose');
-              },
-            ),
+            // createListSeparator(context, t.more.about_us.project.display),
+            // buildLinkItem(
+            //   t.more.about_us.project.contributors,
+            //   subtitle: t.more.about_us.project.contributors_descr,
+            //   onTap: () {
+            //     openExternalURL(context,
+            //         'https://github.com/enrique-lozano/Monekin/graphs/contributors');
+            //   },
+            // ),
+            // buildLinkItem(
+            //   t.more.help_us.report,
+            //   onTap: () {
+            //     openExternalURL(context,
+            //         'https://github.com/enrique-lozano/Monekin/issues/new/choose');
+            //   },
+            // ),
             buildLinkItem(t.more.about_us.project.contact, onTap: () {
               openExternalURL(context, 'mailto:lozin.technologies@gmail.com');
             }),
-            createListSeparator(context, t.more.about_us.legal.display),
-            buildLinkItem(
-              t.more.about_us.legal.terms,
-              onTap: () {
-                openExternalURL(context,
-                    'https://github.com/enrique-lozano/Monekin/blob/main/docs/TERMS_OF_USE.md');
-              },
-            ),
-            buildLinkItem(
-              t.more.about_us.legal.privacy,
-              onTap: () {
-                openExternalURL(context,
-                    'https://github.com/enrique-lozano/Monekin/blob/main/docs/PRIVACY_POLICY.md');
-              },
-            ),
-            buildLinkItem(
-              t.more.about_us.legal.licenses,
-              onTap: () async {
-                openLicense({String? appName, String? version}) {
-                  showLicensePage(
-                    context: context,
-                    applicationName: appName,
-                    applicationVersion: version,
-                  );
-                }
-
-                final info = await PackageInfo.fromPlatform();
-                openLicense(appName: info.appName, version: info.version);
-              },
-            ),
+            // createListSeparator(context, t.more.about_us.legal.display),
+            // buildLinkItem(
+            //   t.more.about_us.legal.terms,
+            //   onTap: () {
+            //     openExternalURL(context,
+            //         'https://github.com/enrique-lozano/Monekin/blob/main/docs/TERMS_OF_USE.md');
+            //   },
+            // ),
+            // buildLinkItem(
+            //   t.more.about_us.legal.privacy,
+            //   onTap: () {
+            //     openExternalURL(context,
+            //         'https://github.com/enrique-lozano/Monekin/blob/main/docs/PRIVACY_POLICY.md');
+            //   },
+            // ),
+            // buildLinkItem(
+            //   t.more.about_us.legal.licenses,
+            //   onTap: () async {
+            //     openLicense({String? appName, String? version}) {
+            //       showLicensePage(
+            //         context: context,
+            //         applicationName: appName,
+            //         applicationVersion: version,
+            //       );
+            //     }
+            //
+            //     final info = await PackageInfo.fromPlatform();
+            //     openLicense(appName: info.appName, version: info.version);
+            //   },
+            // ),
           ],
         ),
       ),

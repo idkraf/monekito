@@ -145,7 +145,7 @@ class _TranslationsIntroTr implements TranslationsIntroEn {
 	@override String get select_your_currency => 'Para birimini seçin';
 	@override String get welcome_subtitle => 'Kişisel finans yöneticiniz';
 	@override String get welcome_subtitle2 => '%100 açık, %100 ücretsiz';
-	@override String get welcome_footer => 'Giriş yaparak, uygulamanın <a href=\'https://github.com/enrique-lozano/Monekin/blob/main/docs/PRIVACY_POLICY.md\'>Gizlilik Politikası</a> ve <a href=\'https://github.com/enrique-lozano/Monekin/blob/main/docs/TERMS_OF_USE.md\'>Kullanım Şartları</a>\'nı kabul etmiş olursunuz';
+	@override String get welcome_footer => 'Giriş yaparak, uygulamanın <a href=\'\'>Gizlilik Politikası</a> ve <a href=\'https://github.com/enrique-lozano/Monekito/blob/main/docs/TERMS_OF_USE.md\'>Kullanım Şartları</a>\'nı kabul etmiş olursunuz';
 	@override String get offline_descr_title => 'ÇEVRİMDIŞI HESAP:';
 	@override String get offline_descr => 'Verileriniz yalnızca cihazınızda saklanacak ve uygulamayı kaldırmadığınız veya telefon değiştirmediniz sürece güvende olacaktır. Veri kaybını önlemek için, uygulama ayarlarından düzenli olarak yedekleme yapılması önerilir.';
 	@override String get offline_start => 'Çevrimdışı oturum başlat';
@@ -155,7 +155,7 @@ class _TranslationsIntroTr implements TranslationsIntroEn {
 	@override String get sl2_descr => 'Verileriniz yalnızca size aittir. Bilgileri harici sunuculara gitmeden doğrudan cihazınızda saklarız. Bu, uygulamayı internet olmadan bile kullanmayı mümkün kılar';
 	@override String get sl2_descr2 => 'Ayrıca, uygulamanın kaynak kodu herkese açıktır, herkes üzerinde işbirliği yapabilir ve nasıl çalıştığını görebilir';
 	@override String get last_slide_title => 'Her şey hazır';
-	@override String get last_slide_descr => 'Monekin ile sonunda çok istediğiniz finansal bağımsızlığa ulaşabilirsiniz. Paranız hakkında grafiklere, bütçelere, ipuçlarına, istatistiklere ve çok daha fazlasına sahip olacaksınız.';
+	@override String get last_slide_descr => 'Monekito ile sonunda çok istediğiniz finansal bağımsızlığa ulaşabilirsiniz. Paranız hakkında grafiklere, bütçelere, ipuçlarına, istatistiklere ve çok daha fazlasına sahip olacaksınız.';
 	@override String get last_slide_descr2 => 'Umarız deneyiminizden keyif alırsınız! Şüpheleriniz, önerileriniz durumunda bizimle iletişime geçmekten çekinmeyin...';
 }
 
@@ -174,7 +174,7 @@ class _TranslationsHomeTr implements TranslationsHomeEn {
 	@override String get my_accounts => 'Hesaplarım';
 	@override String get active_accounts => 'Aktif hesaplar';
 	@override String get no_accounts => 'Henüz hesap oluşturulmadı';
-	@override String get no_accounts_descr => 'Monekin\'in tüm sihrini kullanmaya başlayın. İşlem eklemeye başlamak için en az bir hesap oluşturun';
+	@override String get no_accounts_descr => 'Monekito\'in tüm sihrini kullanmaya başlayın. İşlem eklemeye başlamak için en az bir hesap oluşturun';
 	@override String get last_transactions => 'Son işlemler';
 	@override String get should_create_account_header => 'Ups!';
 	@override String get should_create_account_message => 'İşlem oluşturmaya başlamadan önce en az bir arşivlenmemiş hesabınız olmalıdır';
@@ -472,7 +472,7 @@ class _TranslationsSettingsTr implements TranslationsSettingsEn {
 	@override String get lang_section => 'Dil ve metinler';
 	@override String get lang_title => 'Uygulama dili';
 	@override String get lang_descr => 'Metinlerin uygulamada görüntüleneceği dil';
-	@override String get lang_help => 'Bu uygulamanın çevirilerine katkıda bulunmak isterseniz, <a href=\'https://github.com/enrique-lozano/Monekin/tree/main/lib/i18n\'>kılavuzumuza</a> başvurabilirsiniz';
+	@override String get lang_help => 'Bu uygulamanın çevirilerine katkıda bulunmak isterseniz, <a href=\'https://github.com/enrique-lozano/Monekito/tree/main/lib/i18n\'>kılavuzumuza</a> başvurabilirsiniz';
 	@override String get locale => 'Bölge';
 	@override String get locale_descr => 'Tarihler, sayılar için kullanılacak biçimi ayarlayın...';
 	@override String get locale_warn => 'Bölge değiştirildiğinde uygulama güncellenecektir';
@@ -777,7 +777,7 @@ class _TranslationsTransactionStatusTr implements TranslationsTransactionStatusE
 	@override String get reconciled => 'Mutabık';
 	@override String get reconciled_descr => 'Bu işlem zaten onaylandı ve bankanızdaki gerçek bir işleme karşılık geliyor';
 	@override String get unreconciled => 'Mutabık değil';
-	@override String get unreconciled_descr => 'Bu işlem henüz doğrulanmadı ve bu nedenle henüz gerçek banka hesaplarınızda görünmüyor. Ancak, Monekin\'deki bakiyelerin ve istatistiklerin hesaplanması için sayılır';
+	@override String get unreconciled_descr => 'Bu işlem henüz doğrulanmadı ve bu nedenle henüz gerçek banka hesaplarınızda görünmüyor. Ancak, Monekito\'deki bakiyelerin ve istatistiklerin hesaplanması için sayılır';
 	@override String get pending => 'Beklemede';
 	@override String get pending_descr => 'Bu işlem bekliyor ve bu nedenle bakiyeler ve istatistikler hesaplanırken dikkate alınmayacaktır';
 	@override String get voided => 'İptal Edildi';
@@ -1034,8 +1034,8 @@ class _TranslationsBackupImportTr implements TranslationsBackupImportEn {
 	@override String get title => 'Verilerinizi içe aktarın';
 	@override String get title_short => 'İçe Aktar';
 	@override String get restore_backup => 'Yedeklemeyi Geri Yükle';
-	@override String get restore_backup_descr => 'Monekin\'den daha önce kaydedilmiş bir veritabanını içe aktarın. Bu eylem, mevcut uygulama verilerinin herhangi birini yeni verilerle değiştirecektir';
-	@override String get restore_backup_warn_description => 'Yeni bir veritabanı içe aktarırken, uygulamada şu anda kayıtlı olan tüm verileri kaybedeceksiniz. Devam etmeden önce bir yedekleme yapmanız önerilir. Buraya, kaynağını bilmediğiniz herhangi bir dosyayı yüklemeyin, yalnızca daha önce Monekin\'den indirdiğiniz dosyaları yükleyin';
+	@override String get restore_backup_descr => 'Monekito\'den daha önce kaydedilmiş bir veritabanını içe aktarın. Bu eylem, mevcut uygulama verilerinin herhangi birini yeni verilerle değiştirecektir';
+	@override String get restore_backup_warn_description => 'Yeni bir veritabanı içe aktarırken, uygulamada şu anda kayıtlı olan tüm verileri kaybedeceksiniz. Devam etmeden önce bir yedekleme yapmanız önerilir. Buraya, kaynağını bilmediğiniz herhangi bir dosyayı yüklemeyin, yalnızca daha önce Monekito\'den indirdiğiniz dosyaları yükleyin';
 	@override String get restore_backup_warn_title => 'Tüm verilerin üzerine yaz';
 	@override String get select_other_file => 'Başka dosya seç';
 	@override String get tap_to_select_file => 'Bir dosya seçmek için dokunun';
@@ -1099,7 +1099,7 @@ class _TranslationsMoreAboutUsTr implements TranslationsMoreAboutUsEn {
 
 	// Translations
 	@override String get display => 'Uygulama bilgileri';
-	@override String get description => 'Monekin hakkında şartları ve diğer ilgili bilgileri inceleyin. Hata bildirerek, önerilerde bulunarak toplulukla etkileşime geçin...';
+	@override String get description => 'Monekito hakkında şartları ve diğer ilgili bilgileri inceleyin. Hata bildirerek, önerilerde bulunarak toplulukla etkileşime geçin...';
 	@override late final _TranslationsMoreAboutUsLegalTr legal = _TranslationsMoreAboutUsLegalTr._(_root);
 	@override late final _TranslationsMoreAboutUsProjectTr project = _TranslationsMoreAboutUsProjectTr._(_root);
 }
@@ -1112,14 +1112,14 @@ class _TranslationsMoreHelpUsTr implements TranslationsMoreHelpUsEn {
 
 	// Translations
 	@override String get display => 'Bize yardım edin';
-	@override String get description => 'Monekin\'in nasıl daha iyi olabileceğini öğrenin';
+	@override String get description => 'Monekito\'in nasıl daha iyi olabileceğini öğrenin';
 	@override String get rate_us => 'Bize oy verin';
 	@override String get rate_us_descr => 'Herhangi bir puan memnuniyetle karşılanır!';
-	@override String get share => 'Monekin\'i paylaşın';
+	@override String get share => 'Monekito\'i paylaşın';
 	@override String get share_descr => 'Uygulamamızı arkadaşlarınıza ve ailenize paylaşın';
-	@override String get share_text => 'Monekin! En iyi kişisel finans uygulaması. Buradan indirin';
+	@override String get share_text => 'Monekito! En iyi kişisel finans uygulaması. Buradan indirin';
 	@override String get thanks => 'Teşekkürler!';
-	@override String get thanks_long => 'Monekin\'e ve diğer açık kaynaklı projelere yaptığınız katkılar, büyük ve küçük, bunun gibi harika projeleri mümkün kılıyor. Katkıda bulunmak için zaman ayırdığınız için teşekkür ederiz.';
+	@override String get thanks_long => 'Monekito\'e ve diğer açık kaynaklı projelere yaptığınız katkılar, büyük ve küçük, bunun gibi harika projeleri mümkün kılıyor. Katkıda bulunmak için zaman ayırdığınız için teşekkür ederiz.';
 	@override String get donate => 'Bağış yap';
 	@override String get donate_descr => 'Bağışınızla uygulamanın iyileştirmeler almaya devam etmesine yardımcı olacaksınız. Yapılan çalışmaya kahve ısmarlayarak teşekkür etmekten daha iyi bir yol mu var?';
 	@override String get donate_success => 'Bağış yapıldı. Katkılarınız için çok teşekkür ederim! ❤️';
@@ -1232,7 +1232,7 @@ class _TranslationsFinancialHealthReviewDescrTr implements TranslationsFinancial
 
 	// Translations
 	@override String get insufficient_data => 'Finansal sağlığınızı hesaplamak için yeterli giderimiz yok gibi görünüyor. Size yardımcı olmamıza izin vermek için bu dönemde bazı giderler/gelirler ekleyin!';
-	@override String get very_good => 'Tebrikler! Finansal sağlığınız muazzam. İyi gidişatınızı sürdürmenizi ve Monekin ile öğrenmeye devam etmenizi umuyoruz';
+	@override String get very_good => 'Tebrikler! Finansal sağlığınız muazzam. İyi gidişatınızı sürdürmenizi ve Monekito ile öğrenmeye devam etmenizi umuyoruz';
 	@override String get good => 'Harika! Finansal sağlığınız iyi. Daha da fazla nasıl tasarruf edebileceğinizi görmek için analiz sekmesini ziyaret edin!';
 	@override String get normal => 'Finansal sağlığınız bu dönem için nüfusun geri kalanının ortalamasına az çok eşit';
 	@override String get bad => 'Görünüşe göre mali durumunuz henüz en iyi seviyede değil. Finanslarınız hakkında daha fazla bilgi edinmek için grafiklerin geri kalanını inceleyin';
@@ -1343,7 +1343,7 @@ class _TranslationsMoreAboutUsProjectTr implements TranslationsMoreAboutUsProjec
 	// Translations
 	@override String get display => 'Proje';
 	@override String get contributors => 'Katkıda bulunanlar';
-	@override String get contributors_descr => 'Monekin\'in büyümesini sağlayan tüm geliştiriciler';
+	@override String get contributors_descr => 'Monekito\'in büyümesini sağlayan tüm geliştiriciler';
 	@override String get contact => 'Bize ulaşın';
 }
 
@@ -1511,7 +1511,7 @@ extension on TranslationsTr {
 			case 'intro.select_your_currency': return 'Para birimini seçin';
 			case 'intro.welcome_subtitle': return 'Kişisel finans yöneticiniz';
 			case 'intro.welcome_subtitle2': return '%100 açık, %100 ücretsiz';
-			case 'intro.welcome_footer': return 'Giriş yaparak, uygulamanın <a href=\'https://github.com/enrique-lozano/Monekin/blob/main/docs/PRIVACY_POLICY.md\'>Gizlilik Politikası</a> ve <a href=\'https://github.com/enrique-lozano/Monekin/blob/main/docs/TERMS_OF_USE.md\'>Kullanım Şartları</a>\'nı kabul etmiş olursunuz';
+			case 'intro.welcome_footer': return 'Giriş yaparak, uygulamanın <a href=\'\'>Gizlilik Politikası</a> ve <a href=\'https://github.com/enrique-lozano/Monekito/blob/main/docs/TERMS_OF_USE.md\'>Kullanım Şartları</a>\'nı kabul etmiş olursunuz';
 			case 'intro.offline_descr_title': return 'ÇEVRİMDIŞI HESAP:';
 			case 'intro.offline_descr': return 'Verileriniz yalnızca cihazınızda saklanacak ve uygulamayı kaldırmadığınız veya telefon değiştirmediniz sürece güvende olacaktır. Veri kaybını önlemek için, uygulama ayarlarından düzenli olarak yedekleme yapılması önerilir.';
 			case 'intro.offline_start': return 'Çevrimdışı oturum başlat';
@@ -1521,7 +1521,7 @@ extension on TranslationsTr {
 			case 'intro.sl2_descr': return 'Verileriniz yalnızca size aittir. Bilgileri harici sunuculara gitmeden doğrudan cihazınızda saklarız. Bu, uygulamayı internet olmadan bile kullanmayı mümkün kılar';
 			case 'intro.sl2_descr2': return 'Ayrıca, uygulamanın kaynak kodu herkese açıktır, herkes üzerinde işbirliği yapabilir ve nasıl çalıştığını görebilir';
 			case 'intro.last_slide_title': return 'Her şey hazır';
-			case 'intro.last_slide_descr': return 'Monekin ile sonunda çok istediğiniz finansal bağımsızlığa ulaşabilirsiniz. Paranız hakkında grafiklere, bütçelere, ipuçlarına, istatistiklere ve çok daha fazlasına sahip olacaksınız.';
+			case 'intro.last_slide_descr': return 'Monekito ile sonunda çok istediğiniz finansal bağımsızlığa ulaşabilirsiniz. Paranız hakkında grafiklere, bütçelere, ipuçlarına, istatistiklere ve çok daha fazlasına sahip olacaksınız.';
 			case 'intro.last_slide_descr2': return 'Umarız deneyiminizden keyif alırsınız! Şüpheleriniz, önerileriniz durumunda bizimle iletişime geçmekten çekinmeyin...';
 			case 'home.title': return 'Gösterge Paneli';
 			case 'home.filter_transactions': return 'İşlemleri filtrele';
@@ -1531,7 +1531,7 @@ extension on TranslationsTr {
 			case 'home.my_accounts': return 'Hesaplarım';
 			case 'home.active_accounts': return 'Aktif hesaplar';
 			case 'home.no_accounts': return 'Henüz hesap oluşturulmadı';
-			case 'home.no_accounts_descr': return 'Monekin\'in tüm sihrini kullanmaya başlayın. İşlem eklemeye başlamak için en az bir hesap oluşturun';
+			case 'home.no_accounts_descr': return 'Monekito\'in tüm sihrini kullanmaya başlayın. İşlem eklemeye başlamak için en az bir hesap oluşturun';
 			case 'home.last_transactions': return 'Son işlemler';
 			case 'home.should_create_account_header': return 'Ups!';
 			case 'home.should_create_account_message': return 'İşlem oluşturmaya başlamadan önce en az bir arşivlenmemiş hesabınız olmalıdır';
@@ -1585,7 +1585,7 @@ extension on TranslationsTr {
 				}
 			};
 			case 'financial_health.review.descr.insufficient_data': return 'Finansal sağlığınızı hesaplamak için yeterli giderimiz yok gibi görünüyor. Size yardımcı olmamıza izin vermek için bu dönemde bazı giderler/gelirler ekleyin!';
-			case 'financial_health.review.descr.very_good': return 'Tebrikler! Finansal sağlığınız muazzam. İyi gidişatınızı sürdürmenizi ve Monekin ile öğrenmeye devam etmenizi umuyoruz';
+			case 'financial_health.review.descr.very_good': return 'Tebrikler! Finansal sağlığınız muazzam. İyi gidişatınızı sürdürmenizi ve Monekito ile öğrenmeye devam etmenizi umuyoruz';
 			case 'financial_health.review.descr.good': return 'Harika! Finansal sağlığınız iyi. Daha da fazla nasıl tasarruf edebileceğinizi görmek için analiz sekmesini ziyaret edin!';
 			case 'financial_health.review.descr.normal': return 'Finansal sağlığınız bu dönem için nüfusun geri kalanının ortalamasına az çok eşit';
 			case 'financial_health.review.descr.bad': return 'Görünüşe göre mali durumunuz henüz en iyi seviyede değil. Finanslarınız hakkında daha fazla bilgi edinmek için grafiklerin geri kalanını inceleyin';
@@ -1724,7 +1724,7 @@ extension on TranslationsTr {
 			case 'transaction.status.reconciled': return 'Mutabık';
 			case 'transaction.status.reconciled_descr': return 'Bu işlem zaten onaylandı ve bankanızdaki gerçek bir işleme karşılık geliyor';
 			case 'transaction.status.unreconciled': return 'Mutabık değil';
-			case 'transaction.status.unreconciled_descr': return 'Bu işlem henüz doğrulanmadı ve bu nedenle henüz gerçek banka hesaplarınızda görünmüyor. Ancak, Monekin\'deki bakiyelerin ve istatistiklerin hesaplanması için sayılır';
+			case 'transaction.status.unreconciled_descr': return 'Bu işlem henüz doğrulanmadı ve bu nedenle henüz gerçek banka hesaplarınızda görünmüyor. Ancak, Monekito\'deki bakiyelerin ve istatistiklerin hesaplanması için sayılır';
 			case 'transaction.status.pending': return 'Beklemede';
 			case 'transaction.status.pending_descr': return 'Bu işlem bekliyor ve bu nedenle bakiyeler ve istatistikler hesaplanırken dikkate alınmayacaktır';
 			case 'transaction.status.voided': return 'İptal Edildi';
@@ -1920,8 +1920,8 @@ extension on TranslationsTr {
 			case 'backup.import.title': return 'Verilerinizi içe aktarın';
 			case 'backup.import.title_short': return 'İçe Aktar';
 			case 'backup.import.restore_backup': return 'Yedeklemeyi Geri Yükle';
-			case 'backup.import.restore_backup_descr': return 'Monekin\'den daha önce kaydedilmiş bir veritabanını içe aktarın. Bu eylem, mevcut uygulama verilerinin herhangi birini yeni verilerle değiştirecektir';
-			case 'backup.import.restore_backup_warn_description': return 'Yeni bir veritabanı içe aktarırken, uygulamada şu anda kayıtlı olan tüm verileri kaybedeceksiniz. Devam etmeden önce bir yedekleme yapmanız önerilir. Buraya, kaynağını bilmediğiniz herhangi bir dosyayı yüklemeyin, yalnızca daha önce Monekin\'den indirdiğiniz dosyaları yükleyin';
+			case 'backup.import.restore_backup_descr': return 'Monekito\'den daha önce kaydedilmiş bir veritabanını içe aktarın. Bu eylem, mevcut uygulama verilerinin herhangi birini yeni verilerle değiştirecektir';
+			case 'backup.import.restore_backup_warn_description': return 'Yeni bir veritabanı içe aktarırken, uygulamada şu anda kayıtlı olan tüm verileri kaybedeceksiniz. Devam etmeden önce bir yedekleme yapmanız önerilir. Buraya, kaynağını bilmediğiniz herhangi bir dosyayı yüklemeyin, yalnızca daha önce Monekito\'den indirdiğiniz dosyaları yükleyin';
 			case 'backup.import.restore_backup_warn_title': return 'Tüm verilerin üzerine yaz';
 			case 'backup.import.select_other_file': return 'Başka dosya seç';
 			case 'backup.import.tap_to_select_file': return 'Bir dosya seçmek için dokunun';
@@ -1959,7 +1959,7 @@ extension on TranslationsTr {
 			case 'settings.lang_section': return 'Dil ve metinler';
 			case 'settings.lang_title': return 'Uygulama dili';
 			case 'settings.lang_descr': return 'Metinlerin uygulamada görüntüleneceği dil';
-			case 'settings.lang_help': return 'Bu uygulamanın çevirilerine katkıda bulunmak isterseniz, <a href=\'https://github.com/enrique-lozano/Monekin/tree/main/lib/i18n\'>kılavuzumuza</a> başvurabilirsiniz';
+			case 'settings.lang_help': return 'Bu uygulamanın çevirilerine katkıda bulunmak isterseniz, <a href=\'https://github.com/enrique-lozano/Monekito/tree/main/lib/i18n\'>kılavuzumuza</a> başvurabilirsiniz';
 			case 'settings.locale': return 'Bölge';
 			case 'settings.locale_descr': return 'Tarihler, sayılar için kullanılacak biçimi ayarlayın...';
 			case 'settings.locale_warn': return 'Bölge değiştirildiğinde uygulama güncellenecektir';
@@ -1992,24 +1992,24 @@ extension on TranslationsTr {
 			case 'more.data.delete_all_header2': return 'Son bir adım ⚠️⚠️';
 			case 'more.data.delete_all_message2': return 'Bir hesabı sildiğinizde, kayıtlı tüm kişisel verilerinizi silmiş olursunuz. Hesaplarınız, işlemleriniz, bütçeleriniz ve kategorileriniz silinecek ve kurtarılamayacaktır. Kabul ediyor musunuz?';
 			case 'more.about_us.display': return 'Uygulama bilgileri';
-			case 'more.about_us.description': return 'Monekin hakkında şartları ve diğer ilgili bilgileri inceleyin. Hata bildirerek, önerilerde bulunarak toplulukla etkileşime geçin...';
+			case 'more.about_us.description': return 'Monekito hakkında şartları ve diğer ilgili bilgileri inceleyin. Hata bildirerek, önerilerde bulunarak toplulukla etkileşime geçin...';
 			case 'more.about_us.legal.display': return 'Yasal bilgiler';
 			case 'more.about_us.legal.privacy': return 'Gizlilik politikası';
 			case 'more.about_us.legal.terms': return 'Kullanım koşulları';
 			case 'more.about_us.legal.licenses': return 'Lisanslar';
 			case 'more.about_us.project.display': return 'Proje';
 			case 'more.about_us.project.contributors': return 'Katkıda bulunanlar';
-			case 'more.about_us.project.contributors_descr': return 'Monekin\'in büyümesini sağlayan tüm geliştiriciler';
+			case 'more.about_us.project.contributors_descr': return 'Monekito\'in büyümesini sağlayan tüm geliştiriciler';
 			case 'more.about_us.project.contact': return 'Bize ulaşın';
 			case 'more.help_us.display': return 'Bize yardım edin';
-			case 'more.help_us.description': return 'Monekin\'in nasıl daha iyi olabileceğini öğrenin';
+			case 'more.help_us.description': return 'Monekito\'in nasıl daha iyi olabileceğini öğrenin';
 			case 'more.help_us.rate_us': return 'Bize oy verin';
 			case 'more.help_us.rate_us_descr': return 'Herhangi bir puan memnuniyetle karşılanır!';
-			case 'more.help_us.share': return 'Monekin\'i paylaşın';
+			case 'more.help_us.share': return 'Monekito\'i paylaşın';
 			case 'more.help_us.share_descr': return 'Uygulamamızı arkadaşlarınıza ve ailenize paylaşın';
-			case 'more.help_us.share_text': return 'Monekin! En iyi kişisel finans uygulaması. Buradan indirin';
+			case 'more.help_us.share_text': return 'Monekito! En iyi kişisel finans uygulaması. Buradan indirin';
 			case 'more.help_us.thanks': return 'Teşekkürler!';
-			case 'more.help_us.thanks_long': return 'Monekin\'e ve diğer açık kaynaklı projelere yaptığınız katkılar, büyük ve küçük, bunun gibi harika projeleri mümkün kılıyor. Katkıda bulunmak için zaman ayırdığınız için teşekkür ederiz.';
+			case 'more.help_us.thanks_long': return 'Monekito\'e ve diğer açık kaynaklı projelere yaptığınız katkılar, büyük ve küçük, bunun gibi harika projeleri mümkün kılıyor. Katkıda bulunmak için zaman ayırdığınız için teşekkür ederiz.';
 			case 'more.help_us.donate': return 'Bağış yap';
 			case 'more.help_us.donate_descr': return 'Bağışınızla uygulamanın iyileştirmeler almaya devam etmesine yardımcı olacaksınız. Yapılan çalışmaya kahve ısmarlayarak teşekkür etmekten daha iyi bir yol mu var?';
 			case 'more.help_us.donate_success': return 'Bağış yapıldı. Katkılarınız için çok teşekkür ederim! ❤️';

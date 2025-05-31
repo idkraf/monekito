@@ -167,7 +167,7 @@
     "select-your-currency": "Wähle Deine Währung aus",
     "welcome.subtitle": "Dein persönlicher Finanzmanager",
     "welcome.subtitle2": "100 % geöffnet, 100 % kostenlos",
-    "welcome.footer": "Mit der Anmeldung stimmst Du der <a href='https://github.com/enrique-lozano/Monekin/blob/main/docs/PRIVACY_POLICY.md'>Datenschutzrichtlinie</a> und den <a href='https://github.com/enrique-lozano/Monekin/blob/main/docs/TERMS_OF_USE.md'>Nutzungsbedingungen</a> der App zu",
+    "welcome.footer": "Mit der Anmeldung stimmst Du der <a href=''>Datenschutzrichtlinie</a> und den <a href='https://github.com/enrique-lozano/Monekito/blob/main/docs/TERMS_OF_USE.md'>Nutzungsbedingungen</a> der App zu",
     "offline.descr.title": "OFFLINE-KONTO:",
     "offline.descr": "Deine Daten werden nur auf Deinem Gerät gespeichert und sind sicher, solange Du die App nicht deinstallieren oder das Telefon wechselst. ",
     "offline.start": "Sitzung offline starten",
@@ -177,7 +177,7 @@
     "sl2Descr": "Deine Daten gehören nur Dir. ",
     "sl2Descr2": "Außerdem ist der Quellcode der Anwendung öffentlich, jeder kann daran mitarbeiten und sehen, wie es funktioniert",
     "lastSlideTitle": "Alles bereit",
-    "lastSlideDescr": "Mit Monekin kannst Du endlich die finanzielle Unabhängigkeit erreichen, die Du dir so sehr wünschst. ",
+    "lastSlideDescr": "Mit Monekito kannst Du endlich die finanzielle Unabhängigkeit erreichen, die Du dir so sehr wünschst. ",
     "lastSlideDescr2": "Wir hoffen, dass Du Deine Erfahrung genießet! Zögerne nicht, uns im Falle von Fragen oder Vorschlägen zu kontaktieren..."
   },
   "HOME": {
@@ -189,7 +189,7 @@
     "my-accounts": "Meine Konten",
     "active-accounts": "Aktive Konten",
     "no-accounts": "Es wurden noch keine Konten erstellt",
-    "no-accounts.descr": "Beginne, die ganze Magie von Monekin zu nutzen. ",
+    "no-accounts.descr": "Beginne, die ganze Magie von Monekito zu nutzen. ",
     "last-transactions": "Letzte Transaktionen",
     "should-create-account.header": "Hoppla!",
     "should-create-account.message": "Du musst über mindestens ein nicht archiviertes Konto verfügen, bevor Du mit der Erstellung von Transaktionen beginnen kannst"
@@ -635,8 +635,8 @@
       "title": "Daten importieren",
       "title.short": "Import",
       "restore-backup": "Sicherung wiederherstellen",
-      "restore-backup-descr": "Importiere eine zuvor gespeicherte Datenbank von Monekin. Diese Aktion ersetzt alle aktuellen Anwendungsdaten durch die neuen Daten",
-      "restore-backup-warn.description": "Beim Importieren einer neuen Datenbank gehen alle derzeit in der App gespeicherten Daten verloren. Es wird empfohlen, eine Sicherungskopie zu erstellen, bevor Du fortfährst. Lade hier keine Dateien hoch, deren Herkunft Du nicht kennst. Lade nur Dateien hoch, die Du zuvor von Monekin heruntergeladen hast.",
+      "restore-backup-descr": "Importiere eine zuvor gespeicherte Datenbank von Monekito. Diese Aktion ersetzt alle aktuellen Anwendungsdaten durch die neuen Daten",
+      "restore-backup-warn.description": "Beim Importieren einer neuen Datenbank gehen alle derzeit in der App gespeicherten Daten verloren. Es wird empfohlen, eine Sicherungskopie zu erstellen, bevor Du fortfährst. Lade hier keine Dateien hoch, deren Herkunft Du nicht kennst. Lade nur Dateien hoch, die Du zuvor von Monekito heruntergeladen hast.",
       "restore-backup-warn.title": "Alle Daten überschreiben",
       "select-other-file": "Andere Datei auswählen",
       "tap-to-select-file": "Tippe, um eine Datei auszuwählen",
@@ -685,7 +685,7 @@
     "lang.section": "Sprache und Texte",
     "lang.title": "App-Sprache",
     "lang.descr": "Sprache, in der die Texte in der App angezeigt werden",
-    "lang.help": "Wenn an den Übersetzungen dieser App mitarbeiten möchten, kannst du dich an <a href='https://github.com/enrique-lozano/Monekin/tree/main/lib/i18n'>unser Beschreibung</a> wenden",
+    "lang.help": "Wenn an den Übersetzungen dieser App mitarbeiten möchten, kannst du dich an <a href='https://github.com/enrique-lozano/Monekito/tree/main/lib/i18n'>unser Beschreibung</a> wenden",
     "locale": "Region",
     "locale.descr": "Lege das für Datumsangaben, Zahlen usw. zu verwendende Format fest.",
     "locale.warn": "Wenn Du die Region änderst, wird die App aktualisiert",
@@ -725,7 +725,7 @@
     },
     "ABOUT_US": {
       "display": "App-Informationen",
-      "description": "Schaue Dir die Bedingungen und andere relevante Informationen über Monekin an. Treten mit der Community in Kontakt, indem Du Fehler meldest, Vorschläge machst...",
+      "description": "Schaue Dir die Bedingungen und andere relevante Informationen über Monekito an. Treten mit der Community in Kontakt, indem Du Fehler meldest, Vorschläge machst...",
       "LEGAL": {
         "display": "Rechtliche Informationen",
         "privacy": "Datenschutzrichtlinie",
@@ -735,20 +735,20 @@
       "PROJECT": {
         "display": "Projekt",
         "contributors": "Mitarbeiter",
-        "contributors.descr": "Alle Entwickler, die Monekin wachsen lassen haben",
+        "contributors.descr": "Alle Entwickler, die Monekito wachsen lassen haben",
         "contact": "Kontaktiere uns"
       }
     },
     "HELP_US": {
       "display": "Hilf uns",
-      "description": "Finde heraus, wie Du Monekin dabei helfen kannst, immer besser zu werden",
+      "description": "Finde heraus, wie Du Monekito dabei helfen kannst, immer besser zu werden",
       "rate-us": "Bewerte uns",
       "rate-us.descr": "Jede Hilfe ist willkommen!",
-      "share": "Teile  Monekin",
+      "share": "Teile  Monekito",
       "share.descr": "Teile  unsere App mit Freunden und Familie",
-      "share.text": "Monekin! ",
+      "share.text": "Monekito! ",
       "thanks": "Danke schön!",
-      "thanks_long": "Deine Beiträge zu Monekin und anderen großen und kleinen Open-Source-Projekten machen großartige Projekte wie dieses möglich. Danke, dass Du dir die Zeit nimmst teilzunehmen",
+      "thanks_long": "Deine Beiträge zu Monekito und anderen großen und kleinen Open-Source-Projekten machen großartige Projekte wie dieses möglich. Danke, dass Du dir die Zeit nimmst teilzunehmen",
       "donate": "Mache eine Spende",
       "donate.descr": "Mit Deiner Spende trägst dazu bei, dass die App weiterhin verbessert wird. Was gibt es Schöneres, als sich für die geleistete Arbeit zu bedanken, indem man mich zu einem Kaffee einlädt?",
       "donate.success": "Spende erfolgt. Herzlichen Dank für Deine Beitrag! ❤️",

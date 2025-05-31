@@ -167,7 +167,7 @@
     "select-your-currency": "Pilih mata uang Anda",
     "welcome.subtitle": "Manajer keuangan pribadi Anda",
     "welcome.subtitle2": "100% terbuka, 100% gratis",
-    "welcome.footer": "Dengan masuk, Anda menyetujui <a href='https://github.com/enrique-lozano/Monekin/blob/main/docs/PRIVACY_POLICY.md'>Kebijakan Privasi</a> dan <a href='https://github.com/enrique-lozano/Monekin/blob/main/docs/TERMS_OF_USE.md'>Syarat Penggunaan</a> aplikasi",
+    "welcome.footer": "Dengan masuk, Anda menyetujui <a href=''>Kebijakan Privasi</a> dan <a href='https://github.com/enrique-lozano/Monekito/blob/main/docs/TERMS_OF_USE.md'>Syarat Penggunaan</a> aplikasi",
     "offline.descr.title": "AKUN OFFLINE:",
     "offline.descr": "Data Anda hanya akan disimpan di perangkat Anda, dan akan aman selama Anda tidak mencopot pemasangan aplikasi atau mengganti ponsel. Untuk mencegah kehilangan data, disarankan untuk membuat cadangan secara teratur dari pengaturan aplikasi.",
     "offline.start": "Mulai sesi offline",
@@ -177,7 +177,7 @@
     "sl2Descr": "Data Anda hanya milik Anda. Kami menyimpan informasi langsung di perangkat Anda, tanpa melalui server eksternal. Ini memungkinkan penggunaan aplikasi bahkan tanpa internet",
     "sl2Descr2": "Selain itu, kode sumber aplikasi bersifat publik, siapa pun dapat berkolaborasi dan melihat cara kerjanya",
     "lastSlideTitle": "Semua siap",
-    "lastSlideDescr": "Dengan Monekin, Anda akhirnya dapat mencapai kemandirian finansial yang Anda inginkan. Anda akan memiliki grafik, anggaran, tips, statistik, dan banyak lagi tentang uang Anda.",
+    "lastSlideDescr": "Dengan Monekito, Anda akhirnya dapat mencapai kemandirian finansial yang Anda inginkan. Anda akan memiliki grafik, anggaran, tips, statistik, dan banyak lagi tentang uang Anda.",
     "lastSlideDescr2": "Kami harap Anda menikmati pengalaman Anda! Jangan ragu untuk menghubungi kami jika ada pertanyaan, saran..."
   },
   "HOME": {
@@ -189,7 +189,7 @@
     "my-accounts": "Akun saya",
     "active-accounts": "Akun aktif",
     "no-accounts": "Belum ada akun yang dibuat",
-    "no-accounts.descr": "Mulai menggunakan semua keajaiban Monekin. Buat setidaknya satu akun untuk mulai menambahkan transaksi",
+    "no-accounts.descr": "Mulai menggunakan semua keajaiban Monekito. Buat setidaknya satu akun untuk mulai menambahkan transaksi",
     "last-transactions": "Transaksi terakhir",
     "should-create-account.header": "Ups!",
     "should-create-account.message": "Anda harus memiliki setidaknya satu akun yang tidak diarsipkan sebelum dapat mulai membuat transaksi"
@@ -208,7 +208,7 @@
 
       "descr": {
         "insufficient_data": "Sepertinya kami tidak memiliki cukup pengeluaran untuk menghitung kesehatan finansial Anda. Tambahkan beberapa pengeluaran/pendapatan dalam periode ini untuk memungkinkan kami membantu Anda!",
-        "very_good": "Selamat! Kesehatan finansial Anda luar biasa. Kami harap Anda melanjutkan tren baik Anda dan terus belajar dengan Monekin",
+        "very_good": "Selamat! Kesehatan finansial Anda luar biasa. Kami harap Anda melanjutkan tren baik Anda dan terus belajar dengan Monekito",
         "good": "Bagus! Kesehatan finansial Anda baik. Kunjungi tab analisis untuk melihat cara menghemat lebih banyak lagi!",
         "normal": "Kesehatan finansial Anda lebih atau kurang rata-rata dibandingkan populasi lainnya untuk periode ini",
         "bad": "Tampaknya situasi keuangan Anda belum yang terbaik. Jelajahi grafik lainnya untuk mempelajari lebih lanjut tentang keuangan Anda",
@@ -375,7 +375,7 @@
       "reconciled": "Direkonsiliasi",
       "reconciled.descr": "Transaksi ini telah divalidasi dan sesuai dengan transaksi nyata dari bank Anda",
       "unreconciled": "Belum direkonsiliasi",
-      "unreconciled.descr": "Transaksi ini belum divalidasi dan karena itu belum muncul di akun bank nyata Anda. Namun, ini dihitung untuk perhitungan saldo dan statistik di Monekin",
+      "unreconciled.descr": "Transaksi ini belum divalidasi dan karena itu belum muncul di akun bank nyata Anda. Namun, ini dihitung untuk perhitungan saldo dan statistik di Monekito",
       "pending": "Tertunda",
       "pending.descr": "Transaksi ini tertunda dan karena itu tidak akan diperhitungkan saat menghitung saldo dan statistik",
       "voided": "Dibatalkan",
@@ -623,8 +623,8 @@
       "title": "Impor data Anda",
       "title.short": "Impor",
       "restore-backup": "Pulihkan Cadangan",
-      "restore-backup-descr": "Impor database yang sebelumnya disimpan dari Monekin. Tindakan ini akan menggantikan data aplikasi saat ini dengan data baru",
-      "restore-backup-warn.description": "Saat mengimpor database baru, Anda akan kehilangan semua data yang saat ini disimpan di aplikasi. Disarankan untuk membuat cadangan sebelum melanjutkan. Jangan mengunggah file apa pun yang asalnya tidak Anda ketahui di sini, unggah hanya file yang sebelumnya Anda unduh dari Monekin",
+      "restore-backup-descr": "Impor database yang sebelumnya disimpan dari Monekito. Tindakan ini akan menggantikan data aplikasi saat ini dengan data baru",
+      "restore-backup-warn.description": "Saat mengimpor database baru, Anda akan kehilangan semua data yang saat ini disimpan di aplikasi. Disarankan untuk membuat cadangan sebelum melanjutkan. Jangan mengunggah file apa pun yang asalnya tidak Anda ketahui di sini, unggah hanya file yang sebelumnya Anda unduh dari Monekito",
       "restore-backup-warn.title": "Timpa semua data",
       "select-other-file": "Pilih file lain",
       "tap-to-select-file": "Ketuk untuk memilih file",
@@ -673,7 +673,7 @@
     "lang.section": "Bahasa dan teks",
     "lang.title": "Bahasa aplikasi",
     "lang.descr": "Bahasa di mana teks akan ditampilkan di aplikasi",
-    "lang.help": "Jika Anda ingin berkolaborasi dengan terjemahan aplikasi ini, Anda dapat berkonsultasi <a href='https://github.com/enrique-lozano/Monekin/tree/main/lib/i18n'>panduan kami</a>",
+    "lang.help": "Jika Anda ingin berkolaborasi dengan terjemahan aplikasi ini, Anda dapat berkonsultasi <a href='https://github.com/enrique-lozano/Monekito/tree/main/lib/i18n'>panduan kami</a>",
     "locale": "Wilayah",
     "locale.descr": "Atur format yang akan digunakan untuk tanggal, angka...",
     "locale.warn": "Saat mengubah wilayah aplikasi akan diperbarui",
@@ -713,7 +713,7 @@
     },
     "ABOUT_US": {
       "display": "Informasi aplikasi",
-      "description": "Periksa persyaratan dan informasi relevan lainnya tentang Monekin. Hubungi komunitas dengan melaporkan bug, meninggalkan saran...",
+      "description": "Periksa persyaratan dan informasi relevan lainnya tentang Monekito. Hubungi komunitas dengan melaporkan bug, meninggalkan saran...",
       "LEGAL": {
         "display": "Informasi hukum",
         "privacy": "Kebijakan privasi",
@@ -723,20 +723,20 @@
       "PROJECT": {
         "display": "Proyek",
         "contributors": "Kontributor",
-        "contributors.descr": "Semua pengembang yang telah membuat Monekin berkembang",
+        "contributors.descr": "Semua pengembang yang telah membuat Monekito berkembang",
         "contact": "Hubungi kami"
       }
     },
     "HELP_US": {
       "display": "Bantu kami",
-      "description": "Cari tahu bagaimana Anda dapat membantu Monekin menjadi lebih baik",
+      "description": "Cari tahu bagaimana Anda dapat membantu Monekito menjadi lebih baik",
       "rate-us": "Beri kami nilai",
       "rate-us.descr": "Nilai apa pun diterima!",
-      "share": "Bagikan Monekin",
+      "share": "Bagikan Monekito",
       "share.descr": "Bagikan aplikasi kami ke teman dan keluarga",
-      "share.text": "Monekin! Aplikasi keuangan pribadi terbaik. Unduh di sini",
+      "share.text": "Monekito! Aplikasi keuangan pribadi terbaik. Unduh di sini",
       "thanks": "Terima kasih!",
-      "thanks_long": "Kontribusi Anda untuk Monekin dan proyek sumber terbuka lainnya, besar dan kecil, membuat proyek hebat seperti ini mungkin. Terima kasih telah meluangkan waktu untuk berkontribusi.",
+      "thanks_long": "Kontribusi Anda untuk Monekito dan proyek sumber terbuka lainnya, besar dan kecil, membuat proyek hebat seperti ini mungkin. Terima kasih telah meluangkan waktu untuk berkontribusi.",
       "donate": "Buat donasi",
       "donate.descr": "Dengan donasi Anda, Anda akan membantu aplikasi terus menerima peningkatan. Apa cara yang lebih baik daripada mengucapkan terima kasih atas pekerjaan yang dilakukan dengan mengundang saya untuk minum kopi?",
       "donate.success": "Donasi dilakukan. Terima kasih banyak atas kontribusi Anda! ❤️",

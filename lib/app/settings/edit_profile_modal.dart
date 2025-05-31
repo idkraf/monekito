@@ -25,14 +25,14 @@ class _EditProfileModalState extends State<EditProfileModal> {
   final List<String> allAvatars = [
     'man',
     'woman',
-    'executive_man',
-    'executive_woman',
-    'blonde_man',
-    'blonde_woman',
-    'black_man',
-    'black_woman',
-    'woman_with_bangs',
-    'man_with_goatee'
+    // 'executive_man',
+    // 'executive_woman',
+    // 'blonde_man',
+    // 'blonde_woman',
+    // 'black_man',
+    // 'black_woman',
+    // 'woman_with_bangs',
+    // 'man_with_goatee'
   ];
 
   @override
